@@ -10,6 +10,8 @@
     width:100%;
     padding: 0 25px;
     background-color: transparent;
+    
+    z-index: 9998;
 
 }
 .navbar-logo {
@@ -39,6 +41,7 @@
     text-decoration: none;
     width:auto;
     cursor: pointer;
+    opacity: 1;
 }
 
 .navbar-btns a{
