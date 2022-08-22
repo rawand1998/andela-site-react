@@ -4,11 +4,12 @@
 .navbar-container{
     background-color: transparent;
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
     align-items:center;
     position:fixed;
     width:100%;
     padding: 0 25px;
+    margin: 10px 0;
     background-color: transparent;
     
     z-index: 9998;
