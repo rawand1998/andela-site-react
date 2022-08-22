@@ -11,7 +11,7 @@
 }
 #header-conatiner::before{
     
-    background-image: url('https://andela.com/wp-content/uploads/2022/03/green-wash.jpg');
+    /* background-image: url('https://andela.com/wp-content/uploads/2022/03/green-wash.jpg'); */
     width: 100%;
     min-height: 650px;
     content:'';
@@ -26,7 +26,6 @@
 }
 .overlay{
     position: absolute;
-    
     background-color: #173B37;
     opacity:0.6;
     top: 0;

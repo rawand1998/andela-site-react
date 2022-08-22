@@ -1,0 +1,31 @@
+.SubHeader-container{
+    display:flex;
+    align-items:flex-start;
+
+  color:#fff;
+    justify-content: space-between;
+    flex-direction: column;
+
+position:absolute;
+top: 30%;
+margin-left:80px;
+
+z-index: 1000;
+}
+.SubHeader-container h1{
+  width: 500px;
+  line-height:40px;
+  font-size: 64px;
+    line-height: 72px;
+    /* margin-bottom: 40px; */
+    font-family: "Inria serif", Garamond,serif;
+    margin: 0px 0px 40px;
+  
+}
+.SubHeader-container p{
+  width: 350px;
+  line-height:1.5;
+  
+  margin: 0px 0px 40px;
+  font-size: 18px;
+}

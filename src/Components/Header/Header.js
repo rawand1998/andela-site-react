@@ -1,13 +1,19 @@
 import React from 'react'
 import './style.css'
 import Navbar from '../NavBar/Navbar'
-function Header({className}) {
+import SubHeader from '../SubHeader/SubHeader'
+function Header({children}) {
   return (
-    <div id="header-conatiner" className={className}>
+    <div id="header-conatiner">
+        {/* <Navbar /> */}
         <div className="overlay">
-        <Navbar />
+        
+        
         </div>
-       
+        {children}
+        {/* <div>
+          <SubHeader title="Find work that you love with compaines you can trust." description=";lmxjkbhevgded"/>
+        </div> */}
     </div>
 
   )
