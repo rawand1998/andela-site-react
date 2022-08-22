@@ -51,12 +51,15 @@
     padding: 10px 30px ;
     border-radius:25px;
     width: 40px;
-    line-height:40px;
+    /* line-height:40px; */
     font-weight: 400;
     text-decoration: none;
     font-size: 18px;
-  
+    display:inline-block;
+    width: auto;
+    transition: all .25s ease-in-out;
 }
+
 .navbar-btns a:nth-child(1){
     border: 1px solid #fff;
     color: #fff;
@@ -68,13 +71,12 @@
     border: 1px solid #56C870!important;
     background-color: #56C870!important;
     margin-left: 15px;
-    transition: all 0.5s linear infinite;
+   
 }
 
 
 .navbar-btns a:hover{
-  
- transform: skew(20deg);
+transform: scale(1.09)
 }
 @media  only screen and (max-width:992px) {
     .navbar-container{
@@ -95,3 +97,8 @@ display: none;
         display: none;
     }
 }
+
+
+button:hover{
+    transform:rotate(90deg)
+  }
