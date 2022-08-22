@@ -28,6 +28,7 @@ function Navbar() {
       <div className="navbar-btns">
         <a>Find a work</a>
         <a>Discover Talent</a>
+        
       </div>
     </div>
   );
