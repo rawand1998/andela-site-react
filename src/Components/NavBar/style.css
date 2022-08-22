@@ -1,3 +1,6 @@
+*{
+    font-family: 'Inter',sans-serif;
+}
 .navbar-container{
     background-color: transparent;
     display: flex;
@@ -6,7 +9,8 @@
     position:fixed;
     width:100%;
     padding: 0 25px;
-    background-color: #ff0
+    background-color: transparent;
+
 }
 .navbar-logo {
     width: 200px;
@@ -28,7 +32,7 @@
 .navbar-menu ul li a{
     color: #fff;
     line-height:40px;
-    font-weight: 600;
+    font-weight: 400;
     padding: 0px 12px 0px 12px;
     font-size: 18px;
     display: block;
@@ -44,7 +48,7 @@
     border-radius:25px;
     width: 40px;
     line-height:40px;
-    font-weight: 600;
+    font-weight: 400;
     text-decoration: none;
     font-size: 18px;
   

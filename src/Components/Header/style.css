@@ -1,0 +1,38 @@
+#header-conatiner{
+ 
+    /* opacity: 0.6; */
+    width: 100%;
+    min-height: 650px;
+    background-color: #173B37;
+    position: relative;
+    font-family: 'Inter',sans-serif;
+    position: relative;
+   
+}
+#header-conatiner::before{
+    
+    background-image: url('https://andela.com/wp-content/uploads/2022/03/green-wash.jpg');
+    width: 100%;
+    min-height: 650px;
+    content:'';
+    position: absolute;
+    top: 0;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    left: 0;
+    background-color: #173B37;
+}
+.overlay{
+    position: absolute;
+    
+    background-color: #173B37;
+    opacity:0.6;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    color: #fff;
+    z-index: 1;
+}
