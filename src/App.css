@@ -1,3 +1,11 @@
+
+:root {
+  --background-green: #173B3F;
+  --white: #ffffff;
+  --button-background: #fff;
+  --button-background-color: #56C870;
+  --text-color: #132128;
+}
 *{
   padding: 0;
   margin: 0;
