@@ -34,10 +34,16 @@
     z-index: 1;
 }
 @media (min-width: 320px) and (max-width: 425px) {
+    #header-conatiner{
+        width: 120%;
+    }
     #header-conatiner::before{
      
-       
+        background-size: cover;
         background-position: center;
        
+    }
+    .overlay{
+        width: 100%;
     }
 }
