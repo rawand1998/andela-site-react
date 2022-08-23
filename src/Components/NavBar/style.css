@@ -25,6 +25,7 @@
 }
 .navbar-menu ul {
     padding: 7px 0px 0px 0px;
+    margin-right: 55px;
 }
 .navbar-menu ul li {
     display: inline-block;
@@ -36,7 +37,7 @@
     color: #fff;
     line-height:40px;
     font-weight: 400;
-    padding: 0px 12px 0px 12px;
+    padding: 0px 20px 0px 20px;
     font-size: 18px;
     display: block;
     text-decoration: none;
@@ -74,17 +75,23 @@
    
 }
 
-
+.icon-menu{
+    background: #f00;
+    width:15px;
+    height: 15px;
+}
 .navbar-btns a:hover{
 transform: scale(1.09)
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center
 }
 @media  only screen and (max-width:992px) {
     .navbar-container{
         background-color: transparent;
-        display: flex;
-        justify-content:space-between;
-        align-items:center;
-        flex-direction: column;
+    
         position:fixed;
         width:100%;
         padding: 0 25px;
@@ -96,9 +103,10 @@ display: none;
     .navbar-btns{
         display: none;
     }
+    .navbar-logo {
+        width: 200px;
+        display: flex;
+        align-items:flex-start;
+    }
 }
 
-
-button:hover{
-    transform:rotate(90deg)
-  }
