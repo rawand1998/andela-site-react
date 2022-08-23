@@ -26,6 +26,9 @@
 .btn:hover{
     transform: scale(1.05)
 }
+.spacer{
+    height:80px
+}
 @media (min-width: 320px) and (max-width: 425px) {
     .btn{
         bottom: 2%;
@@ -40,7 +43,7 @@
 }
 @media  (min-width: 1024px){
     .btn{
-        bottom: 20%;
+        bottom: 5%;
       
     }
 }
