@@ -6,7 +6,7 @@ function Navbar() {
     <div className="navbar-container">
       <div className="navbar-logo">
         <img
-          src="https://andela.com/wp-content/uploads/2022/03/AND-Logo-Lockup-Green-Black-RGB.svg"
+          src="https://andela.com/wp-content/uploads/2022/03/AND-Logo-Lockup-White-RGB-768x202.png"
           alt="image not found"
         />
       </div>

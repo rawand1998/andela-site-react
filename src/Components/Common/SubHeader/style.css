@@ -10,7 +10,7 @@
   z-index: 1000;
 }
 .SubHeader-container h1 {
-  width: 500px;
+  width: 550px;
   line-height: 40px;
   font-size: 64px;
   line-height: 72px;
@@ -19,7 +19,7 @@
   font-weight: 400;
 }
 .SubHeader-container p {
-  width: 350px;
+  width: 370px;
   line-height: 1.5;
   font-weight: 400;
   margin: 0px 0px 40px;
