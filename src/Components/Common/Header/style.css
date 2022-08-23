@@ -1,13 +1,11 @@
 #header-conatiner{
  
-    /* opacity: 0.6; */
     width: 100%;
     min-height: 650px;
     background-color: #173B37;
     position: relative;
-    font-family: 'Inter',sans-serif;
-    position: relative;
-   
+ 
+
 }
 #header-conatiner::before{
     
@@ -34,4 +32,18 @@
     right: 0;
     color: #fff;
     z-index: 1;
+}
+@media (min-width: 320px) and (max-width: 425px) {
+    #header-conatiner{
+        width: 120%;
+    }
+    #header-conatiner::before{
+     
+        background-size: cover;
+        background-position: center;
+       
+    }
+    .overlay{
+        width: 100%;
+    }
 }
