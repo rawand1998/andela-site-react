@@ -5,7 +5,7 @@
 .btn{
     position:absolute;
     border-radius: 25px;
- bottom: 10%;
+ bottom: 5%;
    color: #173B3F;
    border: 1px solid #56C870;
    background-color: var( --button-background-color);
@@ -24,5 +24,23 @@
     
 }
 .btn:hover{
-    transform: scale(1.09)
+    transform: scale(1.05)
+}
+@media (min-width: 320px) and (max-width: 425px) {
+    .btn{
+        bottom: 2%;
+     
+    }
+}
+@media (min-width: 768px)  {
+    .btn{
+        bottom: -8%;
+       
+    }
+}
+@media  (min-width: 1024px){
+    .btn{
+        bottom: 20%;
+      
+    }
 }
