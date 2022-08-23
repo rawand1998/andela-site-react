@@ -1,4 +1,5 @@
 import React from "react";
+import { AiOutlineMenu } from "react-icons/ai";
 import './style.css'
 function Navbar() {
   return (
@@ -9,6 +10,7 @@ function Navbar() {
           alt="image not found"
         />
       </div>
+      <div className="nav">
       <div className="navbar-menu">
         <ul>
           <li>
@@ -30,6 +32,10 @@ function Navbar() {
         <a>Discover Talent</a>
         
       </div>
+      </div>
+    {/* <div className="icon-menu">
+    <AiOutlineMenu />
+    </div> */}
     </div>
   );
 }
