@@ -1,4 +1,5 @@
 import React from "react";
+import Communction from "../../Components/Common/Communction/Communction";
 import Header from "../../Components/Common/Header/Header";
 import LookingFor from "../../Components/Common/LookingFor/LookingFor";
 import Navbar from "../../Components/Common/NavBar/Navbar";
@@ -37,6 +38,8 @@ function Home() {
       </div>
       <div className="spacer"></div>
       <LookingFor />
+      <div className="spacer-1"></div>
+      <Communction />
     </div>
   );
 }
