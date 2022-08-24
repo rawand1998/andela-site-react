@@ -14,7 +14,6 @@
   line-height: 40px;
   font-size: 64px;
   line-height: 72px;
-  font-family: 'Inria Serif','Garamond',serif;
   margin: 0px 0px 40px;
   font-weight: 400;
 }
@@ -24,7 +23,7 @@
   font-weight: 300;
   margin: 0px 0px 40px;
   font-size: 18px; 
-   font-family: 'Inter' ,sans-serif;
+  
 }
 @media (min-width: 320px) and (max-width: 425px) {
   .SubHeader-container {

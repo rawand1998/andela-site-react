@@ -63,16 +63,11 @@ section {
 }
 .soical-icon li a {
   background-color: transparent;
-  /* display:inline-block; */
   transition: transform .1s ease;
 }
 .soical-icon li a svg:hover {
-  
   transform: scale(1.1);
-  
-   /* transform:rotate(70deg); */
   cursor: pointer;
-  color: #ff0;
 }
 .soical-icon li a svg {
   width: 1.25em;

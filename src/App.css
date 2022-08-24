@@ -4,7 +4,8 @@
   --white: #ffffff;
   --button-background: #fff;
   --button-background-color: #56C870;
-  --text-color: #132128;;
+  --text-color: #132128;
+  --achor-color : #173B3F
 }
 *{
   padding: 0;
@@ -14,11 +15,14 @@
 }
 body{
   margin: 0;
-  color: #132128;
+  color: var(--text-color);
   font-family: 'Inter',sans-serif;
   font-size: 18px;
   line-height: 28px;
   font-weight: 300;
+}
+h1{
+  font-family: 'Inria Serif','Garamond',serif;
 }
 h2{
  
@@ -39,4 +43,5 @@ p{
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    font-family: 'Inter' ,sans-serif;
 }

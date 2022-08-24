@@ -1,18 +1,18 @@
 
 #header-conatiner::before{
-    background-image:url('https://andela.com/wp-content/uploads/2022/03/green-wash.jpg')
+    background-image:url('https://andela.com/wp-content/uploads/2022/03/green-wash.jpg');
 }
 .btn{
     position:absolute;
     border-radius: 25px;
  bottom: 5%;
-   color: #173B3F;
-   border: 1px solid #56C870;
+   color: var(--achor-color);
+   border: 1px solid var( --button-background-color);
    background-color: var( --button-background-color);
     border-radius: 48px;
     padding: 24px 40px;
     font-size: 18px!important;
-    color: #173B3F;
+ 
     line-height: 1;
     text-decoration: none;
     font-weight: 400;
@@ -85,7 +85,7 @@
 .block-container {
     width: 100%;
     min-height: 540px;
-    background-color: #173B37;
+    background-color: var(--achor-color);
     position: relative;
     display: flex;
     justify-content: center;
@@ -108,7 +108,7 @@
     background-size: cover;
     background-attachment: fixed;
     left: 0;
-    background-color: #173B37;
+    background-color: var(--achor-color);
    
 }
 .block2::before{
@@ -116,14 +116,17 @@
 }
 .overlay{
     position: absolute;
-    background-color: #173B37;
-    opacity:0.8;
+    background-color: var(--achor-color);
+    opacity:0.6;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     color: var(--white);
     z-index: 1;
+}
+.block2 .overlay , .block1 .overlay{
+    opacity: 0.8;
 }
 .inner-content{
     margin-bottom: 1.75em;
@@ -147,13 +150,12 @@
 position:absolute;
 border-radius: 25px;
 bottom: -50%;
-  color: #173B3F;
-  border: 1px solid #56C870;
+  color: var(--achor-color);
+  border: 1px solid var( --button-background-color);
   background-color: var( --button-background-color);
    border-radius: 48px;
    padding: 24px 40px;
    font-size: 18px!important;
-   color: #173B3F;
    line-height: 1;
    text-decoration: none;
    font-weight: 400;
@@ -175,12 +177,13 @@ bottom: -50%;
    .block2 .btn{
         bottom: -15%;
         left: 0;
-        /* background-color: #173B37; */
      
     }
+ 
     .vedio-inner{
        
-       width:100%
+       width:100%;
+       height:450px
         
     }
     .vedio-box{
@@ -192,25 +195,21 @@ bottom: -50%;
       left: 0;
       bottom: -15%;
     }
-    .block-container::before{
-        background-position:100%;
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
+    .block-container{
+      width: 120%;
+       
     }
     .block2 .btn{
         margin-left:25%
     }
 
+    
 }
 @media (min-width: 768px)  {
     .btn{
         bottom: -8%;
-       
     }
     .vedio-box{
-      
-       
         margin-left: 0%;
     }
     .block2 .btn{
@@ -227,5 +226,8 @@ bottom: -50%;
         width:800px;
         height:450px;
         margin-left: 15%;
+    }
+    .block2 .btn{
+        margin-left:10%
     }
 }

@@ -20,7 +20,7 @@ h2 em{
 }
 .slider-track{
     opacity: 1;
-    width: 4500px;
+    width: 4000px;
     transform: translate3d(-577px, 0px, 0px);
     transition: transform 500ms ease 0s; 
     display:flex;

@@ -74,8 +74,8 @@
 .navbar-btns a:nth-child(2){
     border: 1px solid var(--white);
     color: #132128;
-    border: 1px solid #56C870!important;
-    background-color: #56C870!important;
+    border: 1px solid var(  --button-background-color);
+    background-color: var(--button-background-color);
     margin-left: 15px;
    
 }
@@ -84,7 +84,6 @@
     top: 10px;
 }
 .icon-menu{
-    background: #f00;
     width:15px;
     height: 15px;
 }
@@ -103,7 +102,6 @@ transform: scale(1.05)
         position:fixed;
         width:100%;
         padding: 0 25px;
-        background-color: #f00
     }
     .navbar-menu{
 display: none;

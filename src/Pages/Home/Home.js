@@ -46,7 +46,7 @@ function Home() {
       <Communction />
       <Skills />
       <div className="block-covered">
-        <div className="overlay"></div>
+        {/* <div className="overlay"></div> */}
       </div>
       <div className="block-container block1">
         <div className="overlay"></div>
