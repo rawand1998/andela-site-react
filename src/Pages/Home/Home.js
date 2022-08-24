@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../../Components/Common/Header/Header";
+import LookingFor from "../../Components/Common/LookingFor/LookingFor";
 import Navbar from "../../Components/Common/NavBar/Navbar";
 import Slider from "../../Components/Common/Slider/Slider";
 
@@ -34,6 +35,8 @@ function Home() {
           </div>
         </div>
       </div>
+      <div className="spacer"></div>
+      <LookingFor />
     </div>
   );
 }

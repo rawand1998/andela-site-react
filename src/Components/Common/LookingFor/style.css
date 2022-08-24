@@ -1,0 +1,102 @@
+h2 {
+  margin: 0 auto 24px;
+  text-align: center;
+  font-size: 40px;
+  line-height: 48px;
+}
+.column-container {
+  padding: 0 20px;
+}
+.block-column1 {
+  display: flex;
+  max-width: 1320px;
+  margin: 0 14px 0;
+}
+
+.block-column1 img {
+  width: 592px;
+  height: 394px;
+}
+.wp-block-column {
+  width: 592px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.wp-block-column h3 {
+  margin: 0px 0px 12px 0px;
+
+  color: var(--text-color);
+}
+.wp-block-column ul {
+  margin: 0 0 24px 0;
+  padding: 0;
+  list-style-type: none;
+}
+.wp-block-column ul li {
+  background-image: url("https://andela.com/wp-content/themes/andela-v5/images/tick-green.svg");
+  padding: 4px 0px 4px 28px;
+  background-repeat: no-repeat;
+  background-size: 18px;
+  background-position: left 0px top 10px;
+  font-weight: 200;
+  color: #132128;
+}
+.spacer{
+    height:48px
+}
+.block2 .wp-block-column h3 {
+    margin-left: -18%;
+}
+.block2 .wp-block-column ul{
+    margin-left: -18%;
+}
+@media (min-width: 320px) and (max-width: 425px) {
+  .block-column1 {
+    display: flex;
+    max-width: 100%;
+    margin: 0;
+    flex-direction: column-reverse;
+  }
+
+  .block2{
+    display: flex;
+    max-width: 100%;
+    margin: 0;
+    flex-direction: column;
+  }
+  .block-column1 img {
+    width: 100%;
+    height: 100%;
+    margin-top: -5%;
+  }
+  .wp-block-column {
+    width: 100%;
+  
+  }
+  .block2 .wp-block-column h3 {
+    margin-left: 0px;
+}
+.wp-block-column ul{
+    margin-left:0px
+}
+}
+  @media only screen and (max-width: 768px)  {
+    .block-column1 {
+        display: flex;
+        /* max-width: 100%; */
+        margin: 0;
+        flex-direction: column;
+    
+      }
+      .block2 .wp-block-column h3 {
+        margin-left: 0%;
+    }
+    .block2 .wp-block-column ul li{
+        margin-left:20%;
+       
+    }
+   
+}
+

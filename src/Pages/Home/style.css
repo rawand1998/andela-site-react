@@ -48,6 +48,7 @@
     font-size:40px;
     line-height:48px;
     text-align: center;
+    color: var(--white);
 }
 .vedio-inner p{
     margin: 0px auto 24px;

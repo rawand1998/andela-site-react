@@ -14,10 +14,22 @@
 }
 body{
   margin: 0;
+  color: #132128;
+  font-family: 'Inter',sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 300;
 }
 h2{
-  font-family: 'Inria Serif','Garamond',serif;
+ 
     clear: both;
     margin: 0px 0px 24px 0px;
     font-weight: 400;
+    color: var(--text-color);
+}
+h3 {
+  font-size: 32px;
+  line-height: 40px;
+  color: var(--text-color);
+
 }
