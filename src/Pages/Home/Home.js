@@ -6,6 +6,7 @@ import Navbar from "../../Components/Common/NavBar/Navbar";
 import Slider from "../../Components/Common/Slider/Slider";
 
 import SubHeader from "../../Components/Common/SubHeader/SubHeader";
+import Skills from "../../Components/Skills/Skills";
 import "./style.css";
 
 function Home() {
@@ -40,6 +41,7 @@ function Home() {
       <LookingFor />
       <div className="spacer-1"></div>
       <Communction />
+      <Skills />
     </div>
   );
 }

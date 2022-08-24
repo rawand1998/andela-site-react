@@ -1,0 +1,48 @@
+.skills-container{
+    background-color: #f8f8f8;
+    padding: 10px
+}
+.skills-container p {
+    text-align: center;
+    margin: 0px auto 24px;
+}
+.inner-skills{
+    padding: 0px 20px;
+    max-width: 1320px;
+    margin: 0px auto;
+    display:block
+}
+ .inner-skills ul{
+    columns: 4;
+    list-style: none;
+}
+.inner-skills ul li{
+    margin: 0px 0px 24px 0px;
+}
+.inner-skills ul li a {
+    text-decoration: none;
+    border-radius: 40px;
+    border: 1px solid #f8f8f8;
+    background-color: #fff;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 48px;
+    display: block;
+    padding: 0px 24px;
+    transition: all .15s ease-in-out!important;
+    cursor: pointer;
+}
+.inner-skills ul li a:hover{
+    transform: scale(1.09);
+
+}
+@media (min-width: 320px) and (max-width: 425px) {
+    .inner-skills ul{
+        columns: 1;
+    }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+    .inner-skills ul{
+        columns: 2;
+    }
+}
