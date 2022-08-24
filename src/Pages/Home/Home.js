@@ -42,6 +42,27 @@ function Home() {
       <div className="spacer-1"></div>
       <Communction />
       <Skills />
+      <div className="block-covered">
+        <div className="overlay"></div>
+        
+      </div>
+      <div className="block-container">
+           <div className="overlay">
+        </div>
+        <div className="content-column">
+         
+            <div className="inner-content">
+            <div className="block-covered-content">
+          <h2><em>Grow your potential beyond borders</em></h2>
+          <p>Connect with a global network and land international opportunities.</p>
+          <a>Discover opportunities</a>
+        </div>
+            
+            </div>
+        </div>
+        <div className="spacer-1"></div>
+    </div>
+
     </div>
   );
 }

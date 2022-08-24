@@ -70,6 +70,97 @@
 .spacer-1{
     height:80px
 }
+
+
+
+.content-column{
+    display: flex;
+    justify-content:space-around;
+    width:100%;
+    z-index: 1111;
+    position: relative;
+    color: var(--white);
+    max-width: 1320px;
+    margin: 0px auto;
+}
+.block-container{
+ 
+    width: 100%;
+    min-height: 540px;
+    background-color: #173B37;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    box-sizing: border-box;
+ 
+
+}
+.block-container::before{
+    
+    background-image: url('https://andela.com/wp-content/uploads/2022/03/shutterstock_1862846512-scaled.jpg');
+    width: 100%;
+    min-height: 540px;
+    content:'';
+    position: absolute;
+    top: 0;
+    background-position:50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    left: 0;
+    background-color: #173B37;
+   
+}
+.overlay{
+    position: absolute;
+    background-color: #173B37;
+    opacity:0.8;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    color: var(--white);
+    z-index: 1;
+}
+.inner-content{
+    margin-bottom: 1.75em;
+    box-sizing: border-box;
+    flex-wrap: nowrap;
+    padding-left:10px;
+    width: 100%;
+}
+.block-container h2{
+    color: var(--white);
+   
+}
+
+.block-container a{
+position:absolute;
+border-radius: 25px;
+bottom: -50%;
+  color: #173B3F;
+  border: 1px solid #56C870;
+  background-color: var( --button-background-color);
+   border-radius: 48px;
+   padding: 24px 40px;
+   font-size: 18px!important;
+   color: #173B3F;
+   line-height: 1;
+   text-decoration: none;
+   font-weight: 400;
+   transition: all .25s ease-in-out;
+   margin-left:15px;
+   z-index: 1111;
+   transition: all 0.5s ease-in-out;
+   cursor: pointer;
+}
+ 
+.block-container a:hover{
+    transform: scale(1.05)
+}
 @media (min-width: 320px) and (max-width: 425px) {
     .btn{
         bottom: 2%;
@@ -85,6 +176,16 @@
         height:450px;
         margin-left: 0%;
     }
+    .block-container a{
+      left: 0;
+    }
+    .block-container::before{
+        background-position:100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+    }
+
 }
 @media (min-width: 768px)  {
     .btn{

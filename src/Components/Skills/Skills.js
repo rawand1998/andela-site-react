@@ -27,22 +27,10 @@ function Skills() {
                 <li><a>Android</a></li>
                 <li><a>DevOps</a></li>
                 <li><a>Swift</a></li>
-                
-              
-           
-
-             
-
-
-
-
-
-
-
-
-
-
             </ul>
+            <div className="spacer"></div>
+            <a className="btn-work">Find work</a>
+            <div className="spacer-2"></div>
         </div>
     </div>
   )
