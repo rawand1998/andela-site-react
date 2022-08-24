@@ -1,0 +1,189 @@
+.spacer {
+  height: 12px;
+}
+.spacer-1 {
+  height: 80px;
+}
+
+.content-column {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  z-index: 1111;
+  position: relative;
+  color: var(--white);
+  max-width: 1320px;
+  margin: 0px auto;
+}
+.communction-container {
+  width: 100%;
+  min-height: 664px;
+  background-color: var(--achor-color);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.communction-container::before {
+  background-image: url("https://andela.com/wp-content/uploads/2022/03/shutterstock_1241581108.jpg");
+  width: 100%;
+  min-height: 664px;
+  content: "";
+  position: absolute;
+  top: 0;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  left: 0;
+  background-color: var(--achor-color);
+}
+.communction-container .overlay {
+  position: absolute;
+  background-color: var(--achor-color);
+  opacity: 0.8;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  color: var(--white);
+  z-index: 1;
+}
+.inner-content {
+  align-items: center;
+  display: flex;
+  margin-bottom: 1.75em;
+  box-sizing: border-box;
+  flex-wrap: nowrap;
+}
+.conent-col1 {
+  width: 618px;
+  min-width: 0;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  padding-left: 15px;
+  line-height: 24px;
+}
+.conent-col1 h1 {
+  font-family: "Inria Serif", "Garamond", serif;
+  clear: both;
+  margin: 0px 0px 24px 0px;
+  font-weight: 400;
+  line-height: 24px;
+  font-size: 42px;
+  line-height: 50.4px;
+}
+.conent-col1 p {
+  margin: 0px auto 24px;
+  font-weight: 300;
+}
+
+.conent-col1 a {
+  border-radius: 25px;
+  color: var(--achor-color);
+  border: 1px solid var(--button-background-color);
+  background-color: var(--button-background-color);
+  border-radius: 48px;
+  padding: 24px 40px;
+  font-size: 18px !important;
+  line-height: 1;
+  text-decoration: none;
+  font-weight: 400;
+  transition: all 0.25s ease-in-out;
+  margin-left: 15px;
+  z-index: 1111;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+.conent-col1 a:hover {
+  transform: scale(1.05);
+}
+.conent-col2 {
+  width: 618px;
+}
+.conent-col2 ol {
+  counter-reset: circlesection;
+  list-style-type: none;
+  margin: 0 0 1.5em 0em;
+  padding-inline-start: 24px;
+}
+.conent-col2 ol li {
+  position: relative;
+  padding-left: 5.5rem;
+  margin-bottom: 24px;
+  padding-top: 18px;
+  font-weight: 300;
+}
+.conent-col2 ol li::before {
+  color: var(--white);
+  border: 1px solid var(--white);
+  font-size: 36px;
+  line-height: 28px;
+  font-weight: 300;
+  counter-increment: circlesection;
+  content: counter(circlesection);
+  position: absolute;
+  top: 1rem;
+  left: 0px;
+  display: flex;
+  height: 4rem;
+  width: 4rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  text-align: center;
+}
+ol li::after {
+  --tw-bg-opacity: 1;
+  background-color: var(--white);
+  content: "";
+  height: calc(100% - 40px);
+  position: absolute;
+  left: 2rem;
+  top: 5rem;
+  width: 0.125rem;
+  color: var(--white);
+}
+@media (min-width: 320px) and (max-width: 425px) {
+  .communction-container {
+    min-height: 700px;
+  }
+  .communction-container::before {
+    min-height: 100%;
+  }
+  .inner-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  .conent-col1 {
+    width: 100%;
+  }
+  .conent-col2 {
+    width: 100%;
+    padding-top: 50px;
+    padding-right: 15px;
+  }
+}
+@media (max-width: 768px) {
+  .communction-container {
+    min-height: 700px;
+  }
+  .communction-container::before {
+    min-height: 100%;
+  }
+  .inner-content {
+    display: flex;
+  }
+  .conent-col1 {
+    width: 100%;
+  }
+  .conent-col2 {
+    width: 100%;
+    padding-top: 50px;
+    padding-right: 15px;
+  }
+}

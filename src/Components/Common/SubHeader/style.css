@@ -1,29 +1,29 @@
 .SubHeader-container {
   display: flex;
   align-items: flex-start;
-  color: #fff;
+  color: var(--white);
   justify-content: space-between;
   flex-direction: column;
   position: absolute;
-  top: 20%;
+  top: 24%;
   margin-left: 15px;
   z-index: 1000;
 }
 .SubHeader-container h1 {
-  width: 500px;
+  width: 550px;
   line-height: 40px;
   font-size: 64px;
   line-height: 72px;
-  font-family: "Inria serif", Garamond, serif;
   margin: 0px 0px 40px;
   font-weight: 400;
 }
 .SubHeader-container p {
-  width: 350px;
+  width: 370px;
   line-height: 1.5;
-  font-weight: 400;
+  font-weight: 300;
   margin: 0px 0px 40px;
-  font-size: 18px;
+  font-size: 18px; 
+  
 }
 @media (min-width: 320px) and (max-width: 425px) {
   .SubHeader-container {

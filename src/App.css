@@ -5,6 +5,7 @@
   --button-background: #fff;
   --button-background-color: #56C870;
   --text-color: #132128;
+  --achor-color : #173B3F
 }
 *{
   padding: 0;
@@ -14,4 +15,33 @@
 }
 body{
   margin: 0;
+  color: var(--text-color);
+  font-family: 'Inter',sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 300;
+}
+h1{
+  font-family: 'Inria Serif','Garamond',serif;
+}
+h2{
+ 
+    clear: both;
+    margin: 0px 0px 24px 0px;
+    font-weight: 400;
+    color: var(--text-color);
+}
+h3 {
+  font-size: 32px;
+  line-height: 40px;
+  color: var(--text-color);
+
+}
+p{
+  display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: 'Inter' ,sans-serif;
 }
