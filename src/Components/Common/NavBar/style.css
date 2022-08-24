@@ -53,7 +53,7 @@
 
 .navbar-btns a{
     cursor: pointer;
-    height: 40px;
+   
     padding: 10px 30px ;
     border-radius:25px;
     width: 40px;
@@ -63,6 +63,7 @@
     display:inline-block;
     width: auto;
     transition: all .25s ease-in-out;
+ 
 }
 
 .navbar-btns a:nth-child(1){
