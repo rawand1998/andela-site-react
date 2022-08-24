@@ -1,4 +1,5 @@
 import React from "react";
+import CommitSuccess from "../../Components/CommitSuccess/CommitSuccess";
 import Communction from "../../Components/Common/Communction/Communction";
 import Header from "../../Components/Common/Header/Header";
 import LookingFor from "../../Components/Common/LookingFor/LookingFor";
@@ -26,7 +27,9 @@ function Home() {
       <div className="spacer-2"></div>
       <div className="vedio-conatiner">
         <div className="vedio-inner">
-          <h2>Our <em>vibrant</em> community</h2>
+          <h2>
+            Our <em>vibrant</em> community
+          </h2>
           <p>Rizwan Jafri shares his Andela story from Lahore, Pakistan.</p>
           <div className="vedio-box">
             <figure>
@@ -44,25 +47,26 @@ function Home() {
       <Skills />
       <div className="block-covered">
         <div className="overlay"></div>
-        
       </div>
       <div className="block-container">
-           <div className="overlay">
-        </div>
+        <div className="overlay"></div>
         <div className="content-column">
-         
-            <div className="inner-content">
+          <div className="inner-content">
             <div className="block-covered-content">
-          <h2><em>Grow your potential beyond borders</em></h2>
-          <p>Connect with a global network and land international opportunities.</p>
-          <a>Discover opportunities</a>
-        </div>
-            
+              <h2>
+                <em>Grow your potential beyond borders</em>
+              </h2>
+              <p>
+                Connect with a global network and land international
+                opportunities.
+              </p>
+              <a>Discover opportunities</a>
             </div>
+          </div>
         </div>
-        <div className="spacer-1"></div>
-    </div>
-
+      </div>
+      <div className="spacer-1"></div>
+      <CommitSuccess />
     </div>
   );
 }

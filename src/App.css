@@ -4,7 +4,7 @@
   --white: #ffffff;
   --button-background: #fff;
   --button-background-color: #56C870;
-  --text-color: #132128;
+  --text-color: #132128;;
 }
 *{
   padding: 0;
@@ -32,4 +32,11 @@ h3 {
   line-height: 40px;
   color: var(--text-color);
 
+}
+p{
+  display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
