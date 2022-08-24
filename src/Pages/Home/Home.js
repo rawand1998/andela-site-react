@@ -48,7 +48,7 @@ function Home() {
       <div className="block-covered">
         <div className="overlay"></div>
       </div>
-      <div className="block-container">
+      <div className="block-container block1">
         <div className="overlay"></div>
         <div className="content-column">
           <div className="inner-content">
@@ -67,6 +67,23 @@ function Home() {
       </div>
       <div className="spacer-1"></div>
       <CommitSuccess />
+      <div className="spacer-1"></div>
+
+      <div className="block-container block2">
+        <div className="overlay"></div>
+        <div className="content-column">
+          <div className="inner-content">
+            <div className="block-covered-content">
+              <h2>Connecting your 
+                <em>brilliance</em><br/>
+                with opportunity
+              </h2>
+             
+              <a className="btn">Find work</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

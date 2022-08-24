@@ -71,8 +71,6 @@
     height:80px
 }
 
-
-
 .content-column{
     display: flex;
     justify-content:space-around;
@@ -83,8 +81,8 @@
     max-width: 1320px;
     margin: 0px auto;
 }
-.block-container{
- 
+
+.block-container {
     width: 100%;
     min-height: 540px;
     background-color: #173B37;
@@ -93,11 +91,10 @@
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-
     box-sizing: border-box;
- 
-
 }
+
+
 .block-container::before{
     
     background-image: url('https://andela.com/wp-content/uploads/2022/03/shutterstock_1862846512-scaled.jpg');
@@ -113,6 +110,9 @@
     left: 0;
     background-color: #173B37;
    
+}
+.block2::before{
+    background-image: url('https://andela.com/wp-content/uploads/2022/03/african-american-young-programmer-working-remote-f-2022-03-25-18-49-53-utc.jpg');
 }
 .overlay{
     position: absolute;
@@ -135,6 +135,12 @@
 .block-container h2{
     color: var(--white);
    
+}
+.block2 .inner-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .block-container a{
@@ -161,9 +167,15 @@ bottom: -50%;
 .block-container a:hover{
     transform: scale(1.05)
 }
+.block2 .btn{
+    padding: 20px 30px;
+    margin-left: 10%;
+}
 @media (min-width: 320px) and (max-width: 425px) {
-    .btn{
-        bottom: 2%;
+   .block2 .btn{
+        bottom: -15%;
+        left: 0;
+        /* background-color: #173B37; */
      
     }
     .vedio-inner{
@@ -176,14 +188,18 @@ bottom: -50%;
         height:450px;
         margin-left: 0%;
     }
-    .block-container a{
+    .block1 a{
       left: 0;
+      bottom: -15%;
     }
     .block-container::before{
         background-position:100%;
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
+    }
+    .block2 .btn{
+        margin-left:25%
     }
 
 }
@@ -197,6 +213,10 @@ bottom: -50%;
        
         margin-left: 0%;
     }
+    .block2 .btn{
+        margin-left:20%
+    }
+
 }
 @media  (min-width: 1024px){
     .btn{
