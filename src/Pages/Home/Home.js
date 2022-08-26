@@ -5,9 +5,10 @@ import Header from "../../Components/Common/Header/Header";
 import LookingFor from "../../Components/Common/LookingFor/LookingFor";
 import Navbar from "../../Components/Common/NavBar/Navbar";
 import Slider from "../../Components/Common/Slider/Slider";
-import Footer from "../../Components/Common/Footer/Footer"
+import Footer from "../../Components/Common/Footer/Footer";
 import SubHeader from "../../Components/Common/SubHeader/SubHeader";
 import Skills from "../../Components/Skills/Skills";
+import Contected from "../../Components/Common/Connected.js/Contected";
 import "./style.css";
 
 function Home() {
@@ -68,22 +69,13 @@ function Home() {
       <div className="spacer-1"></div>
       <CommitSuccess />
       <div className="spacer-1"></div>
-
-      <div className="block-container block2">
-        <div className="overlay"></div>
-        <div className="content-column">
-          <div className="inner-content">
-            <div className="block-covered-content">
-              <h2>Connecting your 
-                <em>brilliance</em><br/>
-                with opportunity
-              </h2>
-             
-              <a className="btn">Find work</a>
-            </div>
-          </div>
-        </div>
-      </div>
+      <Contected
+        title={<h2>Connecting your 
+          <em>brilliance</em><br/>
+          with opportunity</h2>}
+        
+        buttonTitle="Find Work"
+      />
       <Footer />
     </div>
   );
