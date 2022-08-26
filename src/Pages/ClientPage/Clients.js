@@ -88,7 +88,7 @@ function Clients() {
               <br />
               are already here
             </h3>
-            <p>
+            <p className="paragraph">
               Feel the bustle of the Global Marketplace here at Andela where
               brilliant minds and companies gather from all over the world.
             </p>
@@ -111,8 +111,28 @@ function Clients() {
           </>
         }
       />
+      <div className="spacer"></div>
+      <div className="team-container">
+        <div className="inner-team-container">
+            <div className="spacer"></div>
+            <div className="inner-content">
+                <div className="col1">
+                    <figure><img  src="https://andela.com/wp-content/uploads/2022/03/1-10.png"/></figure>
+                </div>
+                <div className="col2">
+                    <h5><strong>Build your team today</strong></h5>
+                    <h2>Exceptional<br/>technical <em>talent</em></h2>
+                    <p>Skilled engineers, product managers, and designers at your fingertips. An extensive list of technical services to suit your business needs. Start building your world-class team faster with talent from Andela.</p>
+                    <a>Discover Talent</a>
+                </div>
+            </div>
+            <div className="space"></div>
+        </div>
+      </div>
+
     </div>
   );
+
 }
 
 export default Clients;

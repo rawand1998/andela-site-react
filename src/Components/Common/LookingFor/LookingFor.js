@@ -37,6 +37,7 @@ function LookingFor({ img, content, img2, content2, img3, content3 }) {
       </div>
     </div>
   );
+  
 }
 
 export default LookingFor;
