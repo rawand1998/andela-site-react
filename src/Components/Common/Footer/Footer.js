@@ -5,7 +5,7 @@ function Footer() {
     <div className="footer-site">
       <div className="inner-footer">
         <div className="footer-wedigts">
-          <section className="block-1  ">
+          <section className="block-1">
             <div className="block-group">
               <figure className="block-img">
                 <a href="https://andela.com/wp-content/uploads/2022/03/AND-Logo-Lockup-White-RGB-768x202.png">

@@ -5,7 +5,8 @@
 .btn{
     position:absolute;
     border-radius: 25px;
- bottom: 5%;
+ /* bottom:-50%; */
+ top: 90%;
    color: var(--achor-color);
    border: 1px solid var( --button-background-color);
    background-color: var( --button-background-color);
@@ -21,6 +22,7 @@
     z-index: 1111;
     transition: all 0.5s ease-in-out;
     cursor: pointer;
+  
     
 }
 .btn:hover{
@@ -113,6 +115,8 @@
 }
 .block2::before{
     background-image: url('https://andela.com/wp-content/uploads/2022/03/african-american-young-programmer-working-remote-f-2022-03-25-18-49-53-utc.jpg');
+    min-height: 450px;
+   
 }
 .overlay{
     position: absolute;
@@ -125,8 +129,14 @@
     color: var(--white);
     z-index: 1;
 }
-.block2 .overlay , .block1 .overlay{
+.block2{
+    min-height: 450px;
+}
+ .block1 .overlay{
     opacity: 0.8;
+}
+.block2 .overlay{
+    opacity: 0.6;
 }
 .inner-content{
     margin-bottom: 1.75em;
@@ -144,6 +154,8 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-top: -5%;
+   
 }
 
 .block-container a{
@@ -170,10 +182,17 @@ bottom: -50%;
     transform: scale(1.05)
 }
 .block2 .btn{
-    padding: 20px 30px;
+    padding: 30px 40px;
     margin-left: 10%;
+    height:60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 @media (min-width: 320px) and (max-width: 425px) {
+    .block2{
+        margin-top: 0px;
+    }
    .block2 .btn{
         bottom: -15%;
         left: 0;
@@ -205,21 +224,31 @@ bottom: -50%;
 
     
 }
-@media (min-width: 768px)  {
+@media (min-width: 768px) and (max-width:1040px)  {
     .btn{
-        bottom: -8%;
+        /* bottom: 15%; */
+        top: 0;
+        top: 75%;
+       
+    }
+    .block2{
+        margin-top: 0px;
     }
     .vedio-box{
         margin-left: 0%;
     }
     .block2 .btn{
-        margin-left:20%
+        margin-left:20%;
+ 
+        padding: 24px 40px;
+        height:68px
     }
 
 }
-@media  (min-width: 1024px){
+/* @media  (min-width: 1020px){
     .btn{
-        bottom: 5%;
+       
+        top: 45%;
       
     }
     .vedio-box{
@@ -230,4 +259,4 @@ bottom: -50%;
     .block2 .btn{
         margin-left:10%
     }
-}
+} */

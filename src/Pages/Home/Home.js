@@ -5,7 +5,7 @@ import Header from "../../Components/Common/Header/Header";
 import LookingFor from "../../Components/Common/LookingFor/LookingFor";
 import Navbar from "../../Components/Common/NavBar/Navbar";
 import Slider from "../../Components/Common/Slider/Slider";
-
+import Footer from "../../Components/Common/Footer/Footer"
 import SubHeader from "../../Components/Common/SubHeader/SubHeader";
 import Skills from "../../Components/Skills/Skills";
 import "./style.css";
@@ -84,6 +84,7 @@ function Home() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
