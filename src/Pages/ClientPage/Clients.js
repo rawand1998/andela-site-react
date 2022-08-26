@@ -114,25 +114,89 @@ function Clients() {
       <div className="spacer"></div>
       <div className="team-container">
         <div className="inner-team-container">
-            <div className="spacer"></div>
-            <div className="inner-content">
-                <div className="col1">
-                    <figure><img  src="https://andela.com/wp-content/uploads/2022/03/1-10.png"/></figure>
-                </div>
-                <div className="col2">
-                    <h5><strong>Build your team today</strong></h5>
-                    <h2>Exceptional<br/>technical <em>talent</em></h2>
-                    <p>Skilled engineers, product managers, and designers at your fingertips. An extensive list of technical services to suit your business needs. Start building your world-class team faster with talent from Andela.</p>
-                    <a>Discover Talent</a>
-                </div>
+          <div className="spacer"></div>
+          <div className="inner-content">
+            <div className="col1">
+              <figure>
+                <img src="https://andela.com/wp-content/uploads/2022/03/1-10.png" />
+              </figure>
             </div>
-            <div className="space"></div>
+            <div className="col2">
+              <h5>
+                <strong>Build your team today</strong>
+              </h5>
+              <h2>
+                Exceptional
+                <br />
+                technical <em>talent</em>
+              </h2>
+              <p>
+                Skilled engineers, product managers, and designers at your
+                fingertips. An extensive list of technical services to suit your
+                business needs. Start building your world-class team faster with
+                talent from Andela.
+              </p>
+              <a>Discover Talent</a>
+            </div>
+          </div>
+          <div className="space"></div>
         </div>
       </div>
 
+      <div className="offer-conatiner">
+        <div className="offer-block">
+          <div className="spacer"></div>
+          <h2>
+            We offer you <em>peace of mind</em>
+          </h2>
+          <p className="offer-paragraph">
+            We understand that sometimes you want to find talent on your own{" "}
+            <br />
+            and other times you want some help. We offer you the freedom to do
+            both.
+          </p>
+          <div className="offer-blocks">
+            <div className="offer-block-1">
+              <h4>Source</h4>
+              <p>
+                We’ll work with you to fully understand your technical gaps,
+                culture, industry regulations, and strategic route. Instantly
+                view a curated selection of technologist profiles that meet your
+                needs.
+              </p>
+            </div>
+            <div className="offer-block-1">
+              <h4>Acesses</h4>
+              <p>
+                Our proprietary assessments are designed to find you the best
+                talent by role, no matter where they are in the world. Based on
+                your team’s goals, meet vetted technologists you can trust.
+              </p>
+            </div>
+            <div className="offer-block-1">
+              <h4>Match</h4>
+              <p>
+                Connect within hours, with vetted technologists who can easily
+                align with your existing teams, tools, and workflows. Our
+                matching times are consistently twice as fast compared to
+                industry standards.
+              </p>
+            </div>
+            <div className="offer-block-1">
+              <h4>Deliver</h4>
+              <p>
+                With a focus on sustainable growth, we’re with you every step of
+                the way. From rapid onboarding and seamless integration to
+                global payroll solutions and compliance support.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="spacer"></div>
+      </div>
+      <div className="spacer"></div>
     </div>
   );
-
 }
 
 export default Clients;
