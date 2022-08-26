@@ -8,7 +8,7 @@ import Slider from "../../Components/Common/Slider/Slider";
 import Footer from "../../Components/Common/Footer/Footer";
 import SubHeader from "../../Components/Common/SubHeader/SubHeader";
 import Skills from "../../Components/Skills/Skills";
-import Contected from "../../Components/Common/Connected.js/Contected";
+import Contected from "../../Components/Common/Connected/Contected";
 import "./style.css";
 
 function Home() {

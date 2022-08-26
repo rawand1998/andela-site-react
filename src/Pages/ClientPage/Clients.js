@@ -6,6 +6,8 @@ import SubHeader from "../../Components/Common/SubHeader/SubHeader";
 import Navbar from "../../Components/Common/NavBar/Navbar";
 import LookingFor from "../../Components/Common/LookingFor/LookingFor";
 import Communction from "../../Components/Common/Communction/Communction";
+import Contected from "../../Components/Common/Connected/Contected"
+
 function Clients() {
   return (
     <div>
@@ -309,6 +311,10 @@ together to build the future.
         </div>
 
       </div>
+      <Contected title={<h2>
+Grow your business and accelerate<br/>
+innovation with Andela</h2>} buttonTitle="Sign up"/>
+<Footer />
     </div>
   );
 }
