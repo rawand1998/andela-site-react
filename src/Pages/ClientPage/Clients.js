@@ -5,6 +5,7 @@ import Footer from "../../Components/Common/Footer/Footer";
 import SubHeader from "../../Components/Common/SubHeader/SubHeader";
 import Navbar from "../../Components/Common/NavBar/Navbar";
 import LookingFor from "../../Components/Common/LookingFor/LookingFor";
+import Communction from "../../Components/Common/Communction/Communction";
 function Clients() {
   return (
     <div>
@@ -195,6 +196,50 @@ function Clients() {
         <div className="spacer"></div>
       </div>
       <div className="spacer"></div>
+
+      <Communction className="communction-container"
+ 
+      
+        title={
+          <>
+          Build a brilliant
+          <br/>
+
+            <em>team quickly</em>
+           
+            <br />
+          </>
+        }
+        paragraph={
+          <>
+            Brilliant minds and companies come
+together to build the future.
+          </>
+        }
+        button="Build your dream team"
+        list={
+          <>
+            <li>
+              <strong>Smart skill matching</strong>
+              <br />
+              Our intuitive machine learning and AI platform finds you the best
+              match for any role.
+            </li>
+            <li>
+              <strong>Meet the best talen</strong>
+              <br />
+              Easily schedule interviews and meet top technologists who fit
+              within your team.
+            </li>
+            <li>
+              <strong>Continued excellence</strong>
+              <br />
+              Integrate your new team members quickly and effectively. Let us
+              manage payroll and compliance.
+            </li>
+          </>
+        }
+      />
     </div>
   );
 }

@@ -173,6 +173,16 @@ p {
   margin-left: 52px;
   color: #132128;
 }
+.communction-container::before {
+    background-image: url('https://andela.com/wp-content/uploads/2022/03/section-bg-image-1536x810.jpeg');
+    background-size: cover;
+
+}
+.communction-container .overlay {
+   
+    opacity: 0.5;
+   
+}
 @media only screen and (min-width: 768px) and(max-width:1040px) {
   .inner-content {
     flex-direction: column-reverse;
@@ -191,6 +201,23 @@ p {
   .col1 {
     width: 100%;
     margin-left: -7%;
+  }
+  .offer-conatiner {
+    width: 185%;
+  }
+  .offer-blocks {
+    flex-direction: column;
+    background-color: #132128;
+  }
+  .offer-block-1 {
+    margin-left: 0%;
+    align-self: center;
+
+    flex-basis: 100% !important;
+  }
+  .offer-block-1 p {
+    line-height: 24px;
+    font-size: 18px;
   }
 }
 
@@ -225,10 +252,11 @@ p {
   .col1 {
     width: 100%;
     /* margin-left: 25px; */
-  }
+   }
   .col1 img {
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 50%;
+    visibility: hidden;
   }
   .col2 a {
     width: 213px;
@@ -250,5 +278,5 @@ p {
   .offer-block-1 p {
     line-height: 24px;
     font-size: 18px;
-  }
-}
+  } 
+ } 
