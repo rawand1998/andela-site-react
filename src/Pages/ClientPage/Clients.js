@@ -239,7 +239,51 @@ together to build the future.
             </li>
           </>
         }
-      />
+      /> 
+      {/* slider */}
+      <div class="spacer"></div>
+      <div>
+        <h2>Andela <em>keeps you ahead</em> of the curve</h2>
+        <div class="space"></div>
+        <div class="state-card-container">
+            <div class="state state-1">
+                <div class="state-content">
+                    <h2>110+</h2>
+                    <p>Countries represented on 6 continents</p>
+                </div>
+            </div>
+            <div class="state state-2">
+            <div class="state-content">
+                    <h2>96+</h2>
+                    <p>Successful placements</p>
+                </div>
+            </div>
+            <div class="state state-3">
+            <div class="state-content">
+                    <h2>70+</h2>
+                    <p>CFaster than<br/>industry standard</p>
+                </div>
+            </div>
+            <div class="state state-4">
+            <div class="state-content">
+                    <h2>170.000+</h2>
+                    <p>Technologists represented</p>
+                </div>
+            </div>
+            <div class="state state-5">
+            <div class="state-content">
+                    <h2>80+</h2>
+                    <p>Months<br/>Average engagement</p>
+                </div>
+            </div>
+             </div>
+             <div className="space"></div>
+             <div className="button">
+                <a>Find Work</a>
+                <a>Discover Talent</a>
+             </div>
+      </div>
+      <div className="space"></div>
     </div>
   );
 }
