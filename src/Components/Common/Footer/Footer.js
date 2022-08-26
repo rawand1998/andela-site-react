@@ -119,6 +119,7 @@ function Footer() {
               </ul>
             </div>
           </section>
+          <div className="name">
           <section className="block-2 widget ">
             <div className="block-group">
               <p>
@@ -180,10 +181,11 @@ For Technologists</a>
                 <a>Terms and Conditions</a>
               </p>
               <p>
-                <a>Modern Slavery Statement</a>
+                <a>Modern Slavery </a>
               </p>
             </div>
           </section>
+          </div>
         </div>
       </div>
     </div>

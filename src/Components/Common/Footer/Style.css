@@ -91,15 +91,70 @@ section {
 }
 @media (min-width: 320px) and (max-width: 425px){
     .footer-site{
-        height:700px
+        height:900px;
+        width:1000px;
     }
     .footer-wedigts .block-1 {
         width: 100%;
         font-weight: 400;
+      
+        text-align: center;
       }
       .footer-wedigts .widget {
-        width: 126px;
-        margin-right: 4%;
-      }
       
+      }
+      .name{
+        background-color:#1321ff
+      }
+      .widget{
+        width: 800px;
+   
+      }
+      .footer-wedigts .widget {
+        width: 200px;
+        margin-left: 15%;
+        font-size:20px;
+      
+
+    }
+    .soical-icon{
+
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 35px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1040px){
+/* .block-img{
+  width: 160px;
+  background-color: #ff0;
+}
+.block-img img{
+  width: 100%;
+}
+.footer-wedigts .widget {
+  float: left;
+  width: 6%;
+  margin-right: 8%;
+  margin-left: 15%;
+  padding-left:10px;
+ 
+}
+.footer-site {
+  height:800px;
+  width: 500px;
+ 
+} */
+.footer-site{
+  height:500px
+}
+.footer-wedigts .block-1 {
+  width: 100%;
+  font-weight: 400;
+}
+.footer-wedigts .widget {
+  width: 126px;
+  margin-right: 4%;
+}
 }
