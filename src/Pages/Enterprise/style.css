@@ -42,7 +42,9 @@
     padding-left: 20%;
 }
 .description{
-    padding: 15px;
+    padding: 15px 70px;
+   
+
 }
 .enterprise-content{
     
@@ -51,8 +53,65 @@
 .enterprise-content p {
     padding-left: 100px;
 }
-.spacer-1{
-    margin-top:-43%
+.spacers{
+    height:150px
+}
+
+.enterprise-content a , .wp-block-column .work-us {
+    background-color: #56C870;
+    color: #173B3F;
+    border: 1px solid #56C870;
+    background-color: #56C870;
+    border-radius: 48px;
+    padding: 24px 40px;
+    font-size: 18px!important;
+    color: #173B3F;
+    line-height: 1;
+    text-decoration: none;
+    font-weight: 400;
+    transition: all .25s ease-in-out;
+    cursor: pointer;
+
+}
+.wp-block-column .work-us{
+    margin-left:-15%
+}
+.wp-block-column .work-btn{
+    margin-left:0%
+}
+.enterprise-content a:hover , .work-us{
+    transform: scale(1.05)
+}
+.lookingfor-backgroungd{
+    background-color: #B0D6CE;
+    width: 100%;
+    height:500px
+}
+.wp-block-column{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.wp-block-column h3{
+    display: flex;
+    align-items: flex-start;
+
+    left: 0;
+    margin-left:-18%
+}
+.enter h3{
+    padding-left: 15%;
+    /* color: #f00; */
+}
+.look-enterprise h3{
+    /* padding-left:5px; */
+    color: #56C870;
+    
+}
+.wp-block-column .scale-title{
+    padding-left:0;
+    margin-left:-20%;
 }
 @media (min-width: 320px) and (max-width: 425px) {
     .enterprise-btn{

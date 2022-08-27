@@ -15,7 +15,7 @@ import Teamoffer from "../../Components/Common/TeamOffer/Teamoffer";
 import ElevateSkill from "../../Components/Common/ElevateSkill/ElevateSkill";
 function Enterprise() {
   return (
-    <div>
+    <div className="enter">
       <Header className="home" id="header-conatiner">
         <Navbar />
         <SubHeader
@@ -157,46 +157,81 @@ function Enterprise() {
         }
       />
       <div className="spacer"></div>
-      <LookingFor
-        title={
-          <>
-            Experts from around the world
-            <p className="text-muted">
-              With flexibility in mind, we’ve built our matching process to
-              easily scale up or
-              <br />
-              down based on your team’s changing needs.
-            </p>
-          </>
-        }
-        img={
+      <div className="block-column1 block3">
+        <figure>
           <img src="https://andela.com/wp-content/uploads/2022/03/section-image-7-1024x897.png" />
-        }
-        content={
-          <div className="enterprise-content">
-            <h3>Speed to match</h3>
-            <p class="description">
-              Move faster without sacrificing quality. Our team can radically
-              reduce the time it takes to hire talent so you can find the right
-              fit, quickly.
-            </p>
-            <h3>Speed to match</h3>
-            <p class="description">
-              Move faster without sacrificing quality. Our team can radically
-              reduce the time it takes to hire talent so you can find the right
-              fit, quickly.
-            </p>
-            <a>Discover Talent</a>
-           
-          </div>
-        
-        }
-        
-      />
-      <div class="spacer-1"></div>
+        </figure>
+        <div
+          class="wp-block-columns"
+          style={{ flexBasis: "100px", width: "200px" }}
+        ></div>
+        <div class="wp-block-column">
+          <h5>Empower your future</h5>
+          <h3 className="title">Why the world’s best talent prefers Andela</h3>
+          <p class="description">
+            Find the right technologist to complement your existing team and hit
+            the ground running on impactful initiatives.
+          </p>
+          <h3 className="title">Why the world’s best talent prefers Andela</h3>
+          <p class="description">
+            Find the right technologist to complement your existing team and hit
+            the ground running on impactful initiatives.
+          </p>
+          <a className="work-us work-btn">Work with us</a>
+        </div>
+      </div>
+      <div className="spacer"></div>
+
       <ElevateSkill />
       <div class="spacer"></div>
       <Slider />
+      <div class="spacers"></div>
+      <div className="block-column1 block3">
+        <figure>
+          <img src="https://andela.com/wp-content/uploads/2022/03/Visual-2.png" />
+        </figure>
+        <div
+          class="wp-block-columns"
+          style={{ flexBasis: "100px", width: "200px" }}
+        ></div>
+        <div class="wp-block-column">
+          <h5>Empower your future</h5>
+          <h3 className="title">Why the world’s best talent prefers Andela</h3>
+
+          <ul>
+            <li>Quick and efficient</li>
+            <li>Only top quality options</li>
+            <li>Stress-free hiring of global talent</li>
+          </ul>
+          <a className="work-us work-btn">Work with us</a>
+        </div>
+      </div>
+      <div class="spacer"></div>
+
+      <div className="lookingfor-backgroungd">
+        <div className="block-column1 block3">
+          <figure>
+            <img src="https://andela.com/wp-content/uploads/2022/03/1-1-1.png" />
+          </figure>
+          <div
+            class="wp-block-columns"
+            style={{ flexBasis: "100px", width: "200px" }}
+          ></div>
+          <div class="wp-block-column">
+            <h3 className="scale-title">
+              Scaling your team globally has never been this easy
+            </h3>
+            <p>
+              Skilled engineers, product managers, and designers at your
+              fingertips. An extensive list of technical services to suit your
+              business needs. Cost-effective option for world-class expertise.
+            </p>
+            <a className="work-us">Work with us</a>
+          </div>
+        </div>
+      </div>
+
+      <Footer />
     </div>
   );
 }
