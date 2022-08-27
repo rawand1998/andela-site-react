@@ -174,6 +174,7 @@
     top: 5rem;
     width: 0.125rem;
   }
+ 
 @media (min-width: 320px) and (max-width: 425px) {
     .figures {
         columns:1
@@ -186,12 +187,21 @@
     .wp-block-column h2{
         margin-left: 0%;
         padding-left: 0px;
+        
       }
       .about-vedio-container{
         background-color: #173B3F;
         color: #fff;
         box-sizing: border-box;
         height:600px
+      }
+      .about-columns{
+        max-width: 1320px;
+        margin: 0px auto;
+        padding: 0px 20px;
+        box-sizing: border-box;
+        display:flex;
+        flex-direction: column;
       }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -212,5 +222,13 @@
         color: #fff;
         box-sizing: border-box;
         height:600px
+      }
+      .about-columns{
+        max-width: 1320px;
+        margin: 0px auto;
+        padding: 0px 20px;
+        box-sizing: border-box;
+        display:flex;
+        flex-direction: column;
       }
 }
