@@ -1,5 +1,5 @@
 import React from "react";
-import CommitSuccess from "../../Components/CommitSuccess/CommitSuccess";
+
 import Communction from "../../Components/Common/Communction/Communction";
 import Header from "../../Components/Common/Header/Header";
 import LookingFor from "../../Components/Common/LookingFor/LookingFor";
@@ -7,8 +7,7 @@ import Navbar from "../../Components/Common/NavBar/Navbar";
 import Slider from "../../Components/Common/Slider/Slider";
 import Footer from "../../Components/Common/Footer/Footer";
 import SubHeader from "../../Components/Common/SubHeader/SubHeader";
-import Skills from "../../Components/Skills/Skills";
-import Contected from "../../Components/Common/Connected/Contected";
+
 import SliderBar from "../../Components/Common/SliderBar/SliderBar";
 import "./style.css";
 import Teamoffer from "../../Components/Common/TeamOffer/Teamoffer";
