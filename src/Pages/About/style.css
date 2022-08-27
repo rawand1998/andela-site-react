@@ -180,6 +180,17 @@
    .block3{
     margin-left:0%
    }
+   .images-block h2{
+    margin-left:0%;
+ 
+  }
+  .images-block p{
+    margin-left:-15%;
+   
+  }
+  .figure-content{
+    line-height:45px
+  }
 @media (min-width: 320px) and (max-width: 425px) {
     .figures {
         columns:1
@@ -220,6 +231,14 @@
       }
       .figure-content{
         width: 220%;
+      }
+      .images-block h2{
+        margin-left:2%;
+        width: 190%;
+      }
+      .images-block p{
+        margin-left:2%;
+        width: 190%;
       }
     
 }
@@ -266,6 +285,13 @@
         line-height:20px
       }
   
-      
+      .images-block h2{
+        margin-left:2%;
+        width: 190%;
+      }
+      .images-block p{
+        margin-left:2%;
+        width: 190%;
+      }
    
 }

@@ -146,9 +146,9 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="spacer-1"></div>
+      {/* <div className="spacer-1"></div> */}
       <CommitSuccess />
-      <div className="spacer-1"></div>
+      {/* <div className="spacer-1"></div> */}
       <Contected
         title={
           <h2>

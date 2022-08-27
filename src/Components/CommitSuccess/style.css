@@ -40,6 +40,14 @@
     font-family: 'Inter',sans-serif;
     font-size:18px
 }
+.block-covered-content p{
+
+    padding: 0px 80px;
+}
+.block-covered-content  h2{
+    width: 200px;
+}
+
 @media (min-width: 320px) and (max-width: 425px) {
     .wp-block-columns{
         flex-direction: column;
@@ -56,7 +64,7 @@
     }
 
 }
-@media (min-width: 768px) {
+@media (min-width: 716px) and (max-width:1040px){
     .wp-block-columns{
       
         max-width: 100%;
@@ -69,5 +77,14 @@
     }
     .wp-block-2{
         max-width: 50%;
+    }
+   
+    .block-covered-content p {
+        padding: 0px 80px;
+        padding-left: 20%;
+    }
+    .block-covered-content  h2{
+        width: 600px;
+        color: #132128;
     }
 }
