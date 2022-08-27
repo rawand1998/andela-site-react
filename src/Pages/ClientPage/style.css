@@ -221,7 +221,7 @@ p {
     display: flex;
     justify-content: center;
     align-content: center;
-    margin-left:0
+    margin-left:0;
 }
 .button a{
     
@@ -352,7 +352,7 @@ button a:hover{
     color: #56C870
 
 }
-@media only screen and (min-width: 768px) and(max-width:1040px) {
+@media only screen and (min-width: 768px) and(max-width:1020px) {
   .inner-content {
     flex-direction: column-reverse;
     width: 100%;
@@ -376,22 +376,52 @@ button a:hover{
   }
   .offer-blocks {
     flex-direction: column;
-    background-color: #132128;
+ 
   }
   .offer-block-1 {
     margin-left: 0%;
     align-self: center;
 
     flex-basis: 100% !important;
+    width: 570px;
   }
   .offer-block-1 p {
     line-height: 24px;
     font-size: 18px;
   }
+  
   .elevlate-skills-col2 ul li a{
    
     margin-top: 15px;
    }
+   .elevlate-skills-col2{
+    columns: 1;
+    background-color: #132128;
+    
+  }
+  .elevlate-skills-col2 ul li a{
+    width: 300px;
+   background-color: #f00;
+    margin-top: 15px;
+    
+   }
+   .elevlate-skills{
+    flex-direction: column;
+   }
+   .elevlate-skills-col1 h2{
+    width:200px
+   }
+   .state-card-container{
+    flex-direction: column;
+   }
+   .state{
+    width: 300px;
+    height: 200px;
+    margin-left: -45%;
+  }
+  .button{
+    margin-left: -40%;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 425px) {
@@ -447,11 +477,21 @@ button a:hover{
     align-self: center;
 
     flex-basis: 100% !important;
+    width: 280px;
   }
   .offer-block-1 p {
     line-height: 24px;
     font-size: 18px;
+
   } 
+  .offer-block h2{
+    margin-left: 5%;
+    width: 200px;
+  }
+  .offer-block p {
+    margin-left: 5%;
+    width: 200px;
+  }
   .state-card-container{
     flex-direction: column;
     width: 200%;
@@ -487,8 +527,26 @@ button a:hover{
     
   }
   .elevlate-skills-col2 ul li a{
-   width: 500px;
-   padding: 10px 24px;
+   width: 300px;
+  
    margin-top: 15px;
+   
   }
+  .elevlate-skills-col1 h2{
+    width: 300px;
+    margin-left: -2%;
+  }
+  .elevlate-skills-col1 p {
+    
+    width: 250px;
+  }
+  
+.state{
+  width: 300px;
+  height:200px;
+  margin-left:-40%
+}
+.button{
+  margin-left: 15%;
+}
  } 
