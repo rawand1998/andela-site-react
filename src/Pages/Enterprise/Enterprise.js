@@ -1,5 +1,5 @@
 import React from "react";
-import CommitSuccess from "../../Components/CommitSuccess/CommitSuccess";
+
 import Communction from "../../Components/Common/Communction/Communction";
 import Header from "../../Components/Common/Header/Header";
 import LookingFor from "../../Components/Common/LookingFor/LookingFor";
@@ -7,8 +7,7 @@ import Navbar from "../../Components/Common/NavBar/Navbar";
 import Slider from "../../Components/Common/Slider/Slider";
 import Footer from "../../Components/Common/Footer/Footer";
 import SubHeader from "../../Components/Common/SubHeader/SubHeader";
-import Skills from "../../Components/Skills/Skills";
-import Contected from "../../Components/Common/Connected/Contected";
+
 import SliderBar from "../../Components/Common/SliderBar/SliderBar";
 import "./style.css";
 import Teamoffer from "../../Components/Common/TeamOffer/Teamoffer";
@@ -159,6 +158,10 @@ function Enterprise() {
       />
       <div className="spacer"></div>
       <ScaleTeam img={<img src="https://andela.com/wp-content/uploads/2022/03/section-image-7-1024x897.png"/>}
+      content={<>
+      <h3></h3>
+      <p></p>
+      </>}
         h3=" Scaling your team globally has never been this easy"
         p=" Skilled engineers, product managers, and designers at your
         fingertips. An extensive list of technical services to suit your
@@ -195,11 +198,14 @@ function Enterprise() {
 
       <div className="lookingfor-backgroungd">
       <ScaleTeam img={<img src="https://andela.com/wp-content/uploads/2022/03/1-1-1.png"/>}
-        h3=" Scaling your team globally has never been this easy"
-        p=" Skilled engineers, product managers, and designers at your
+         content={<>
+          <h3>Scaling your team globally has never been this easy</h3>
+          <p>Skilled engineers, product managers, and designers at your
         fingertips. An extensive list of technical services to suit your
-        business needs. Cost-effective option for world-class expertise."
-        button="Work with us" />
+        business needs. Cost-effective option for world-class expertise.</p>
+        <a>Work with us</a>
+          </>}
+         />
   
       </div>
 
