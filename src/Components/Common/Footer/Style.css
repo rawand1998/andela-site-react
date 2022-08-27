@@ -6,7 +6,7 @@
   color: var(--white);
 }
 .inner-footer {
-  padding: 30px 20px 40px 20px;
+  padding: 40px 20px 40px 20px;
   max-width: 1320px;
   margin: 0 auto;
   
@@ -103,3 +103,17 @@ section {
       }
       
 }
+@media (min-width: 768px) and (max-width: 1040px){
+ 
+  .footer-site{
+    height:500px
+  }
+  .footer-wedigts .block-1 {
+    width: 100%;
+    font-weight: 400;
+  }
+  .footer-wedigts .widget {
+    width: 126px;
+    margin-right: 4%;
+  }
+  } 

@@ -58,13 +58,19 @@ h2 {
     max-width: 100%;
     margin: 0;
     flex-direction: column-reverse;
+    justify-content:center;
+    align-items:center;
+
+    width: 200%;
   }
 
   .block2{
     display: flex;
-    max-width: 100%;
+    /* max-width: 100%; */
     margin: 0;
     flex-direction: column;
+    width: 500%;
+  
   }
   .block-column1 img {
     width: 100%;
@@ -97,6 +103,7 @@ h2 {
         margin-left:20%;
        
     }
+  
    
 }
 

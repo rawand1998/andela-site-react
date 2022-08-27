@@ -1,0 +1,552 @@
+#header-conatiner::before {
+  background-image: url("https://andela.com/wp-content/uploads/2022/03/annie-spratt-AkftcHujUmk-unsplash-2.jpg");
+}
+.slider-bar {
+  background-color: #b0d6ce;
+  padding-top: 36px;
+  padding-bottom: 24px;
+  /* height:600px; */
+}
+.innerslider-bar {
+  padding: 0;
+  box-sizing: border-box;
+}
+.innerslider-bar h2 {
+  font-size: 40px;
+  line-height: 48px;
+  font-family: "Inria Serif", "Garamond", serif;
+  clear: both;
+  margin: 0px 0px 24px 0px;
+  font-weight: 400;
+}
+.logo-carousel-container {
+  margin-top: 48px;
+  max-width: none;
+  display: block;
+}
+.logo-carousel-block {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+.slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0px 50px;
+  transform: translate3d(0, 0, 0);
+}
+.slick-track {
+  opacity: 1;
+  display: flex;
+  justify-content: space-between;
+}
+.slick-1 {
+  width: 225px;
+  height: 60px;
+}
+.slick-1 img {
+  width: 100%;
+  height: 100%;
+}
+.spacer {
+  height: 80px;
+}
+p {
+  position: relative;
+  left: 0;
+  margin-left: -18%;
+}
+.space {
+  height: 48px;
+}
+.team-container {
+  background-color: #173b3f;
+  color: #fff;
+  /* height: 600px; */
+}
+.inner-team-container {
+  padding: 0px 20px;
+  max-width: 1320px;
+  margin: 0px auto;
+}
+.inner-content {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  margin-bottom: 0px;
+  position: relative;
+}
+.inner-content .col1 {
+  /* align-self: center; */
+  min-width: 0;
+  left: 0;
+  position: relative;
+  width: 622px;
+}
+.col1 img {
+  height: auto;
+  width: 100%;
+  vertical-align: bottom;
+}
+.col2 {
+  width: 622px;
+
+  display: flex;
+  justify-content: flex-start;
+  align-self: center;
+  flex-direction: column;
+  padding-left: 50px;
+}
+.col2 h5 {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 600;
+}
+.col2 h2 {
+  font-size: 40px;
+  line-height: 48px;
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  color: var(--white);
+}
+.col2 p {
+  margin: 0px auto 24px;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 300;
+  font-family: "Inter", sans-serif;
+}
+.col2 a {
+  border: 1px solid #56c870;
+  background-color: #56c870;
+  border-radius: 48px;
+  padding: 24px 40px;
+  font-size: 18px !important;
+  color: #173b3f;
+  line-height: 1;
+  text-decoration: none;
+  font-weight: 400;
+  transition: all 0.25s ease-in-out;
+  width: 40%;
+}
+.col2 a:hover {
+  transform: scale(1.09);
+}
+.offer-conatiner {
+  background-color: #f8f8f8;
+}
+.offer-block {
+  padding: 0px 20px;
+  max-width: 1320px;
+  margin: 0px auto;
+}
+.offer-blocks {
+  margin-bottom: 0;
+  display: flex;
+}
+.offer-block-1 {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 24px 36px 12px 36px;
+  align-self: stretch !important;
+  position: relative;
+  margin-bottom: 24px;
+  margin-left: 3%;
+}
+.offer-block-1 h4 {
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 12px;
+}
+.offer-block-1 p {
+  font-size: 14px;
+  line-height: 22px;
+  margin: 0px auto 24px;
+}
+.offer-block .offer-paragraph {
+  text-align: center;
+  margin-left: 52px;
+  color: #132128;
+}
+.communction-container::before {
+    background-image: url('https://andela.com/wp-content/uploads/2022/03/section-bg-image-1536x810.jpeg');
+    background-size: cover;
+
+}
+.communction-container .overlay {
+   
+    opacity: 0.5;
+   
+}
+.state-card-container{
+    padding: 0px 20px;
+    max-width: 1320px;
+    margin: 0px auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow-x: auto;
+    gap: 32px;
+    display:flex;
+    margin-left:0%
+}    
+
+.state{
+    width: 405px;
+    height: 280px;
+    position: relative;
+    flex-basis: auto;
+    flex-grow: 0;
+    flex-shrink: 0;
+    text-align: center;
+    border-radius: 12px;
+    background-color: #B0D6CE;
+
+}
+.state-content{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    height: 100%;
+    padding: 24px;
+    
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left:0;
+}
+.button a{
+    
+    color: #173B3F;
+
+   
+    font-size: 18px!important;
+    color: #173B3F;
+    line-height: 1;
+    text-decoration: none;
+    font-weight: 400;
+    border: 1px solid #56C870;
+
+
+  
+   background-color: #56C870;
+   cursor: pointer;
+   padding: 24px 40px;
+   border-radius: 48px;
+   width: 40px;
+   font-weight: 400;
+   text-decoration: none;
+   font-size: 18px;
+   display:inline-block;
+   width: auto;
+   transition: all .25s ease-in-out;
+   margin-left: 15px;
+  
+}
+button a:hover{
+    transform: scale(1.09);
+  
+}
+.state-content h2{
+    font-size:60px
+}
+
+.state-content p{
+    margin-bottom: 0px;
+    font-style: italic;
+    font-family: 'Inria Serif','Garamond','Times New Roman',serif;
+       color: #132128;
+       padding-left:50px;
+       margin-top: -5%;
+     
+}
+.elevlate-skills
+{
+    background-color: #f8f8f8;
+}
+.elevlate-skills-content{
+    display: flex;
+    margin-bottom: 1.75em;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+.elevlate-skills-col1{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 474px;
+    text-align:left;
+    /* padding-left:25px */
+    margin-left:-8%;
+    padding-left:15px;
+    text-align:justify;
+   
+}
+.elevlate-skills-col1 h2{
+    font-size:40px;
+    width: 600px;
+    /* display: flex; */
+    /* justify-content: flex-start; */
+    /* align-items: flex-start; */
+
+    text-align:left;
+}
+.elevlate-skills-col1 p{
+  
+   margin: 0 0 24px;
+   /* padding-left: 25px; */
+}
+.elevlate-skills-col1 a{
+    border: 1px solid #132128;
+    background-color: transparent;
+    border-radius: 48px;
+    padding: 24px 40px;
+    font-size: 18px!important;
+    color: #173B3F;
+    line-height: 1;
+    text-decoration: none;
+    font-weight: 400;
+    transition: all .25s ease-in-out;
+    word-break: break-word;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.elevlate-skills-col2 {
+    columns:2;
+    width: 600px;
+    /* margin-right: 1%; */
+}
+.elevlate-skills-col2 ul li{
+    list-style: none;
+    margin: 0px 0px 24px 0px;
+}
+.elevlate-skills-col2 ul li a{
+    text-decoration: none;
+    border-radius: 40px;
+    border: 1px solid #f8f8f8;
+    background-color: #fff;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 48px;
+    display: block;
+    padding: 0px 24px;
+    transition: all .15s ease-in-out!important;
+    cursor: pointer;
+    text-align: left;
+    width: 302px;
+    margin-left: 12px;
+    
+}
+.elevlate-skills-col2 ul li a:hover{
+    transform: scale(1.09);
+    color: #56C870
+
+}
+@media only screen and (min-width: 768px) and(max-width:1020px) {
+  .inner-content {
+    flex-direction: column-reverse;
+    width: 100%;
+    align-items: flex-start;
+
+    text-align: left;
+  }
+  .col2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 50%;
+    /* margin-left:-70%; */
+  }
+  .col1 {
+    width: 100%;
+    margin-left: -7%;
+  }
+  .offer-conatiner {
+    width: 185%;
+  }
+  .offer-blocks {
+    flex-direction: column;
+ 
+  }
+  .offer-block-1 {
+    margin-left: 0%;
+    align-self: center;
+
+    flex-basis: 100% !important;
+    width: 570px;
+  }
+  .offer-block-1 p {
+    line-height: 24px;
+    font-size: 18px;
+  }
+  
+  .elevlate-skills-col2 ul li a{
+   
+    margin-top: 15px;
+   }
+   .elevlate-skills-col2{
+    columns: 1;
+    background-color: #132128;
+    
+  }
+  .elevlate-skills-col2 ul li a{
+    width: 300px;
+   background-color: #f00;
+    margin-top: 15px;
+    
+   }
+   .elevlate-skills{
+    flex-direction: column;
+   }
+   .elevlate-skills-col1 h2{
+    width:200px
+   }
+   .state-card-container{
+    flex-direction: column;
+   }
+   .state{
+    width: 300px;
+    height: 200px;
+    margin-left: -45%;
+  }
+  .button{
+    margin-left: -40%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .team-container {
+    margin-left: -15%;
+    width: 200%;
+  }
+
+  .inner-content {
+    flex-direction: column-reverse;
+    width: 100%;
+    align-items: flex-start;
+
+    text-align: left;
+  }
+  .col2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    margin-left: -2%;
+  }
+  .col2 h2 {
+    font-size: 30px;
+
+    justify-content: flex-start;
+  }
+  .paragraph {
+    margin: 0;
+  }
+  .col1 {
+    width: 100%;
+    /* margin-left: 25px; */
+   }
+  .col1 img {
+    width: 50%;
+    height: 50%;
+    visibility: hidden;
+  }
+  .col2 a {
+    width: 213px;
+    height: 68px;
+    padding: 24px 40px;
+  }
+  .offer-conatiner {
+    width: 185%;
+  }
+  .offer-blocks {
+    flex-direction: column;
+  }
+  .offer-block-1 {
+    margin-left: 0%;
+    align-self: center;
+
+    flex-basis: 100% !important;
+    width: 280px;
+  }
+  .offer-block-1 p {
+    line-height: 24px;
+    font-size: 18px;
+
+  } 
+  .offer-block h2{
+    margin-left: 5%;
+    width: 200px;
+  }
+  .offer-block p {
+    margin-left: 5%;
+    width: 200px;
+  }
+  .state-card-container{
+    flex-direction: column;
+    width: 200%;
+    margin-left:-1%
+
+  }
+  .button {
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    margin-left:80%;
+   
+  }
+  .button a:nth-child(1){
+    margin-bottom:15px;
+    padding: 10px 80px;
+  }
+  .button a:nth-child(2){
+    margin-bottom:15px;
+  /* width: 200%; */
+  text-align: center;
+  padding: 10px 80px;
+
+  }
+  .elevlate-skills{
+    width: 206%;
+ 
+  }
+  
+  .elevlate-skills-col2{
+    columns: 1;
+    
+  }
+  .elevlate-skills-col2 ul li a{
+   width: 300px;
+  
+   margin-top: 15px;
+   
+  }
+  .elevlate-skills-col1 h2{
+    width: 300px;
+    margin-left: -2%;
+  }
+  .elevlate-skills-col1 p {
+    
+    width: 250px;
+  }
+  
+.state{
+  width: 300px;
+  height:200px;
+  margin-left:-40%
+}
+.button{
+  margin-left: 15%;
+}
+ } 

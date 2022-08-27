@@ -1,6 +1,6 @@
 .block-container::before{
     width: 100%;
-    min-height: 540px;
+    /* min-height: 540px; */
     content:'';
     position: absolute;
     top: 0;
@@ -12,10 +12,23 @@
     background-color: var(--achor-color);
     background-image: url('https://andela.com/wp-content/uploads/2022/03/african-american-young-programmer-working-remote-f-2022-03-25-18-49-53-utc.jpg');
     min-height: 450px;
-   
+ 
 }
 
-.overlay{
+/* .overlay{
+    position: absolute;
+    background-color: var(--achor-color);
+    opacity:0.6;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    color: var(--white);
+    z-index: 1;
+} */
+
+.block2 .overlay{
+    opacity: 0.6;
     position: absolute;
     background-color: var(--achor-color);
     opacity:0.6;
@@ -26,12 +39,6 @@
     color: var(--white);
     z-index: 1;
 }
-.block2{
-    min-height: 450px;
-}
-.block2 .overlay{
-    opacity: 0.6;
-}
 .block2 .inner-content{
     display: flex;
     align-items: center;
@@ -41,7 +48,7 @@
    
 }
 
-.block-container a{
+.block-container .block-covered-content a{
     position:absolute;
     border-radius: 25px;
     bottom: -50%;
@@ -55,7 +62,7 @@
        text-decoration: none;
        font-weight: 400;
        transition: all .25s ease-in-out;
-       margin-left:15px;
+       margin-left:15%;
        z-index: 1111;
        transition: all 0.5s ease-in-out;
        cursor: pointer;
@@ -64,14 +71,14 @@
     .block-container a:hover{
         transform: scale(1.05)
     }
-    .block2 .btn{
+    /* .block2 .btn{
         padding: 30px 40px;
         margin-left: 10%;
         height:60px;
         display: flex;
         align-items: center;
         justify-content: center;
-    }
+    } */
     @media (min-width: 320px) and (max-width: 425px) {
         .block2{
             margin-top: 0px;
@@ -79,12 +86,12 @@
        .block2 .btn{
             bottom: -15%;
             left: 0;
-            margin-left:25%
+            margin-left:40%
         }
      
         
         .block-container{
-          width: 120%;
+          width: 157%;
            
         }
       
@@ -94,10 +101,20 @@
             margin-top: 0px;
         }
         .block2 .btn{
-            margin-left:20%;
+            margin-left:0%;
      
             padding: 24px 40px;
             height:68px
         }
-    
+    .block-covered-content h2{
+        font-size:20px;
+      
+    }
+    .block-covered-content{
+        margin-left: -10%;
+    }
+    .block-covered-content .btn {
+        margin-right: 5%;
+
+    }
     }
