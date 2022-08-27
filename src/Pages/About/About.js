@@ -168,8 +168,9 @@ function About() {
       <div className="spacer"></div>
       <div className="about-columns">
         <div className="about-columns1">
+      
             <h2>We’ve achieved<br/>many <em>great things</em></h2>
-            <div style={{ height:'500px'}}></div>
+            {/* <div className="space-hight"></div> */}
         </div>
         <div className="about-columns2">
             <ol className="start-2022">
