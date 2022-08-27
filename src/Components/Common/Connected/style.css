@@ -86,17 +86,21 @@
        .block2 .btn{
             bottom: -15%;
             left: 0;
-            margin-left:40%
+            /* margin-left:40% */
+        }
+        block-container .block-covered-content a {
+            margin-left: 40%;
         }
      
-        
-        .block-container{
-          width: 157%;
+      
+            .block-container {
+                width: 200%;
+            }
            
-        }
+        
       
     }
-    @media (min-width: 768px) and (max-width:1040px)  {
+    @media (min-width: 768px) and (max-width:1020px)  {
         .block2{
             margin-top: 0px;
         }
@@ -117,4 +121,8 @@
         margin-right: 5%;
 
     }
+    block-container .block-covered-content a {
+        margin-left: 30%;
+    }
+ 
     }
