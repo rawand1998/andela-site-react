@@ -12,6 +12,7 @@ import Contected from "../../Components/Common/Connected/Contected";
 import SliderBar from "../../Components/Common/SliderBar/SliderBar";
 import "./style.css";
 import Teamoffer from "../../Components/Common/TeamOffer/Teamoffer";
+import ElevateSkill from "../../Components/Common/ElevateSkill/ElevateSkill";
 function Enterprise() {
   return (
     <div>
@@ -155,6 +156,45 @@ function Enterprise() {
           </>
         }
       />
+      <div className="spacer"></div>
+      <LookingFor
+        title={
+          <>
+            Experts from around the world
+            <p className="text-muted">
+              With flexibility in mind, we’ve built our matching process to
+              easily scale up or
+              <br />
+              down based on your team’s changing needs.
+            </p>
+          </>
+        }
+        img={
+          <img src="https://andela.com/wp-content/uploads/2022/03/section-image-7-1024x897.png" />
+        }
+        content={
+          <div className="enterprise-content">
+            <h3>Speed to match</h3>
+            <p class="description">
+              Move faster without sacrificing quality. Our team can radically
+              reduce the time it takes to hire talent so you can find the right
+              fit, quickly.
+            </p>
+            <h3>Speed to match</h3>
+            <p class="description">
+              Move faster without sacrificing quality. Our team can radically
+              reduce the time it takes to hire talent so you can find the right
+              fit, quickly.
+            </p>
+            <a>Discover Talent</a>
+           
+          </div>
+        
+        }
+        
+      />
+      <div class="spacer-1"></div>
+      <ElevateSkill />
     </div>
   );
 }

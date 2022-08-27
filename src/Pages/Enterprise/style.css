@@ -44,6 +44,16 @@
 .description{
     padding: 15px;
 }
+.enterprise-content{
+    
+    /* background-color:#f00 */
+}
+.enterprise-content p {
+    padding-left: 100px;
+}
+.spacer-1{
+    margin-top:-43%
+}
 @media (min-width: 320px) and (max-width: 425px) {
     .enterprise-btn{
         position: absolute;

@@ -9,6 +9,7 @@ import Communction from "../../Components/Common/Communction/Communction";
 import Contected from "../../Components/Common/Connected/Contected"
 import SliderBar from "../../Components/Common/SliderBar/SliderBar";
 import Teamoffer from "../../Components/Common/TeamOffer/Teamoffer";
+import ElevateSkill from "../../Components/Common/ElevateSkill/ElevateSkill";
 
 function Clients() {
   return (
@@ -273,7 +274,8 @@ together to build the future.
              </div>
       </div>
       <div className="space"></div>
-      <div className="elevlate-skills">
+      <ElevateSkill />
+      {/* <div className="elevlate-skills">
         <div className="space"></div>
         <div className="elevlate-skills-content">
             <div className="elevlate-skills-col1">
@@ -297,7 +299,7 @@ together to build the future.
             </div>
         </div>
 
-      </div>
+      </div> */}
       <Contected title={<h2>
 Grow your business and accelerate<br/>
 innovation with Andela</h2>} buttonTitle="Sign up"/>
