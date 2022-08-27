@@ -7,6 +7,7 @@ import Navbar from "../../Components/Common/NavBar/Navbar";
 import LookingFor from "../../Components/Common/LookingFor/LookingFor";
 import Communction from "../../Components/Common/Communction/Communction";
 import Contected from "../../Components/Common/Connected/Contected"
+import SliderBar from "../../Components/Common/SliderBar/SliderBar";
 
 function Clients() {
   return (
@@ -22,7 +23,8 @@ function Clients() {
         />
       </Header>
       <a className="btn">Discover Talent</a>
-      <div className="slider-bar">
+      <SliderBar />
+      {/* <div className="slider-bar">
         <div className="innerslider-bar">
           <h2>
             We’re <em>Trusted</em> by the best
@@ -63,7 +65,7 @@ function Clients() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="spacer"></div>
 

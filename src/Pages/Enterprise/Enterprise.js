@@ -9,6 +9,7 @@ import Footer from "../../Components/Common/Footer/Footer";
 import SubHeader from "../../Components/Common/SubHeader/SubHeader";
 import Skills from "../../Components/Skills/Skills";
 import Contected from "../../Components/Common/Connected/Contected";
+import SliderBar from "../../Components/Common/SliderBar/SliderBar";
 import './style.css'
 function Enterprise() {
   return (
@@ -26,7 +27,8 @@ function Enterprise() {
       <a className="">Schedule a call</a>
        <a className="">Wacth in overview</a>
        </div>
-      <div className="spacer"></div>
+      
+      <SliderBar />
     </div>
   )
 }
