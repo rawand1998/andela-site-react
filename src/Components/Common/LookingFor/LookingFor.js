@@ -1,10 +1,11 @@
 import React from "react";
 import "./style.css";
-function LookingFor({ img, content, img2, content2, img3, content3 }) {
+function LookingFor({ title,paragraph,img, content, img2, content2, img3, content3 }) {
   return (
     <div className="column-container">
       <h2>
-        <em>Find</em> what you’re looking for and more
+        {title}
+       
       </h2>
       <div style={{ height: "12px" }}></div>
       <div className="block-column1">

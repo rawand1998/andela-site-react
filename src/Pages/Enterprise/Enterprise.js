@@ -57,6 +57,44 @@ function Enterprise() {
          global payroll solutions and compliance support."
          
          />
+            <div className="spacer"></div>
+            <LookingFor
+            title={<>
+            Let’s help you add value to your business
+            <p className="text-muted">Discover our global neighborhood of technologists.</p>
+            </>}
+          
+        img={
+          <img src="https://andela.com/wp-content/uploads/2022/03/section-image-3.jpg" />
+        }
+        content={
+          <>
+            <h3>Speed to match</h3>
+            <p class="description">Move faster without sacrificing quality. Our team can radically reduce the time it takes to hire talent so you can find the right fit, quickly.</p>
+          </>
+        }
+        img2={
+          <img src="https://andela.com/wp-content/uploads/2022/03/shutterstock_1696088776-768x512.jpg" />
+        }
+        content2={
+          <>
+            <h3>Enterprise-ready</h3>
+           <p class="description">Technologists with verified backgrounds, aligned to your time zones, and compliant with your company’s security practices so you can focus on making an impact.</p>
+          </>
+        }
+        img3={
+          <img
+            src="https://andela.com/wp-content/uploads/2022/03/shutterstock_1241581108-1-1536x1024.jpg"
+            alt="not found"
+          />
+        }
+        content3={
+          <>
+            <h3>Flexible teams</h3>
+           <p class="description">Find niche expertise for various project lengths. Onboard solo engineers to fill gaps or hire full teams to accelerate your build. Any team, any timezone, any skills.</p>
+          </>
+        }
+      />
     </div>
   )
 }
