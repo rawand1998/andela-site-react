@@ -8,6 +8,7 @@ import LookingFor from "../../Components/Common/LookingFor/LookingFor";
 import Communction from "../../Components/Common/Communction/Communction";
 import Contected from "../../Components/Common/Connected/Contected"
 import SliderBar from "../../Components/Common/SliderBar/SliderBar";
+import Teamoffer from "../../Components/Common/TeamOffer/Teamoffer";
 
 function Clients() {
   return (
@@ -24,48 +25,7 @@ function Clients() {
       </Header>
       <a className="btn">Discover Talent</a>
       <SliderBar />
-      {/* <div className="slider-bar">
-        <div className="innerslider-bar">
-          <h2>
-            We’re <em>Trusted</em> by the best
-          </h2>
-          <div className="logo-carousel-container">
-            <div className="logo-carousel-block">
-              <div className="slick-list">
-                <div className="slick-track">
-                  <div className="slick-1">
-                    <img src="https://andela.com/wp-content/uploads/2022/03/logo-jamf-1.png" />
-                  </div>
-                  <div className="slick-1">
-                    <img src="https://andela.com/wp-content/uploads/2022/03/logo-kraft-heinz-1.png" />
-                  </div>
-                  <div className="slick-1">
-                    <img src="https://andela.com/wp-content/uploads/2022/03/logo-mastercard.png" />
-                  </div>
-                  <div className="slick-1">
-                    <img src="https://andela.com/wp-content/uploads/2022/03/logo-mindshare-1.png" />
-                  </div>
-                  <div className="slick-1">
-                    <img src="https://andela.com/wp-content/uploads/2022/03/logo-pluralsight-1.png" />
-                  </div>
-                  <div className="slick-1">
-                    <img src="https://andela.com/wp-content/uploads/2022/03/logo-seismic-1.png" />
-                  </div>
-                  <div className="slick-1">
-                    <img src="https://andela.com/wp-content/uploads/2022/03/logo-viacomcbs.png" />
-                  </div>
-                  <div className="slick-1">
-                    <img src="https://andela.com/wp-content/uploads/2022/03/logo-casper-1-1.png" />
-                  </div>
-                  <div className="slick-1">
-                    <img src="https://andela.com/wp-content/uploads/2022/03/logo-cloudflare-1.png" />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
+      
 
       <div className="spacer"></div>
 
@@ -147,8 +107,33 @@ function Clients() {
           <div className="space"></div>
         </div>
       </div>
-
-      <div className="offer-conatiner">
+         <Teamoffer 
+         title ={<>We offer you <em>peace of mind</em></>}
+         paragraph={<>  We understand that sometimes you want to find talent on your own{" "}
+         <br />
+         and other times you want some help. We offer you the freedom to do
+         both.</>}
+         header1="Source"
+         header2="Acesses"
+         header3="Match"
+         header4="Deliver"
+         paragraph1="    We’ll work with you to fully understand your technical gaps,
+         culture, industry regulations, and strategic route. Instantly
+         view a curated selection of technologist profiles that meet your
+         needs."
+         paragraph2="    Our proprietary assessments are designed to find you the best
+         talent by role, no matter where they are in the world. Based on
+         your team’s goals, meet vetted technologists you can trust."
+         paragraph3="  Connect within hours, with vetted technologists who can easily
+         align with your existing teams, tools, and workflows. Our
+         matching times are consistently twice as fast compared to
+         industry standards."
+         paragraph4="  With a focus on sustainable growth, we’re with you every step of
+         the way. From rapid onboarding and seamless integration to
+         global payroll solutions and compliance support."
+         
+         />
+      {/* <div className="offer-conatiner">
         <div className="offer-block">
           <div className="spacer"></div>
           <h2>
@@ -198,7 +183,7 @@ function Clients() {
           </div>
         </div>
         <div className="spacer"></div>
-      </div>
+      </div> */}
       <div className="spacer"></div>
 
       <Communction className="communction-container"

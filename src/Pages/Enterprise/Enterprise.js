@@ -11,6 +11,7 @@ import Skills from "../../Components/Skills/Skills";
 import Contected from "../../Components/Common/Connected/Contected";
 import SliderBar from "../../Components/Common/SliderBar/SliderBar";
 import './style.css'
+import Teamoffer from '../../Components/Common/TeamOffer/Teamoffer';
 function Enterprise() {
   return (
     <div>
@@ -29,6 +30,33 @@ function Enterprise() {
        </div>
       
       <SliderBar />
+      <div className="spacer"></div>
+      <Teamoffer 
+         title ={<>We offer you <em>peace of mind</em></>}
+         paragraph={<>  We understand that sometimes you want to find talent on your own{" "}
+         <br />
+         and other times you want some help. We offer you the freedom to do
+         both.</>}
+         header1="Source"
+         header2="Acesses"
+         header3="Match"
+         header4="Deliver"
+         paragraph1="    We’ll work with you to fully understand your technical gaps,
+         culture, industry regulations, and strategic route. Instantly
+         view a curated selection of technologist profiles that meet your
+         needs."
+         paragraph2="    Our proprietary assessments are designed to find you the best
+         talent by role, no matter where they are in the world. Based on
+         your team’s goals, meet vetted technologists you can trust."
+         paragraph3="  Connect within hours, with vetted technologists who can easily
+         align with your existing teams, tools, and workflows. Our
+         matching times are consistently twice as fast compared to
+         industry standards."
+         paragraph4="  With a focus on sustainable growth, we’re with you every step of
+         the way. From rapid onboarding and seamless integration to
+         global payroll solutions and compliance support."
+         
+         />
     </div>
   )
 }

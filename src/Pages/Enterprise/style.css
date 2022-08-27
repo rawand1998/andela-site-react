@@ -31,6 +31,9 @@
     border: 1px solid var( --button-background-color);
     background-color: var( --button-background-color);
 }
+.spacer{
+    height: 80px
+}
 @media (min-width: 320px) and (max-width: 425px) {
     .enterprise-btn{
         position: absolute;
