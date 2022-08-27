@@ -158,6 +158,10 @@ function Enterprise() {
       />
       <div className="spacer"></div>
       <ScaleTeam img={<img src="https://andela.com/wp-content/uploads/2022/03/section-image-7-1024x897.png"/>}
+      content={<>
+      <h3></h3>
+      <p></p>
+      </>}
         h3=" Scaling your team globally has never been this easy"
         p=" Skilled engineers, product managers, and designers at your
         fingertips. An extensive list of technical services to suit your
@@ -194,11 +198,14 @@ function Enterprise() {
 
       <div className="lookingfor-backgroungd">
       <ScaleTeam img={<img src="https://andela.com/wp-content/uploads/2022/03/1-1-1.png"/>}
-        h3=" Scaling your team globally has never been this easy"
-        p=" Skilled engineers, product managers, and designers at your
+         content={<>
+          <h3>Scaling your team globally has never been this easy</h3>
+          <p>Skilled engineers, product managers, and designers at your
         fingertips. An extensive list of technical services to suit your
-        business needs. Cost-effective option for world-class expertise."
-        button="Work with us" />
+        business needs. Cost-effective option for world-class expertise.</p>
+        <a>Work with us</a>
+          </>}
+         />
   
       </div>
 
