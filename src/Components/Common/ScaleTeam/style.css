@@ -1,0 +1,29 @@
+.wp-block-column .work-us {
+    background-color: #56C870;
+    color: #173B3F;
+    border: 1px solid #56C870;
+    background-color: #56C870;
+    border-radius: 48px;
+    padding: 24px 40px;
+    font-size: 18px!important;
+    color: #173B3F;
+    line-height: 1;
+    text-decoration: none;
+    font-weight: 400;
+    transition: all .25s ease-in-out;
+    cursor: pointer;
+
+}
+.wp-block-column .work-us{
+    margin-left:2%
+}
+.wp-block-column .work-btn{
+    margin-left:15%
+}
+.wp-block-column{
+   
+}
+.wp-block-column p{
+    padding-left: 20%;
+    padding-right: 2%;
+}

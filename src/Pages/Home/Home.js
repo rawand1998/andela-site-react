@@ -43,6 +43,7 @@ function Home() {
       </div>
       <div className="spacer"></div>
       <LookingFor
+      title={<> <em>Find</em> what you’re looking for and more</>}
         img={
           <img src="https://andela.com/wp-content/uploads/2022/03/shutterstock_1660490494-1024x683.jpg" />
         }
