@@ -13,6 +13,7 @@ import SliderBar from "../../Components/Common/SliderBar/SliderBar";
 import "./style.css";
 import Teamoffer from "../../Components/Common/TeamOffer/Teamoffer";
 import ElevateSkill from "../../Components/Common/ElevateSkill/ElevateSkill";
+import ScaleTeam from "../../Components/Common/ScaleTeam/ScaleTeam";
 function Enterprise() {
   return (
     <div className="enter">
@@ -95,7 +96,7 @@ function Enterprise() {
         content2={
           <>
             <h3>Enterprise-ready</h3>
-            <p class="description">
+            <p class="descriptions">
               Technologists with verified backgrounds, aligned to your time
               zones, and compliant with your company’s security practices so you
               can focus on making an impact.
@@ -111,7 +112,7 @@ function Enterprise() {
         content3={
           <>
             <h3>Flexible teams</h3>
-            <p class="description">
+            <p class="">
               Find niche expertise for various project lengths. Onboard solo
               engineers to fill gaps or hire full teams to accelerate your
               build. Any team, any timezone, any skills.
@@ -157,35 +158,19 @@ function Enterprise() {
         }
       />
       <div className="spacer"></div>
-      <div className="block-column1 block3">
-        <figure>
-          <img src="https://andela.com/wp-content/uploads/2022/03/section-image-7-1024x897.png" />
-        </figure>
-        <div
-          class="wp-block-columns"
-          style={{ flexBasis: "100px", width: "200px" }}
-        ></div>
-        <div class="wp-block-column">
-          <h5>Empower your future</h5>
-          <h3 className="title">Why the world’s best talent prefers Andela</h3>
-          <p class="description">
-            Find the right technologist to complement your existing team and hit
-            the ground running on impactful initiatives.
-          </p>
-          <h3 className="title">Why the world’s best talent prefers Andela</h3>
-          <p class="description">
-            Find the right technologist to complement your existing team and hit
-            the ground running on impactful initiatives.
-          </p>
-          <a className="work-us work-btn">Work with us</a>
-        </div>
-      </div>
+      <ScaleTeam img={<img src="https://andela.com/wp-content/uploads/2022/03/section-image-7-1024x897.png"/>}
+        h3=" Scaling your team globally has never been this easy"
+        p=" Skilled engineers, product managers, and designers at your
+        fingertips. An extensive list of technical services to suit your
+        business needs. Cost-effective option for world-class expertise."
+        button="Work with us" />
       <div className="spacer"></div>
 
       <ElevateSkill />
       <div class="spacer"></div>
       <Slider />
       <div class="spacers"></div>
+ 
       <div className="block-column1 block3">
         <figure>
           <img src="https://andela.com/wp-content/uploads/2022/03/Visual-2.png" />
@@ -203,32 +188,19 @@ function Enterprise() {
             <li>Only top quality options</li>
             <li>Stress-free hiring of global talent</li>
           </ul>
-          <a className="work-us work-btn">Work with us</a>
+          <a className=" work-btn">Work with us</a>
         </div>
       </div>
       <div class="spacer"></div>
 
       <div className="lookingfor-backgroungd">
-        <div className="block-column1 block3">
-          <figure>
-            <img src="https://andela.com/wp-content/uploads/2022/03/1-1-1.png" />
-          </figure>
-          <div
-            class="wp-block-columns"
-            style={{ flexBasis: "100px", width: "200px" }}
-          ></div>
-          <div class="wp-block-column">
-            <h3 className="scale-title">
-              Scaling your team globally has never been this easy
-            </h3>
-            <p>
-              Skilled engineers, product managers, and designers at your
-              fingertips. An extensive list of technical services to suit your
-              business needs. Cost-effective option for world-class expertise.
-            </p>
-            <a className="work-us">Work with us</a>
-          </div>
-        </div>
+      <ScaleTeam img={<img src="https://andela.com/wp-content/uploads/2022/03/1-1-1.png"/>}
+        h3=" Scaling your team globally has never been this easy"
+        p=" Skilled engineers, product managers, and designers at your
+        fingertips. An extensive list of technical services to suit your
+        business needs. Cost-effective option for world-class expertise."
+        button="Work with us" />
+  
       </div>
 
       <Footer />

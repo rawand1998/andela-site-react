@@ -57,7 +57,7 @@
     height:150px
 }
 
-.enterprise-content a , .wp-block-column .work-us {
+ .wp-block-column .work-btn{
     background-color: #56C870;
     color: #173B3F;
     border: 1px solid #56C870;
@@ -71,47 +71,24 @@
     font-weight: 400;
     transition: all .25s ease-in-out;
     cursor: pointer;
+    margin-left:50%;
+  
 
-}
-.wp-block-column .work-us{
-    margin-left:-15%
-}
-.wp-block-column .work-btn{
-    margin-left:0%
 }
 .enterprise-content a:hover , .work-us{
     transform: scale(1.05)
+}
+.wp-block-column .work-btn {
+    margin-left: -1%;
 }
 .lookingfor-backgroungd{
     background-color: #B0D6CE;
     width: 100%;
     height:500px
 }
-.wp-block-column{
-    display:flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-}
-.wp-block-column h3{
-    display: flex;
-    align-items: flex-start;
+.enter .descriptions{
 
-    left: 0;
-    margin-left:-18%
-}
-.enter h3{
-    padding-left: 15%;
-    /* color: #f00; */
-}
-.look-enterprise h3{
-    /* padding-left:5px; */
-    color: #56C870;
-    
-}
-.wp-block-column .scale-title{
-    padding-left:0;
-    margin-left:-20%;
+    margin-left:-40%
 }
 @media (min-width: 320px) and (max-width: 425px) {
     .enterprise-btn{
@@ -128,6 +105,10 @@
     .spacer-1{
         margin-top:-200%
     }
+    .enter .descriptions{
+
+        margin-left:0%
+    }
 }
 @media (min-width: 678px) and (max-width:1024px){
     .enterprise-btn{
@@ -140,5 +121,9 @@
     }
     .spacer-1{
         margin-top:-80%
+    }
+    .enter .descriptions{
+
+        margin-left:0%
     }
 }
