@@ -177,7 +177,9 @@
   .about-columns1 .space-hight{
     height:500px
    }
- 
+   .block3{
+    margin-left:0%
+   }
 @media (min-width: 320px) and (max-width: 425px) {
     .figures {
         columns:1
@@ -208,6 +210,9 @@
       }
       .about-vedio-container{
         width: 200%;
+      }
+      .block3{
+        margin-left:50%
       }
     
 }
@@ -240,6 +245,9 @@
       }
       .about-vedio-container{
         width: 200%;
+      }
+      .block3{
+        margin-left:50%
       }
     
    
