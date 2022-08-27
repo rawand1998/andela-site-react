@@ -195,6 +195,8 @@ function Enterprise() {
       />
       <div class="spacer-1"></div>
       <ElevateSkill />
+      <div class="spacer"></div>
+      <Slider />
     </div>
   );
 }

@@ -66,6 +66,9 @@
     .enterprise-btn a{
         margin-bottom:15px
     }
+    .spacer-1{
+        margin-top:-200%
+    }
 }
 @media (min-width: 678px) and (max-width:1024px){
     .enterprise-btn{
@@ -75,5 +78,8 @@
         display:flex;
        
        
+    }
+    .spacer-1{
+        margin-top:-80%
     }
 }
