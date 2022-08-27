@@ -11,9 +11,7 @@ function ScaleTeam({ img, h3, p, button,content }) {
         ></div>
         <div class="wp-block-column">
           {content}
-          {/* <h3 className="scale-title">{h3}</h3>
-          <p>{p}</p>
-          <a className="work-us"> {button}</a> */}
+          
         </div>
       </div>
     </div>
