@@ -5,6 +5,7 @@ import Footer from './Components/Common/Footer/Footer'
 import Clients from './Pages/ClientPage/Clients';
 import Enterprise from './Pages/Enterprise/Enterprise'
 import About from './Pages/About/About';
+import Login from './Components/Auth/Login/Login'
 function App() {
   return (
     <div className="App">
@@ -12,7 +13,8 @@ function App() {
      {/* <Home /> */}
      {/* <Footer /> */}
      {/* <Enterprise /> */}
-     <About />
+     {/* <About /> */}
+     <Login />
     </div>
   );
 }
