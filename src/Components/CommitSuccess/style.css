@@ -45,7 +45,7 @@
     padding: 0px 80px;
 }
 .block-covered-content  h2{
-    width: 200px;
+    /* width: 200px; */
 }
 
 @media (min-width: 320px) and (max-width: 425px) {

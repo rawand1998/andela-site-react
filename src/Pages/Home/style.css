@@ -190,14 +190,14 @@ bottom: -50%;
 }
 
 @media (min-width: 320px) and (max-width: 425px) {
-    .block2{
+    /* .block2{
         margin-top: 0px;
     }
    .block2 .btn{
         bottom: -15%;
         left: 0;
      
-    }
+    } */
  
     .vedio-inner{
        
@@ -214,10 +214,10 @@ bottom: -50%;
       left: 0;
       bottom: -15%;
     }
-    .block-container{
-      width: 120%;
+    /* .block-container{
+      width: 200%;
        
-    }
+    } */
     .block2 .btn{
         margin-left:25%
     }

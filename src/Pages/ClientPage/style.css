@@ -371,7 +371,7 @@ button a:hover{
     width: 100%;
     margin-left: -7%;
   }
-  .offer-conatiner {
+  /* .offer-conatiner {
     width: 185%;
   }
   .offer-blocks {
@@ -388,7 +388,7 @@ button a:hover{
   .offer-block-1 p {
     line-height: 24px;
     font-size: 18px;
-  }
+  } */
   
   .elevlate-skills-col2 ul li a{
    
@@ -466,7 +466,7 @@ button a:hover{
     height: 68px;
     padding: 24px 40px;
   }
-  .offer-conatiner {
+  /* .offer-conatiner {
     width: 185%;
   }
   .offer-blocks {
@@ -477,11 +477,14 @@ button a:hover{
     align-self: center;
 
     flex-basis: 100% !important;
-    width: 280px;
+    width: 50%;
+    background-color: #f00;
   }
   .offer-block-1 p {
     line-height: 24px;
     font-size: 18px;
+    width: 200px;
+    color: #f00;
 
   } 
   .offer-block h2{
@@ -491,7 +494,7 @@ button a:hover{
   .offer-block p {
     margin-left: 5%;
     width: 200px;
-  }
+  } */
   .state-card-container{
     flex-direction: column;
     width: 200%;
