@@ -48,4 +48,14 @@
     width: 100%;
     height: 100%;
   } */
+ .slider-home-bar img{
+  width: 225px;
+  height: 60px;
+ }
+ .side {
+  background-color: #B0D6CE;
+  padding-top: 36px;
+  padding-bottom: 24px;
  
+  /* height: 300px; */
+ }

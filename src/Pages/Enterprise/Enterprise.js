@@ -31,7 +31,7 @@ function Enterprise() {
       </div>
 
       <SliderBar />
-      <div className="spacer"></div>
+      {/* <div className="spacer"></div> */}
       <Teamoffer
         title={
           <>
