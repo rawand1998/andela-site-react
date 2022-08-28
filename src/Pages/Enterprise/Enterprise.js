@@ -4,7 +4,7 @@ import Communction from "../../Components/Common/Communction/Communction";
 import Header from "../../Components/Common/Header/Header";
 import LookingFor from "../../Components/Common/LookingFor/LookingFor";
 import Navbar from "../../Components/Common/NavBar/Navbar";
-import Slider from "../../Components/Common/Slider/Slider";
+import Slider from "../../Components/Common/Slider/Sliders";
 import Footer from "../../Components/Common/Footer/Footer";
 import SubHeader from "../../Components/Common/SubHeader/SubHeader";
 
@@ -31,7 +31,7 @@ function Enterprise() {
       </div>
 
       <SliderBar />
-      <div className="spacer"></div>
+      {/* <div className="spacer"></div> */}
       <Teamoffer
         title={
           <>
