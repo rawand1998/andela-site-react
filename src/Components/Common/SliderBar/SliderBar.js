@@ -15,7 +15,7 @@ function SliderBar() {
 
 
     <div >
-      <h2>We’re in the business of changing lives </h2>
+      <h2>We’re <em>trusted</em> by the best </h2>
       <Slider {...settings}>
         <div>
           <div className="slider-home-bar">

@@ -11,7 +11,7 @@ function Sliders() {
     arrows: false,
   };
   return (
-    <div>
+    <div className="slidersss">
       <h2>We’re in the business of changing lives </h2>
       <Slider {...settings} >
         <div>

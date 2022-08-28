@@ -10,6 +10,7 @@ import SubHeader from "../../Components/Common/SubHeader/SubHeader";
 import Skills from "../../Components/Skills/Skills";
 import Contected from "../../Components/Common/Connected/Contected";
 import "./style.css";
+import LastSlider from "../../Components/Common/LastSlider/LastSlider";
 
 function Home() {
   return (
@@ -148,6 +149,8 @@ function Home() {
       </div>
       <div className="spacer-1"></div>
       <CommitSuccess />
+      <div className="spacer-1"></div>
+      <LastSlider />
       <div className="spacer-1"></div>
       <Contected
         title={
