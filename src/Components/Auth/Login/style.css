@@ -1,0 +1,238 @@
+.login-container{
+    display: flex;
+    background: #B0D6CE;
+}
+.login-img{
+    width: 40%;
+    background-image: url('https://client.andela.com/assets/global/img_pattern_login.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height:625px;
+    
+}
+.login-img img{
+    vertical-align: middle;
+    width: 100%;
+    max-height: unset !important;
+    margin-left: auto;
+}
+.login-form{
+    width: 100%;
+    background-color: rgba(245, 245, 245);
+}
+.login-nvbar{
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+    background-color:#fff;
+    width: 100%;
+    justify-content:space-between;
+    display: flex;
+    padding-left: 8.75rem;
+    padding-right: 8.75rem
+}
+.login-nvbar img{
+    width: 106px;
+    height:32px
+}
+.login-nvbar .login-btn{
+    background-color: transparent;
+    color: #132128 !important;
+    border: 1px solid #132128;
+    box-shadow: inset 0 0px 0px 0.5px #132128 !important;
+    min-width: 8.5rem;
+    height: 3rem;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.2s ease-in, border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    border-radius: 50rem;
+    padding: 0 1rem;
+    font-size: 1rem;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    font-weight: 600;
+    line-height: 1.5;
+    display: inline-flex !important;
+}
+.login-content{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    max-width: 435px;
+    margin-left:30%
+   
+   
+}
+.login-content h3{
+    font-size:1.5rem;
+    text-align: left;
+      align-self: flex-start;
+      margin-bottom: 1.5rem ;
+      margin-top: 3rem ;
+      font-weight: 400;
+}
+.login-content form{
+width: 100%;
+box-sizing: border-box;
+display: block;
+    margin-top: 0em;
+
+}
+.login-content form .username ,.error, .password{
+    position: relative;
+    margin-bottom: 1.5rem !important;
+    outline:none;
+
+}
+.login-content form .username label ,.error label, .password label{
+    color: #132128;
+    margin-bottom: 0.25rem;
+    font-size: 12px;
+    display: inline-block;
+}
+.login-content form .username input , .password input{
+    height:48px;
+    display: block;
+    width: 100%;
+    padding: 0.688rem 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #132128;
+    background-color: #FFFFFF;
+    background-clip: padding-box;
+    border: 1px solid #BBBDC7;
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 0.375rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.login-content form .username input:focus , .password input:focus{
+    border-color: #BBBDC7;
+    box-shadow: 0px 0px 5px 5px #BBBDC7;
+    outline: none;
+}
+.login-content form .username input::placeholder , .password input::placeholder{
+    color: #BBBDC7;
+}
+.password .login-password
+{
+    display: flex;
+    justify-content: space-between;
+}
+.password .login-password .forget-pass{
+    font-size: 0.75em;
+    font-weight: 600;
+    color: #198038;
+}
+.login-content button{
+    background-color: #56C870;
+    color: #132128 ;
+    border: unset;
+    cursor: pointer;
+    min-width: 8.5rem;
+    height: 3rem;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.2s ease-in, border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    border-radius: 50rem;
+    margin-top: 0.25rem ;
+    width: 100% ;
+    display: inline-flex;
+    position: relative;
+}
+.login-content button:hover{
+    background-color:#65cf7e
+}
+button span{
+    color: #132128;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 1rem;
+}
+.login-content p {
+    text-align: center ;
+    margin-top: 1.5rem ;
+    padding-left: 55px;
+}
+.login-content p  a{
+    color: #56C870;
+    cursor: pointer;
+}
+.password .eye-icon{
+    font-size:24px;
+    position: absolute;
+    top: 45px;
+    right: 10px;
+    color: #7A7A7E;
+}
+.error .eye-icon{
+    font-size:24px;
+    position: absolute;
+    top: 48px;
+    right: 40px;
+    color: #7A7A7E;
+}
+.handle{
+    color: #f00;
+    font-size:1rem;
+    visibility: hidden;
+   
+}
+
+.error .handle{
+    visibility: visible;
+}
+.login-content form .error ,.error{
+    margin-bottom: 1.5rem !important;
+    outline:none;
+
+}
+.login-content form .error label ,.error label, .password label{
+    color: #132128;
+    margin-bottom: 0.25rem;
+    font-size: 12px;
+    display: inline-block;
+}
+.login-content form .error input , .login-content form .errorpassword input{
+    height:48px;
+    display: block;
+    width: 100%;
+    padding: 0.688rem 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #132128;
+    background-color: #FFFFFF;
+    background-clip: padding-box;
+    border: 1px solid #DA1E28;
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 0.375rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.login-content form .error input:focus , .login-content form .errorpassword input:focus{
+    border-color: #DA1E28;
+    box-shadow: 0 0px 5px #DA1E28;
+    outline: none;
+}
+.error-handle p {
+    color: #DA1E28;
+    font-size: 14px;
+    text-align:left;
+   margin-left:-12%;
+   margin-top: -4px;
+   
+}
+.error-handle .error-icon{
+    position:absolute;
+top: 50px;
+right:10px;
+color: #DA1E28;
+
+}
