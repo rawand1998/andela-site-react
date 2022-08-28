@@ -6,6 +6,7 @@ import Clients from './Pages/ClientPage/Clients';
 import Enterprise from './Pages/Enterprise/Enterprise'
 import About from './Pages/About/About';
 import Login from './Components/Auth/Login/Login'
+import Register from './Components/Auth/register/Register';
 function App() {
   return (
     <div className="App">
@@ -14,7 +15,8 @@ function App() {
      {/* <Footer /> */}
      {/* <Enterprise /> */}
      {/* <About /> */}
-     <Login />
+     {/* <Login /> */}
+     <Register/>
     </div>
   );
 }
