@@ -1,12 +1,12 @@
-#header-conatiner::before {
+.homes-img #header-conatiner::before {
   background-image: url("https://andela.com/wp-content/uploads/2022/03/green-wash.jpg");
-  /* background:#f00 */
+ 
 }
 .btn {
   position: absolute;
   border-radius: 25px;
   /* bottom:-50%; */
-  top: 90%;
+  top: 85%;
   color: var(--achor-color);
   border: 1px solid var(--button-background-color);
   background-color: var(--button-background-color);

@@ -9,7 +9,7 @@ function ScaleTeam({ img,content }) {
           class="wp-block-columns-scale"
           style={{ flexBasis: "100px", width: "200px" }}
         ></div> */}
-        <div class="wp-block-column">
+        <div class="scale-wp-block-column">
           {content}
           
         </div>
