@@ -1,11 +1,13 @@
 import { useEffect, useState, useRef } from "react"
 import { AiOutlineMenu } from "react-icons/ai";
+import {FaMixer} from "react-icons/fa";
 import {Link} from 'react-router-dom'
 import './style.css'
 function Navbar() {
   const [isSticky, setSticky] = useState(false)
   const element = useRef(null)
   const [visible,setVisible] = useState(false)
+  const [closeSideBar,setCloseSideBar] = useState(false)
   const handleScroll = () => {
     window.scrollY > 150
       ? setSticky(true)
@@ -28,6 +30,9 @@ function Navbar() {
   }
 const changeVisible = ()=>{
   setVisible(true)
+}
+const changeVisibleTohidden = ()=>{
+  setVisible(false)
 }
   useEffect(() => {
     window.addEventListener("scroll", debounce(handleScroll))
@@ -94,7 +99,8 @@ const changeVisible = ()=>{
       </div>
       </div>
     <div className="icon-menu">
-    <AiOutlineMenu onClick={changeVisible}/>
+      {visible ? (<FaMixer onClick={changeVisibleTohidden}/> ):( <AiOutlineMenu onClick={changeVisible}/>)}
+   
     </div>
     </div>
   );

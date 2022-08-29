@@ -208,9 +208,11 @@ function About() {
       <div className="spacer"></div>
         <Contected 
         content={
-<h2>
-Join our global marketplace today<br/>
-</h2>
+          <div className="connected-last-in-home">
+              <h2>
+               Join our globalmarket place<br />  today<br/>
+              </h2>
+              </div>
         }
         
 

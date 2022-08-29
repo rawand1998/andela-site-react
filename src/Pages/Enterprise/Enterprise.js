@@ -33,7 +33,7 @@ function Enterprise() {
       </div>
 
       <SliderBar />
-      {/* <div className="spacer"></div> */}
+    
       <Teamoffer
         title={
           <>
@@ -175,27 +175,7 @@ function Enterprise() {
       <div class="spacer"></div>
       <Slider />
       <div class="spacers"></div>
-{/*  
-      <div className="block-column1 block3">
-        <figure>
-          <img src="https://andela.com/wp-content/uploads/2022/03/Visual-2.png" />
-        </figure>
-        <div
-          class="wp-block-columns"
-          style={{ flexBasis: "100px", width: "200px" }}
-        ></div>
-        <div class="wp-block-column">
-          <h5>Empower your future</h5>
-          <h3 className="title">Why the world’s best talent prefers Andela</h3>
 
-          <ul>
-            <li>Quick and efficient</li>
-            <li>Only top quality options</li>
-            <li>Stress-free hiring of global talent</li>
-          </ul>
-          <a className=" work-btn">Work with us</a>
-        </div>
-      </div> */}
       <div class="spacer"></div>
 
       <div className="lookingfor-backgroungd">
