@@ -150,9 +150,7 @@ function Home() {
         }
       />
       <Skills />
-      <div className="block-covered">
-        {/* <div className="overlay"></div> */}
-      </div>
+      <div className="spacer-1"></div>
       <div className="first-connected-in-home">
       <Contected 
      
