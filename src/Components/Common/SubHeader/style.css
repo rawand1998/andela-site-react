@@ -8,9 +8,10 @@
   top: 24%;
   margin-left: 15px;
   z-index: 1000;
+  padding-left:15px
 }
 .SubHeader-container h1 {
-  width: 550px;
+  width: 600px;
   line-height: 40px;
   font-size: 64px;
   line-height: 72px;

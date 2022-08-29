@@ -19,10 +19,10 @@ function LookingFor({ title,paragraph,img, content, img2, content2, img3, conten
 
       <div class="spacer"></div>
       <div className="lookign-block-column1 looking-block2">
-        <div
+        {/* <div
           class="wp-block-columns"
           style={{ flexBasis: "100px", width: "200px" }}
-        ></div>
+        ></div> */}
         <div class="looking-wp-block-column">{content2}</div>
         <figure>{img2}</figure>
       </div>

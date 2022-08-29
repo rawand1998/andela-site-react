@@ -129,14 +129,14 @@ function About() {
       </div>
       <div className="spacer"></div>
 
-      <div className="block-column1 block3">
-        <div class="wp-block-column">
+      <div className="block-column1-inverstor">
+        <div class="wp-block-column-inverstor">
           <h2 className="inverstor">Our Investors</h2>
-          <p>We are grateful to be backed by some of the best in the world.</p>
+          <p>We are grateful to be backed by some of the best<br/> in the world.</p>
         </div>
 
         <div
-          class="wp-block-columns"
+          class="wp-block-columns-inverstor"
           style={{ flexBasis: "100px", width: "200px" }}
         ></div>
         <figure>
@@ -208,9 +208,11 @@ function About() {
       <div className="spacer"></div>
         <Contected 
         content={
-<h2>
-Join our global marketplace today<br/>
-</h2>
+          <div className="connected-last-in-home">
+              <h2>
+               Join our globalmarket place<br />  today<br/>
+              </h2>
+              </div>
         }
         
 

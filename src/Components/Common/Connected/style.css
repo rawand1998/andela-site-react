@@ -91,6 +91,7 @@
   width: 300%;
 }
 .first-connected-in-home .block-container-connected::before {
+  opacity: 0.6;
   background-image: url("https://andela.com/wp-content/uploads/2022/03/shutterstock_1862846512-1024x717.jpg");
 }
 .content-column-connected {
