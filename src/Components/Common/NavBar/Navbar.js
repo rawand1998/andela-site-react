@@ -1,5 +1,6 @@
 import { useEffect, useState, useRef } from "react"
 import { AiOutlineMenu } from "react-icons/ai";
+import {Link} from 'react-router-dom'
 import './style.css'
 function Navbar() {
   const [isSticky, setSticky] = useState(false)
@@ -51,22 +52,41 @@ function Navbar() {
       <div className="navbar-menu">
         <ul>
           <li>
-            <a>Technologists</a>
+          <Link to="/">
+            <a>
+          
+              Technologists
+              </a>
+              </Link>
           </li>
           <li>
-            <a>Clients</a>
+          <Link to="/clients">
+            <a>
+          Clients
+              </a>
+              </Link>
           </li>
           <li>
-            <a>Enterprise</a>
+          <Link to="/enterprise">
+            <a>
+            Enterprise
+              </a>
+              </Link>
+          
           </li>
           <li>
-            <a>About Us</a>
+          <Link to="/about">
+            <a>
+           About us
+              </a>
+              </Link>
           </li>
         </ul>
       </div>
       <div className="navbar-btns">
-        <a>Find a work</a>
-        <a>Discover Talent</a>
+        
+        <a href="/findwork">Find a work</a>
+        <a href="/register"> Discover Talent</a>
         
       </div>
       </div>

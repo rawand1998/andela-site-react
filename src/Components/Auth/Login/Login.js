@@ -51,7 +51,7 @@ function Login() {
       <div className="login-form">
         <div className="login-nvbar">
           <img src="https://client.andela.com/assets/global/logo_andela.svg" />
-          <a href="#" className="login-btn">
+          <a href="/register" className="login-btn">
             Sign up
           </a>
         </div>
