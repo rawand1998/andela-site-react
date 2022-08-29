@@ -174,7 +174,34 @@
     top: 5rem;
     width: 0.125rem;
   }
+.block-column1-inverstor{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wp-block-column-inverstor{
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
 
+  align-items: flex-start;
+  padding-left:30px
+}
+.wp-block-column-inverstor h2{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  
+  width: 100%;
+}
+.block-column1-inverstor figure{
+  width: 600px;
+
+}
+.block-column1-inverstor figure img{
+  width: 100%;
+  margin-left:-5%
+}
   @media only screen and (max-width: 600px) {
     .about-vedio-container{
       background-color: #173B3F;
