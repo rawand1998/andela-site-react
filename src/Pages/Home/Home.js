@@ -172,6 +172,7 @@ function Home() {
       <div className="spacer-1"></div>
       <LastSlider />
       <div className="spacer-1"></div>
+      <div className="spacer-1"></div>
       <Contected
         content={
           <div className="connected-last-in-home">

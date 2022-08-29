@@ -16,13 +16,13 @@ function App() {
   return (
     <div className="App">
 
-     {/* <Home /> */}
+     <Home />
      {/* <Footer /> */}
      {/* <Enterprise /> */}
      {/* <About /> */}
      {/* <Login /> */}
 
-     <Register/>
+     {/* <Register/> */}
 
      {/* <FindWork /> */}
      {/* <Clients /> */}

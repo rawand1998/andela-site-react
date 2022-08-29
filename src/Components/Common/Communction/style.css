@@ -188,7 +188,9 @@ padding-top: 25px;
 }
 
 
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+  /* .communction-container{margin-top: 120%;} */
+}
 
 
 @media only screen and (min-width: 992px) {
