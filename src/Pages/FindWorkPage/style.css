@@ -1,0 +1,223 @@
+.signup-container{
+    display: flex;
+}
+.sinup-img{
+    width: 40%;
+    background-color:#173B3F;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    color: #fff;
+    
+}
+.singup-logo{
+  
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:25%
+    
+}
+.singup-logo img{
+    width:177px;
+    height: 100%;
+  
+}
+.signup-img-center{
+    text-align: center;
+}
+.signup-img-center img{
+    width: 248px;
+    height:316px
+}
+.signup-img-center .signup-title{
+    color: rgb(159, 215, 196);
+    font-family: serif;
+    font-size: 32px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.signup-img-center .signup-paragraph{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: sans-serif;
+    max-width: 20.3125rem;
+    margin: 0px auto;
+}
+.signup-points{
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.signup-selecter{
+    background-color: rgb(247, 178, 79);
+    width: 0.5rem; 
+    height:0.5rem;
+    border-radius: 50%;
+    margin-left: 0.125rem;
+    margin-right: 0.125rem;
+    margin-top: -0.0625rem;
+}
+.p1{
+    width: 0.5rem; 
+    height:0.5rem;
+    border-radius: 50%;
+    margin-left: 0.125rem;
+    margin-right: 0.125rem;
+    margin-top: -0.0625rem;
+    background-color: rgb(255, 255, 255);;
+}
+.signup-content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: flex-start;
+    max-height: 100vh;
+    overflow: auto;
+    padding-bottom: 1rem;
+    flex-direction: column;
+}
+.signup-content .signup-divs{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 2rem auto 0px;
+    max-width: 40.5rem;
+}
+.signup-content .signup-divs .signup-selecter-divs{
+    flex: 1 1 0%;
+    height: 0.3125rem;
+    border-radius: 0.375rem;
+    background-color: rgb(86, 200, 112);
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+}
+.singup-style{
+    flex: 1 1 0%;
+    height: 0.3125rem;
+    border-radius: 0.375rem;
+    background-color: rgb(232, 234, 239);
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+}
+
+.signup-content-title{
+    text-align: center;
+    font-family: serif;
+    font-size: 24px;
+    font-weight: 400;
+    max-width: 26.25rem;
+    margin: 15px auto;
+    width: 100%;
+} 
+.signup-content-title span{
+    color: rgb(86, 200, 112);
+    font-style: italic;}
+.signup-form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 33.5rem;
+    margin: 2rem auto 0px;
+
+}
+.signup-form .first-name {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: rgb(165, 170, 181);
+    text-align: left;
+    margin-left: 0.75rem;
+    margin-top: 1rem;
+}
+.signup-input{
+    width: 100%;
+    border: 1px solid rgb(220, 226, 249);
+    border-radius: 0.25rem;
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    padding: 0.75rem 1rem;
+    margin-top: 0.75rem;
+}
+.signup-input .svg{
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-top: -0.375rem;
+    margin-left: -0.625rem;
+    margin-right: 0.25rem;
+}
+.signup-input input{
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 10px;
+}
+.signup-input .svg {
+    width: 35px;
+    height: 35px;
+    color: rgb(220, 226, 249);
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.signup-input select{
+    width: 100%;
+    margin-left: 0.5rem;
+    border: 0px;
+    font-size: 16px;
+    color: rgb(31, 44, 70);
+    font-family: sans-serif;
+    text-align: left;
+    padding: 0px;
+    outline: 0px;
+    appearance: none;
+}
+select option{
+    font-weight: normal;
+    display: block;
+    white-space: nowrap;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+.singup-checkbox{
+    text-align: center;
+    margin: 1rem auto;
+    max-width: 32.5rem;
+}
+.singup-checkbox .checkbox{
+    font-size: 12px;
+    text-align: left;
+    color: rgb(165, 170, 181);
+}
+.singup-checkbox .checkbox a{
+    color: rgb(31, 44, 70);
+    cursor: pointer;
+}
+.singup-button{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+.singup-button button{
+    background-color: rgb(86, 200, 112);
+    width: fit-content;
+    padding: 0.5rem 1rem;
+    color: rgb(255, 255, 255);
+    border-radius: 2.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    border: 1px solid rgba(255, 255, 255, 0);
+    font-family: sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    min-width: 5.875rem;
+    background-color: rgb(86, 200, 112);
+}

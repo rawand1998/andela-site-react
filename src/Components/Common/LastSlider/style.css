@@ -1,0 +1,89 @@
+.last-slide-conatiner
+{
+    height:500px;
+   
+}
+.sliderss{
+    width: 1900px;
+}
+.sliderss h2{
+    font-size: 40px;
+    /* width:600px; */
+    margin-left: -20%;
+    text-align: center;
+}
+.sliderss p{
+    text-align: center;
+}
+.last-slide-one{
+    background-image: url('https://andela.com/wp-content/plugins/andela-custom-block-styles/images/circle-accent-purple.svg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    
+    
+    
+}
+.two{
+    background-image: url('https://andela.com/wp-content/plugins/andela-custom-block-styles/images/circle-accent-yellow.svg');
+}
+
+.last-slide{
+    
+        width: 600px!important;
+        height: 370px!important;
+       
+        background-size: 50%;
+        background: #4A1476;
+        border-radius: 12px;
+        margin: 16px;
+        padding: 32px 24px;
+      
+        
+      
+        transition: all .25s ease-in-out;
+      
+}
+.two-slide{
+    background-color: #C95227;
+    
+}
+.three{
+    background-image: url('https://andela.com/wp-content/plugins/andela-custom-block-styles/images/circle-accent-red.svg');
+}
+.three-slide{
+    background-color:#701340
+
+}
+.last-slide-content{
+    width: 48%;
+    padding-top: 8%;
+  
+}
+.last-slide-content .last-slide-title{
+    font-family: 'Inria Serif','Garamond',serif;
+    font-style: italic;
+    margin-bottom: 12px;
+    color: #fff;
+}
+.last-slide-content .para-btn {
+    color: #fff!important;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    display: block;
+    margin-bottom: 24px;
+}
+.last-slide-content .btn-slide-last{
+    border: 1px solid #56C870;
+    background-color: #56C870;
+    border-radius: 48px;
+    padding: 24px 40px;
+    font-size: 18px!important;
+    color: #173B3F;
+    line-height: 1;
+    text-decoration: none;
+    font-weight: 400;
+    transition: all .25s ease-in-out;
+}

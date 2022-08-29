@@ -4,12 +4,13 @@ import Communction from "../../Components/Common/Communction/Communction";
 import Header from "../../Components/Common/Header/Header";
 import LookingFor from "../../Components/Common/LookingFor/LookingFor";
 import Navbar from "../../Components/Common/NavBar/Navbar";
-import Slider from "../../Components/Common/Slider/Slider";
+import Sliders from "../../Components/Common/Slider/Sliders";
 import Footer from "../../Components/Common/Footer/Footer";
 import SubHeader from "../../Components/Common/SubHeader/SubHeader";
 import Skills from "../../Components/Skills/Skills";
 import Contected from "../../Components/Common/Connected/Contected";
 import "./style.css";
+import LastSlider from "../../Components/Common/LastSlider/LastSlider";
 
 function Home() {
   return (
@@ -24,7 +25,7 @@ function Home() {
       </Header>
       <a className="btn">Find Work</a>
       <div className="spacer"></div>
-      <Slider />
+      <Sliders />
       <div className="spacer-2"></div>
       <div className="vedio-conatiner">
         <div className="vedio-inner">
@@ -148,6 +149,8 @@ function Home() {
       </div>
       <div className="spacer-1"></div>
       <CommitSuccess />
+      <div className="spacer-1"></div>
+      <LastSlider />
       <div className="spacer-1"></div>
       <Contected
         title={
