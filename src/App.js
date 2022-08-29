@@ -19,10 +19,10 @@ function App() {
      {/* <Home /> */}
      {/* <Footer /> */}
      {/* <Enterprise /> */}
-     <About />
+     {/* <About /> */}
      {/* <Login /> */}
 
-     {/* <Register/> */}
+     <Register/>
 
      {/* <FindWork /> */}
      {/* <Clients /> */}
