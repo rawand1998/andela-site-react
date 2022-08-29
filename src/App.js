@@ -10,13 +10,14 @@ import Login from './Components/Auth/Login/Login'
 import Register from './Components/Auth/register/Register';
 
 import FindWork from './Pages/FindWorkPage/FindWork';
+import Contected from './Components/Common/Connected/Contected';
 
 function App() {
   return (
     <div className="App">
 
-     {/* <Home /> */}
-     <Footer />
+     <Home />
+     {/* <Footer /> */}
      {/* <Enterprise /> */}
      {/* <About /> */}
      {/* <Login /> */}
@@ -25,6 +26,7 @@ function App() {
 
      {/* <FindWork /> */}
      {/* <Clients /> */}
+     {/* <Contected /> */}
 
     </div>
   );

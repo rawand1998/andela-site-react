@@ -1,18 +1,18 @@
 import React from 'react'
 import './style.css'
-function Contected({title,buttonTitle}) {
+function Contected({content}) {
   return (
-    <div className="block-container block2">
+   
+    <div className="block-container-connected block2-connnected">
     <div className="overlay"></div>
-    <div className="content-column">
+    <div className="content-column-connected">
       <div className="inner-content">
         <div className="block-covered-content">
-          <h2>{title}
-          </h2>
-          <a className="btn">{buttonTitle}</a>
+          {content}
         </div>
       </div>
     </div>
+  
   </div>
   )
 }
