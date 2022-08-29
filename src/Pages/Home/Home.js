@@ -44,7 +44,12 @@ function Home() {
       </div>
       <div className="spacer"></div>
       <LookingFor
-      title={<> <em>Find</em> what you’re looking for and more</>}
+        title={
+          <>
+            {" "}
+            <em>Find</em> what you’re looking for and more
+          </>
+        }
         img={
           <img src="https://andela.com/wp-content/uploads/2022/03/shutterstock_1660490494-1024x683.jpg" />
         }
@@ -103,65 +108,83 @@ function Home() {
         }
       />
       <div className="spacer-1"></div>
-      <Communction title={<><em>Spark</em><br /> thoushand <br/>communction<br/></> }
-      paragraph={<>Becoming part of a community <br/>has never been easier.</>}
-      button="Get Started"
-      list={
-        <>
-         <li>
-                    <strong>Demonstrate your skills</strong>
-                    <br/>
-                    Join our expert community by completing a short assessment to showcase your skills.
-                </li>
-                <li>
-                    <strong>Personalized matching</strong>
-                    <br/>
-                    You’ve done the work to build your experience and knowledge. Now we’ll find your dream role through enhancing your profile, career coaching, and introducing you to the world’s most innovative companies.
-                </li>
-                <li>
-                    <strong>Unlock your potential</strong>
-                    <br/>
-                    Once you land your perfect role, Andela is here to support you to hone your craft and achieve your goals.
-                </li>
-        </>
-      }
+      <Communction
+        title={
+          <>
+            <em>Spark</em>
+            <br /> thoushand <br />
+            communction
+            <br />
+          </>
+        }
+        paragraph={
+          <>
+            Becoming part of a community <br />
+            has never been easier.
+          </>
+        }
+        button="Get Started"
+        list={
+          <>
+            <li>
+              <strong>Demonstrate your skills</strong>
+              <br />
+              Join our expert community by completing a short assessment to
+              showcase your skills.
+            </li>
+            <li>
+              <strong>Personalized matching</strong>
+              <br />
+              You’ve done the work to build your experience and knowledge. Now
+              we’ll find your dream role through enhancing your profile, career
+              coaching, and introducing you to the world’s most innovative
+              companies.
+            </li>
+            <li>
+              <strong>Unlock your potential</strong>
+              <br />
+              Once you land your perfect role, Andela is here to support you to
+              hone your craft and achieve your goals.
+            </li>
+          </>
+        }
       />
       <Skills />
-      <div className="block-covered">
-        {/* <div className="overlay"></div> */}
-      </div>
-      <div className="block-container block1">
-        <div className="overlay"></div>
-        <div className="content-column">
-          <div className="inner-content">
-            <div className="block-covered-content">
-              <h2>
-                <em>Grow your potential beyond borders</em>
-              </h2>
-              <p>
-                Connect with a global network and land international
-                opportunities.
-              </p>
-              <a>Discover opportunities</a>
-            </div>
-          </div>
-        </div>
-      </div>
+      <div className="spacer-1"></div>
+      <div className="first-connected-in-home">
+      <Contected 
+     
+      content={
+        <>
+          <h2>Grow your potential beyond borders</h2>
+          <p>
+            Connect with a global network and land international
+            opportunities.
+          </p>
+          <a>Discover opportunities</a>
+          </>
+      }
+    />
+    </div>
+    
       <div className="spacer-1"></div>
       <CommitSuccess />
       <div className="spacer-1"></div>
       <LastSlider />
       <div className="spacer-1"></div>
+      <div className="spacer-1"></div>
       <Contected
-        title={
-          <h2>
-            Connecting your
-            <em>brilliance</em>
-            <br />
-            with opportunity
-          </h2>
+        content={
+          <div className="connected-last-in-home">
+            <h2>
+              Connecting your
+              <em>brilliance</em>
+              <br />
+              with opportunity
+            </h2>
+            <a>Find Work</a>
+          </div>
         }
-        buttonTitle="Find Work"
       />
       <Footer />
     </div>

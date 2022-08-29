@@ -54,11 +54,11 @@
 .spacer {
   height: 80px;
 }
-p {
+/* p {
   position: relative;
   left: 0;
   margin-left: -18%;
-}
+} */
 .space {
   height: 48px;
 }

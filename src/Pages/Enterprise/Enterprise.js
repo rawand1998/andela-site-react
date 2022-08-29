@@ -159,14 +159,14 @@ function Enterprise() {
       <div className="spacer"></div>
       <ScaleTeam img={<img src="https://andela.com/wp-content/uploads/2022/03/section-image-7-1024x897.png"/>}
       content={<>
-      <h3></h3>
-      <p></p>
+      <h3>Hire Individuals</h3>
+      <p>Find the right technologist to complement your existing team and hit the ground running on impactful initiatives.</p>
+
+        <h3>Build Teams</h3>
+      <p>Scale rapidly with a full team of technologists embedded at your company to unlock more growth and potential.</p>
+        <a>Work with us</a>
       </>}
-        h3=" Scaling your team globally has never been this easy"
-        p=" Skilled engineers, product managers, and designers at your
-        fingertips. An extensive list of technical services to suit your
-        business needs. Cost-effective option for world-class expertise."
-        button="Work with us" />
+       />
       <div className="spacer"></div>
 
       <ElevateSkill />

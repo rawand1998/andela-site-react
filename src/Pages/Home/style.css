@@ -1,262 +1,139 @@
+#header-conatiner::before {
+  background-image: url("https://andela.com/wp-content/uploads/2022/03/green-wash.jpg");
+  /* background:#f00 */
+}
+.btn {
+  position: absolute;
+  border-radius: 25px;
+  /* bottom:-50%; */
+  top: 90%;
+  color: var(--achor-color);
+  border: 1px solid var(--button-background-color);
+  background-color: var(--button-background-color);
+  border-radius: 48px;
+  padding: 24px 40px;
+  font-size: 18px !important;
 
-#header-conatiner::before{
-    background-image:url('https://andela.com/wp-content/uploads/2022/03/green-wash.jpg');
-    /* background:#f00 */
+  line-height: 1;
+  text-decoration: none;
+  font-weight: 400;
+  margin-left: 15px;
+  z-index: 1111;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
 }
-.btn{
-    position:absolute;
-    border-radius: 25px;
- /* bottom:-50%; */
- top: 90%;
-   color: var(--achor-color);
-   border: 1px solid var( --button-background-color);
-   background-color: var( --button-background-color);
-    border-radius: 48px;
-    padding: 24px 40px;
-    font-size: 18px!important;
- 
-    line-height: 1;
-    text-decoration: none;
-    font-weight: 400;
-    margin-left:15px;
-    z-index: 1111;
-    transition: all 0.5s ease-in-out;
-    cursor: pointer;
-  
-    
+.btn:hover {
+  transform: scale(1.05);
 }
-.btn:hover{
-    transform: scale(1.05)
+.spacer {
+  height: 80px;
 }
-.spacer{
-    height:80px
+.spacer-2 {
+  height: 48px;
 }
-.spacer-2{
-    height:48px;
+.vedio-conatiner {
+  background-color: var(--background-green);
+  margin: 0 auto;
+  padding-top: 36px;
+  padding-bottom: 24px;
 }
-.vedio-conatiner{
-    background-color:var( --background-green);
-    margin:0 auto;
-    padding-top: 36px;
-    padding-bottom: 24px;
+.vedio-inner {
+  padding: 0px 20px;
+  max-width: 1320px;
+  margin: 0px auto;
+  color: var(--white);
 }
-.vedio-inner{
-    padding: 0px 20px;
-    max-width: 1320px;
-    margin: 0px auto;
-    color: var(--white);
+.vedio-inner h2 {
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: var(--white);
 }
-.vedio-inner h2{
-    font-size:40px;
-    line-height:48px;
-    text-align: center;
-    color: var(--white);
+.vedio-inner p {
+  margin: 0px auto 24px;
+  text-align: center;
 }
-.vedio-inner p{
-    margin: 0px auto 24px;
-    text-align:center;
-}
-.vedio-box{
-    width:800px;
-    height:450px;
-    margin-left: 15%;
+.vedio-box {
+  width: 800px;
+  height: 450px;
+  margin-left: 15%;
 }
 .vedio-box figure {
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
-.vedio-box figure a img{
+.vedio-box figure a img {
+  width: 100%;
+  height: 100%;
+}
+.spacer-1 {
+  height: 80px;
+}
+
+.content-column {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  z-index: 1111;
+  position: relative;
+  color: var(--white);
+  max-width: 1320px;
+  margin: 0px auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .vedio-box {
+    width: 450px;
+    height: 450px;
+    margin-left: 0%;
+  }
+  .vedio-box figure {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .vedio-box figure a img {
     width: 100%;
     height: 100%;
+  }
+  .vedio-conatiner {
+    height: 500px;
+  }
 }
-.spacer-1{
-    height:80px
-}
-
-.content-column{
-    display: flex;
-    justify-content:space-around;
-    width:100%;
-    z-index: 1111;
-    position: relative;
-    color: var(--white);
-    max-width: 1320px;
-    margin: 0px auto;
-}
-
-.block-container {
-    width: 100%;
-    min-height: 540px;
-    background-color: var(--achor-color);
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-    box-sizing: border-box;
+@media only screen and (min-width: 600px) {
+  .vedio-conatiner {
+    height: 500px;
+  }
+  .vedio-box {
+    width: 900px;
+    height: 450px;
+    margin-left: 1%;
+  }
 }
 
-
-.block-container::before{
-    
-    background-image: url('https://andela.com/wp-content/uploads/2022/03/shutterstock_1862846512-scaled.jpg');
-    width: 100%;
-    min-height: 540px;
-    content:'';
-    position: absolute;
-    top: 0;
-    background-position:50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    left: 0;
-    background-color: var(--achor-color);
-   
-}
-.block2::before{
-    background-image: url('https://andela.com/wp-content/uploads/2022/03/african-american-young-programmer-working-remote-f-2022-03-25-18-49-53-utc.jpg');
-    min-height: 450px;
-   
-}
-.overlay{
-    position: absolute;
-    background-color: var(--achor-color);
-    opacity:0.6;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    color: var(--white);
-    z-index: 1;
-}
-.block2{
-    min-height: 450px;
-}
- .block1 .overlay{
-    opacity: 0.8;
-}
-.block2 .overlay{
-    opacity: 0.6;
-}
-.inner-content{
-    margin-bottom: 1.75em;
-    box-sizing: border-box;
-    flex-wrap: nowrap;
-    padding-left:10px;
-    width: 100%;
-}
-.block-container h2{
-    color: var(--white);
-   
-}
-.block2 .inner-content{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: -5%;
-   
+@media only screen and (min-width: 768px) {
+  .vedio-conatiner {
+    height: 700px;
+  }
 }
 
-.block-container a{
-position:absolute;
-border-radius: 25px;
-bottom: -50%;
-  color: var(--achor-color);
-  border: 1px solid var( --button-background-color);
-  background-color: var( --button-background-color);
-   border-radius: 48px;
-   padding: 24px 40px;
-   font-size: 18px!important;
-   line-height: 1;
-   text-decoration: none;
-   font-weight: 400;
-   transition: all .25s ease-in-out;
-   margin-left:15px;
-   z-index: 1111;
-   transition: all 0.5s ease-in-out;
-   cursor: pointer;
+@media only screen and (min-width: 992px) {
+  .vedio-conatiner {
+    height: 750px;
+  }
+  .vedio-box {
+    width: 900px;
+    height: 450px;
+    margin-left: 5%;
+  }
 }
- 
-.block-container a:hover{
-    transform: scale(1.05)
-}
-.block2 .btn{
-    padding: 30px 40px;
-    margin-left: 10%;
-    height:60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-@media (min-width: 320px) and (max-width: 425px) {
-    .block2{
-        margin-top: 0px;
-    }
-   .block2 .btn{
-        bottom: -15%;
-        left: 0;
-     
-    }
- 
-    .vedio-inner{
-       
-       width:100%;
-       height:450px
-        
-    }
-    .vedio-box{
-        width:100%;
-        height:450px;
-        margin-left: 0%;
-    }
-    .block1 a{
-      left: 0;
-      bottom: -15%;
-    }
-    .block-container{
-      width: 120%;
-       
-    }
-    .block2 .btn{
-        margin-left:25%
-    }
 
-    
+@media only screen and (min-width: 1200px) {
+  .vedio-conatiner {
+    height: 800px;
+  }
+  .vedio-box {
+    width: 900px;
+    height: 450px;
+    margin-left: 15%;
+  }
 }
-@media (min-width: 768px) and (max-width:1040px)  {
-    .btn{
-        /* bottom: 15%; */
-        top: 0;
-        top: 75%;
-       
-    }
-    .block2{
-        margin-top: 0px;
-    }
-    .vedio-box{
-        margin-left: 0%;
-    }
-    .block2 .btn{
-        margin-left:20%;
- 
-        padding: 24px 40px;
-        height:68px
-    }
-
-}
-/* @media  (min-width: 1020px){
-    .btn{
-       
-        top: 45%;
-      
-    }
-    .vedio-box{
-        width:800px;
-        height:450px;
-        margin-left: 15%;
-    }
-    .block2 .btn{
-        margin-left:10%
-    }
-} */

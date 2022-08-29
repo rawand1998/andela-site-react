@@ -12,6 +12,7 @@ function Sliders() {
   };
   return (
     <div className="slidersss">
+      <div className="b-side">
       <h2>We’re in the business of changing lives </h2>
       <Slider {...settings} >
         <div>
@@ -117,6 +118,7 @@ function Sliders() {
           
         </div>
       </Slider>
+    </div>
     </div>
   );
 }

@@ -207,10 +207,12 @@ function About() {
 
       <div className="spacer"></div>
         <Contected 
-        title={<h2>
+        content={
+<h2>
 Join our global marketplace today<br/>
 </h2>
-} 
+        }
+        
 
 buttonTitle="Sign up"
 />
