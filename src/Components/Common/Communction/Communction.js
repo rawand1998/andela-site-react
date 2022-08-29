@@ -7,9 +7,9 @@ function Communction({title,paragraph,button,list,overlay}) {
     <div className="communction-container">
   <div className="overlay">
         </div>
-        <div className="content-column">
+        <div className="content-column-communction">
             <div className="spacer-1"></div>
-            <div className="inner-content">
+            <div className="inner-content-communction">
             <div className="conent-col1">
                 <h1>{title}</h1>
                 <p>{paragraph}</p>
