@@ -18,14 +18,14 @@ function App() {
 
      {/* <Home /> */}
      {/* <Footer /> */}
-     {/* <Enterprise /> */}
+     <Enterprise />
      {/* <About /> */}
      {/* <Login /> */}
 
      {/* <Register/> */}
 
      {/* <FindWork /> */}
-     <Clients />
+     {/* <Clients /> */}
      {/* <Contected /> */}
 
     </div>
