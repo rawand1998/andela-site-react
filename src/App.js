@@ -18,8 +18,8 @@ function App() {
 
      {/* <Home /> */}
      {/* <Footer /> */}
-     <Enterprise />
-     {/* <About /> */}
+     {/* <Enterprise /> */}
+     <About />
      {/* <Login /> */}
 
      {/* <Register/> */}

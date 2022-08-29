@@ -174,7 +174,69 @@
     top: 5rem;
     width: 0.125rem;
   }
+
+  @media only screen and (max-width: 600px) {
+    .about-vedio-container{
+      background-color: #173B3F;
+      color: #fff;
+      box-sizing: border-box;
+      height:550px
+    }
+    .figures{
+      columns:3;
+    }
+    .figure-content{
+      line-height:1.8;
+      background-color: #f00
+    }
+    .figures figure div{
+    
+      line-height:15px;
+   
+  }
+  }
+
+
+@media only screen and (min-width: 600px) {
+  .figures{
+    columns:4;
+  }
+  .figures figure div{
+    
+    line-height:15px;
  
+}
+}
+
+
+@media only screen and (min-width: 768px) {
+  .figures{
+    columns:6;
+  }
+  .figures figure div{
+    
+    line-height:15px;
+ 
+}
+}
+
+@media only screen and (min-width: 992px) {
+  .figures figure div{
+    
+    line-height:15px;
+ 
+}
+}
+
+
+@media only screen and (min-width: 1200px) {
+  .figures figure div{
+    
+    line-height:8px;
+ 
+}
+}
+/*  
 @media (min-width: 320px) and (max-width: 425px) {
     .figures {
         columns:1
@@ -231,4 +293,4 @@
         display:flex;
         flex-direction: column;
       }
-}
+} */

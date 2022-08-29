@@ -143,6 +143,15 @@
   .elevlate-skills-col1 a {
     margin-left: 30%;
   }
+  .elevlate-skills-col1 h2{
+    font-size:30px;
+    width: 400px;
+    padding-left:10%
+  }
+  .elevlate-skills-col1  p{
+    width: 400px;
+    padding-left:15%
+  }
 }
 
 @media only screen and (min-width: 600px) {
