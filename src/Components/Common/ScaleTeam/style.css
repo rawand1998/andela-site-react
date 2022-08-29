@@ -1,26 +1,49 @@
-.wp-block-column .work-us {
-    background-color: #56C870;
-    color: #173B3F;
-    border: 1px solid #56C870;
-    background-color: #56C870;
-    border-radius: 48px;
-    padding: 24px 40px;
-    font-size: 18px!important;
-    color: #173B3F;
-    line-height: 1;
-    text-decoration: none;
-    font-weight: 400;
-    transition: all .25s ease-in-out;
-    cursor: pointer;
+.scale-team-container {
+  display: flex;
+}
+.scale-team-container figure {
+  width: 600px;
+  margin-left: 2%;
+}
+.scale-team-container figure img {
+  width: 100%;
+}
+.scale-team-container .wp-block-column a {
+  border: 1px solid #56c870;
+  background-color: #56c870;
+  border-radius: 48px;
+  padding: 24px 40px;
+  font-size: 18px !important;
+  color: #173b3f;
+  line-height: 1;
+  text-decoration: none;
+  font-weight: 400;
+  transition: all 0.25s ease-in-out;
+}
+.scale-team-container a:hover {
+  transform: scale(1.09);
+}
+@media only screen and (max-width: 600px) {
+  .scale-team-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .scale-team-container figure {
+    width: 300px;
+    margin-left: 2%;
+  }
+  .wp-block-column {
+    display: flex;
+    flex-direction: column;
 
-}
-.wp-block-column .work-us{
-    margin-left:2%
-}
-.wp-block-column .work-btn{
-    margin-left:15%
-}
-.wp-block-column p{
-    padding-left: 20%;
-    padding-right: 2%;
+    justify-content: center;
+    align-items: center;
+  
+  
+  }
+  .wp-block-column p {
+    width: 400px;
+  }
 }

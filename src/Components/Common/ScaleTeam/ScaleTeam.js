@@ -1,14 +1,14 @@
 import React from "react";
 import "./style.css";
-function ScaleTeam({ img, h3, p, button,content }) {
+function ScaleTeam({ img,content }) {
   return (
     <div>
-      <div className="block-column1 block3">
+      <div className="scale-team-container">
         <figure>{img}</figure>
-        <div
-          class="wp-block-columns"
+        {/* <div
+          class="wp-block-columns-scale"
           style={{ flexBasis: "100px", width: "200px" }}
-        ></div>
+        ></div> */}
         <div class="wp-block-column">
           {content}
           
