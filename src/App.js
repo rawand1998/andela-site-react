@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App">
 
-     <Home />
+     {/* <Home /> */}
      {/* <Footer /> */}
      {/* <Enterprise /> */}
      {/* <About /> */}
@@ -25,7 +25,7 @@ function App() {
      {/* <Register/> */}
 
      {/* <FindWork /> */}
-     {/* <Clients /> */}
+     <Clients />
      {/* <Contected /> */}
 
     </div>
