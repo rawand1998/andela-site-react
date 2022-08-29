@@ -40,34 +40,45 @@
     font-family: 'Inter',sans-serif;
     font-size:18px
 }
-@media (min-width: 320px) and (max-width: 425px) {
-    .wp-block-columns{
-        flex-direction: column;
-        max-width: 100%;
-    }
-    .wp-block-1{
-        width: 100%;
-    }
-    .wp-block-2{
-        width: 100%;
-    }
-    .wp-block-1 h2{
-        margin-left: 0%;
-    }
+@media only screen and (max-width: 600px) {
+.wp-block-columns{
+
+    flex-direction: column
+}
+.wp-block-1 h2{
+    margin-left: 0%;
+    font-size:40px;
+    font-weight:400;
+    color: #132128;
 
 }
-@media (min-width: 768px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
     .wp-block-columns{
-      
-        max-width: 100%;
+
+        flex-direction: column
     }
     .wp-block-1 h2{
-        margin-left: 0%;
-    }
-    .wp-block-1{
-        max-width: 40%;
-    }
-    .wp-block-2{
-        max-width: 50%;
+        margin-left: 20%;
+        font-size:40px;
+        width: 400px;
+    
     }
 }
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .wp-block-columns{
+
+        flex-direction: row
+    }
+    .wp-block-1 h2{
+        margin-left: -20%;
+        font-size:40px;
+        width: 400px;
+    
+    }
+}
+
