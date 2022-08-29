@@ -5,6 +5,7 @@ import './style.css'
 function Navbar() {
   const [isSticky, setSticky] = useState(false)
   const element = useRef(null)
+  const [visible,setVisible] = useState(false)
   const handleScroll = () => {
     window.scrollY > 150
       ? setSticky(true)
@@ -25,7 +26,9 @@ function Navbar() {
       if (callNow) func.apply(context, args)
     }
   }
-
+const changeVisible = ()=>{
+  setVisible(true)
+}
   useEffect(() => {
     window.addEventListener("scroll", debounce(handleScroll))
     return () => {
@@ -48,7 +51,7 @@ function Navbar() {
         )}
        
       </div>
-      <div className="nav">
+      <div className={visible?'side-nav-visible':'nav'}>
       <div className="navbar-menu">
         <ul>
           <li>
@@ -90,9 +93,9 @@ function Navbar() {
         
       </div>
       </div>
-    {/* <div className="icon-menu">
-    <AiOutlineMenu />
-    </div> */}
+    <div className="icon-menu">
+    <AiOutlineMenu onClick={changeVisible}/>
+    </div>
     </div>
   );
 }
