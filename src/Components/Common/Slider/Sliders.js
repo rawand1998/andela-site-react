@@ -14,6 +14,7 @@ function Sliders() {
     <div className="slidersss">
       <div className="b-side">
       <h2>We’re in the business of changing lives </h2>
+      <div className="spacer"></div>
       <Slider {...settings} >
         <div>
           <div className="slider-home">

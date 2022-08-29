@@ -152,7 +152,7 @@ function Home() {
         }
       />
       <Skills />
-      <div className="spacer-1"></div>
+      
       <div className="first-connected-in-home">
       <Contected 
      
