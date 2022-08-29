@@ -16,6 +16,7 @@ import ScaleTeam from "../../Components/Common/ScaleTeam/ScaleTeam";
 function Enterprise() {
   return (
     <div className="enter">
+      <div className="inter-img">
       <Header className="home" id="header-conatiner">
         <Navbar />
         <SubHeader
@@ -25,6 +26,7 @@ function Enterprise() {
                         with vetted companies and competitive compensation."
         />
       </Header>
+      </div>
       <div className="enterprise-btn">
         <a className="">Schedule a call</a>
         <a className="">Wacth in overview</a>
@@ -173,7 +175,7 @@ function Enterprise() {
       <div class="spacer"></div>
       <Slider />
       <div class="spacers"></div>
- 
+{/*  
       <div className="block-column1 block3">
         <figure>
           <img src="https://andela.com/wp-content/uploads/2022/03/Visual-2.png" />
@@ -193,7 +195,7 @@ function Enterprise() {
           </ul>
           <a className=" work-btn">Work with us</a>
         </div>
-      </div>
+      </div> */}
       <div class="spacer"></div>
 
       <div className="lookingfor-backgroungd">

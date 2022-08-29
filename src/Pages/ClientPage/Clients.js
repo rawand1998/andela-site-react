@@ -15,6 +15,7 @@ import LastSlider from "../../Components/Common/LastSlider/LastSlider";
 function Clients() {
   return (
     <div>
+      <div className="clients-img">
       <Header className="home" id="header-conatiner">
         <Navbar />
         <SubHeader
@@ -25,6 +26,7 @@ function Clients() {
           description="Accelerate innovation with vetted technical talent."
         />
       </Header>
+      </div>
       <a className="btn">Discover Talent</a>
       <SliderBar />
       

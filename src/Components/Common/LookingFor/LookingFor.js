@@ -34,7 +34,7 @@ function LookingFor({ title,paragraph,img, content, img2, content2, img3, conten
           class="looking-wp-block-columns"
           style={{ flexBasis: "100px", width: "200px" }}
         ></div>
-        <div class="wp-block-column">{content3}</div>
+        <div class="looking-wp-block-column">{content3}</div>
       </div>
     </div>
   );

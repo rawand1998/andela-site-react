@@ -14,7 +14,8 @@ import LastSlider from "../../Components/Common/LastSlider/LastSlider";
 
 function Home() {
   return (
-    <div>
+    <div className="homes-img">
+      <div>
       <Header className="home" id="header-conatiner">
         <Navbar />
         <SubHeader
@@ -23,6 +24,7 @@ function Home() {
                         with vetted companies and competitive compensation."
         />
       </Header>
+      </div>
       <a className="btn">Find Work</a>
       <div className="spacer"></div>
       <Sliders />
