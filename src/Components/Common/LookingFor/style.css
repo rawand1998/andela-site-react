@@ -52,6 +52,9 @@ h2 {
 .block2 .wp-block-column ul{
     margin-left: -18%;
 }
+.paragraph{
+  margin-left:-40%
+}
 @media (min-width: 320px) and (max-width: 425px) {
   .block-column1 {
     display: flex;

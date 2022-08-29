@@ -14,7 +14,7 @@ function SliderBar() {
     <div className="side">
 
 
-    <div >
+    <div className="b-side" >
       <h2>We’re <em>trusted</em> by the best </h2>
       <Slider {...settings}>
         <div>

@@ -230,9 +230,19 @@ together to build the future.
       <div class="spacer"></div>
       <ElevateSkill />
      
-      <Contected title={<h2>
-Grow your business and accelerate<br/>
-innovation with Andela</h2>} buttonTitle="Sign up"/>
+      <Contected
+        content={
+          <div className="connected-last-in-home">
+            <h2>
+              Connecting your
+              <em>brilliance</em>
+              <br />
+              with opportunity
+            </h2>
+            <a>Find Work</a>
+          </div>
+        }
+      />
 <Footer />
     </div>
   );

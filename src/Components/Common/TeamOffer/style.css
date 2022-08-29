@@ -44,7 +44,7 @@
     }
   }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
+
 @media only screen and (min-width: 600px) {
 
   .offer-blocks {
@@ -54,7 +54,7 @@
   }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
+
 @media only screen and (min-width: 768px) {
 
   .offer-blocks {
@@ -64,7 +64,6 @@
   }
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 
   .offer-blocks {
@@ -74,7 +73,6 @@
   }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 
   .offer-blocks {
@@ -83,58 +81,3 @@
     flex-direction: row;
   }
 }
-/* 
-  @media only screen and (min-width: 768px) and(max-width:1020px) {
-   
-    .offer-conatiner {
-      width: 185%;
-    }
-    .offer-blocks {
-      flex-direction: column;
-   
-    }
-    .offer-block-1 {
-      margin-left: 0%;
-      align-self: center;
-  
-      flex-basis: 100% !important;
-     
-    }
-    .offer-block-1 p {
-      line-height: 24px;
-      font-size: 18px;
-    }
-    
-   
-  }
-  
-  @media (min-width: 320px) and (max-width: 425px) {
-   
-    .offer-conatiner {
-      width: 185%;
-    }
-    .offer-blocks {
-      flex-direction: column;
-    }
-    .offer-block-1 {
-      margin-left: 0%;
-      align-self: center;
-  
-      flex-basis: 100% !important;
-      width: 280px;
-    }
-    .offer-block-1 p {
-      line-height: 24px;
-      font-size: 18px;
-  
-    } 
-    .offer-block h2{
-      margin-left: 5%;
-      width: 500px;
-    }
-    .offer-block p {
-      margin-left: 5%;
-      width: 400px;
-    }
-   
-   }  */
