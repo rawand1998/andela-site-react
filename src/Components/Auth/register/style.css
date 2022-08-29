@@ -208,3 +208,116 @@ button:hover{
    text-align: left;
    font-size: 12px;
 }
+
+@media only screen and (max-width: 600px) {
+    .talent-container {
+      display: flex;
+      flex-direction: column;
+    }
+    .talent-content {
+      margin-left: -6%;
+    }
+    .talent-nvbar {
+      width: 100%;
+      position: absolute;
+      top: 0;
+    }
+    .talent-img {
+      height: 400px;
+      width: 100%;
+    }
+    .talent-img img {
+      vertical-align: left;
+      width: 60%;
+      max-height: unset !important;
+      margin-left: auto;
+  
+      float: left;
+    }
+    .talent-nvbar img {
+      width: 106px;
+      height: 32px;
+      margin-left: -50%;
+    }
+    .talent-nvbar .talent-btn{
+      margin-left: 85%;
+    }
+    .talent-choices{
+        display:flex;
+        flex-direction: column;
+    }
+    .talent-choices-1{
+        width:430px
+    }
+    .conent{
+        display:flex;
+        flex-direction: column
+    }
+  }
+  
+  @media only screen and (min-width: 600px) and (max-width:992px) {
+    .conent{
+        display:flex;
+        flex-direction: column
+    }
+    .talent-container {
+        display: flex;
+        flex-direction: column;
+      }
+      .talent-content {
+        margin-left: -6%;
+      }
+      .talent-nvbar {
+        width: 100%;
+        position: absolute;
+        top: 0;
+      }
+      .talent-img {
+        height: 400px;
+        width: 100%;
+      }
+      .talent-img img {
+        vertical-align: left;
+        width: 60%;
+        max-height: unset !important;
+        margin-left: auto;
+    
+        float: left;
+      }
+      .talent-nvbar img {
+        width: 106px;
+        height: 32px;
+        margin-left: -5%;
+      }
+      .talent-nvbar .talent-btn{
+        margin-left: 70%;
+      }
+      .talent-choices{
+          display:flex;
+          flex-direction: column;
+      }
+      .talent-choices-1{
+          width:430px
+      }
+  }
+  
+  @media only screen and (min-width: 768px) {
+   
+    .talent-nvbar img {
+        width: 106px;
+        height: 32px;
+        margin-left: -5%;
+      }
+      .talent-nvbar .talent-btn{
+        margin-left: 80%;
+      }
+  }
+  
+
+  @media only screen and (min-width: 1200px) {
+    .conent{
+        display:flex;
+        flex-direction: row
+    }
+  }
+  
