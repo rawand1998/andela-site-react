@@ -34,11 +34,7 @@ function Enterprise() {
         secondLinl={[ "schedule a meet", "/"]}
       />
       </div>
-      {/* <div className="enterprise-btn">
-        <a className="">Schedule a call</a>
-        <a className="">Wacth in overview</a>
-      </div> */}
-
+   
       <SliderBar />
 
       <Teamoffer

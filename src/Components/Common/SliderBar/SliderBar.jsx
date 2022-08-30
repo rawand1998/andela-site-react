@@ -10,38 +10,38 @@ function SliderBar() {
     slidesToScroll: 3,
     arrows: false,
   };
-  const dataImg =[
+  const dataImg = [
     {
-      img:'https://andela.com/wp-content/uploads/2022/03/logo-viacomcbs.png'
+      img: "https://andela.com/wp-content/uploads/2022/03/logo-viacomcbs.png",
     },
     {
-      img:'https://andela.com/wp-content/uploads/2022/03/logo-goldman-sachs.png'
+      img: "https://andela.com/wp-content/uploads/2022/03/logo-goldman-sachs.png",
     },
     {
-      img:'https://andela.com/wp-content/uploads/2022/03/attune-1024x343.png'
+      img: "https://andela.com/wp-content/uploads/2022/03/attune-1024x343.png",
     },
     {
-      img:'https://andela.com/wp-content/uploads/2022/03/logo-viacomcbs.png'
+      img: "https://andela.com/wp-content/uploads/2022/03/logo-viacomcbs.png",
     },
     {
-      img:"https://andela.com/wp-content/uploads/2022/03/logo-jamf-1.png"
+      img: "https://andela.com/wp-content/uploads/2022/03/logo-jamf-1.png",
     },
     {
-      img:'https://andela.com/wp-content/uploads/2022/03/logo-cloudflare-1.png'
+      img: "https://andela.com/wp-content/uploads/2022/03/logo-cloudflare-1.png",
     },
     {
-      img:'https://andela.com/wp-content/uploads/2022/03/Fluxx-logo-google-apps-copy.png'
+      img: "https://andela.com/wp-content/uploads/2022/03/Fluxx-logo-google-apps-copy.png",
     },
     {
-      img:'https://andela.com/wp-content/uploads/2022/03/attune-1024x343.png'
+      img: "https://andela.com/wp-content/uploads/2022/03/attune-1024x343.png",
     },
     {
-      img:'https://andela.com/wp-content/uploads/2022/03/logo-seismic-1.png'
+      img: "https://andela.com/wp-content/uploads/2022/03/logo-seismic-1.png",
     },
     {
-      img:'https://andela.com/wp-content/uploads/2022/03/logo-kraft-heinz-1.png'
-    }
-  ]
+      img: "https://andela.com/wp-content/uploads/2022/03/logo-kraft-heinz-1.png",
+    },
+  ];
   return (
     <div className="side">
       <div className="b-side">
@@ -49,18 +49,13 @@ function SliderBar() {
           We’re <em>trusted</em> by the best{" "}
         </h2>
         <Slider {...settings}>
-          
-          {dataImg.map(({img},i)=>{
-            return(
+          {dataImg.map(({ img }, i) => {
+            return (
               <div className="slider-home-bar">
-              <img src={img}/>
-              {/* <h2>img</h2> */}
-
-            </div>
-            )
-           
+                <img src={img} />
+              </div>
+            );
           })}
-         
         </Slider>
       </div>
     </div>

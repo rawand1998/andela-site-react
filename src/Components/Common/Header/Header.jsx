@@ -6,7 +6,6 @@ function Header({ className, title, content, link, cover,secondLinl }) {
   return (
     <header style={{ backgroundImage: `url(${cover})` }} className={className}>
       <div className="header-content">
-        {/* {cover} */}
         <h1>{title}</h1>
         <span>{content}</span>
         <div className="links-header"> 
