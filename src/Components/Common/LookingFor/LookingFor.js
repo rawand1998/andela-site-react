@@ -8,7 +8,7 @@ function LookingFor({ title,paragraph,img, content, img2, content2, img3, conten
        
       </h2>
       <div style={{ height: "12px" }}></div>
-      <div className="lookign-block-column1">
+      <div className="lookign-block-column1 looking-block1">
         <figure>{img}</figure>
         <div
           class="wp-block-columns"

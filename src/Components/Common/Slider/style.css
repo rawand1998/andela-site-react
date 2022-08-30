@@ -26,3 +26,47 @@
 .spacer{
     height:48px
 }
+
+@media only screen and (max-width: 600px) {
+    .b-side h2{
+  
+        width: 400px;
+        margin-left: 8%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .b-side h2{
+       
+        width: 400px;
+        margin-left: 15%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .b-side h2{
+       
+        width: 600px;
+        margin-left: 30%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .b-side h2{
+    
+        width: 600px;
+        margin-left: 30%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .b-side h2{
+      
+        width: 700px;
+        margin-left: 25%;
+    }
+}
