@@ -9,21 +9,21 @@ import Footer from "../../Components/Common/Footer/Footer";
 import SubHeader from "../../Components/Common/SubHeader/SubHeader";
 import Skills from "../../Components/Skills/Skills";
 import Contected from "../../Components/Common/Connected/Contected";
-import "./style.css";
 import LastSlider from "../../Components/Common/LastSlider/LastSlider";
+import "./style.css";
 
 function Home() {
   return (
     <div className="homes-img">
       <div>
-      <Header className="home" id="header-conatiner">
-        <Navbar />
-        <SubHeader
-          title="Find work that you love with companies you can trust"
-          description="Join Andela to experience the joy of long-term work,
+        <Header className="home" id="header-conatiner">
+          <Navbar />
+          <SubHeader
+            title="Find work that you love with companies you can trust"
+            description="Join Andela to experience the joy of long-term work,
                         with vetted companies and competitive compensation."
-        />
-      </Header>
+          />
+        </Header>
       </div>
       <a className="btn">Find Work</a>
       <div className="spacer"></div>
@@ -152,23 +152,22 @@ function Home() {
         }
       />
       <Skills />
-      
+
       <div className="first-connected-in-home">
-      <Contected 
-     
-      content={
-        <>
-          <h2>Grow your potential beyond borders</h2>
-          <p>
-            Connect with a global network and land international
-            opportunities.
-          </p>
-          <a>Discover opportunities</a>
-          </>
-      }
-    />
-    </div>
-    
+        <Contected
+          content={
+            <>
+              <h2>Grow your potential beyond borders</h2>
+              <p>
+                Connect with a global network and land international
+                opportunities.
+              </p>
+              <a>Discover opportunities</a>
+            </>
+          }
+        />
+      </div>
+
       <div className="spacer-1"></div>
       <CommitSuccess />
       <div className="spacer-1"></div>
