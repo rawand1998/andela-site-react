@@ -14,19 +14,30 @@ function Enterprise() {
   return (
     <div className="enter">
       <div className="inter-img">
-        <Header className="home" id="header-conatiner">
-          {/* <SubHeader
-            title="
-          We’re here to help you build a world class team, today."
-            description="Join Andela to experience the joy of long-term work,
-                        with vetted companies and competitive compensation."
-          /> */}
-        </Header>
+      <Header
+        cover="https://andela.com/wp-content/uploads/2022/03/about-banner.jpg"
+        className="header-conatiner"
+        title={
+          <>
+          We’re here to help you<br/>
+          build a
+            <em>
+            world class team, today.
+            </em>
+          </>
+        }
+        content=
+        {<>Trusted by enterprise teams and growing startups alike,<br/>
+          Andela’s onboarding timesare 70% faster than the<br/>
+          industry average..</>}
+        link={["Watch an interview", "/register"]}
+        secondLinl={[ "schedule a meet", "/"]}
+      />
       </div>
-      <div className="enterprise-btn">
+      {/* <div className="enterprise-btn">
         <a className="">Schedule a call</a>
         <a className="">Wacth in overview</a>
-      </div>
+      </div> */}
 
       <SliderBar />
 

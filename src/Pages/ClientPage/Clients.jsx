@@ -14,15 +14,21 @@ function Clients() {
   return (
     <div>
       <div className="clients-img">
-        <Header className="home" id="header-conatiner">
-          {/* <SubHeader
-            title="
-          Scale your business
-          with technologists
-          you can trust"
-            description="Accelerate innovation with vetted technical talent."
-          /> */}
-        </Header>
+      <Header
+        cover="https://andela.com/wp-content/uploads/2022/03/about-banner.jpg"
+        className="header-conatiner"
+        title={
+          <>
+            Our mission is to <br/>connect
+            <em>
+            brilliance <br/>with opportunity
+            </em>
+          </>
+        }
+        content=
+        {<>Irrespective of race, gender, and geography.</>}
+       
+      />
       </div>
       <a className="btn">Discover Talent</a>
       <SliderBar />

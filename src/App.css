@@ -20,6 +20,8 @@
 
   /* fonts size */
   --fs-title: 2rem;
+  --fs-header : 64px;
+  --fw-title:400
 }
 
 @media screen and (max-width: 900px) {
@@ -59,9 +61,19 @@ a {
 }
 
 h1 {
-  font-family: var(----ff-inria);
+  font-family: var(--ff-inria);
+  color: var(--white);
+  font-size:var(--fs-header );
+  line-height:72px;
+  font-weight:var(--fw-title);
+  /* margin-bottom:40px */
+  
 }
-
+em{
+  font-family: var(--ff-inter);
+  font-weight:var(--fw-title);
+  font-size:60px
+}
 h2 {
   clear: both;
   margin: 0px 0px 24px 0px;
@@ -77,10 +89,7 @@ h3 {
 
 p {
   display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
+
   font-family: var(--ff-inter);
   font-weight: 300;
 }

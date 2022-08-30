@@ -12,16 +12,26 @@ import "./style.css";
 
 function Home() {
   return (
-    <div className="homes-img">
+    <div>
       <Header
         cover="https://andela.com/wp-content/uploads/2022/03/green-wash.jpg"
         className="header-conatiner"
-        title="
-      Find work that you
-      love with companies
-      you can trust"
-        content="Join Andela to experience the joy of long-term work,
-      with vetted companies and competitive compensation."
+        title={
+          <>
+            Find work that you
+            <br />
+            love with
+            <em>
+              {" "}
+              companies
+              <br />
+              you can trust
+            </em>
+          </>
+        }
+        content=
+        {<>Join Andela to experience the joy of long-term work,<br/>
+      with vetted companies and competitive compensation.</>}
         link={["Find Work", "/findwork"]}
       />
       <Sliders />
@@ -31,7 +41,9 @@ function Home() {
           <h2>
             Our <em>vibrant</em> community
           </h2>
-          <span>Rizwan Jafri shares his Andela story from Lahore, Pakistan.</span>
+          <span>
+            Rizwan Jafri shares his Andela story from Lahore, Pakistan.
+          </span>
           <div className="vedio-box">
             <figure>
               <a href="https://www.youtube.com/embed/NUk9lR2jo_g?fbclid=IwAR1-4JGvdhqxj6S3vt-z5qTjiohuPgoD8Caw1cbeYi8QAAXXWAZNI3pbZwE">
