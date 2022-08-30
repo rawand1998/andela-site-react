@@ -10,6 +10,82 @@ function LastSlider() {
     slidesToScroll: 3,
     arrows: false,
   };
+  const data = [
+    {
+      title:"case study",
+      content: `  We have been working with our Andela teammates since 2018. They
+      are so committed, work incredibly well with our team.`,
+      btn:'Read more',
+      clas: "move",
+      clasbg: "move",
+    },
+    {
+      title:"case study",
+      content: `  We have been working with our Andela teammates since 2018. They
+      are so committed, work incredibly well with our team.`,
+      btn:'Read more',
+      clas: "pink",
+      clasbg: "pink",
+    },
+    {
+      title:"case study",
+      content: `  We have been working with our Andela teammates since 2018. They
+      are so committed, work incredibly well with our team.`,
+      btn:'Read more',
+      clas: "orange",
+      clasbg: "orange",
+    },
+    {
+      title:"case study",
+      content: `  We have been working with our Andela teammates since 2018. They
+      are so committed, work incredibly well with our team.`,
+      btn:'Read more',
+      clas: "move",
+      clasbg: "move",
+    },
+    ,
+    {
+      title:"case study",
+      content: `  We have been working with our Andela teammates since 2018. They
+      are so committed, work incredibly well with our team.`,
+      btn:'Read more',
+      clas: "pink",
+      clasbg: "pink",
+    },
+    {
+      title:"case study oragne",
+      content: `We have been working with our Andela teammates since 2018. They
+      are so committed, work incredibly well with our team.`,
+      btn:'Read more',
+      clas: "orange",
+      clasbg: "orange",
+    },
+    ,
+    {
+      title:"case study",
+      content: `  We have been working with our Andela teammates since 2018. They
+      are so committed, work incredibly well with our team.`,
+      btn:'Read more',
+      clas: "move",
+      clasbg: "move",
+    },
+    {
+      title:"case study",
+      content: `  We have been working with our Andela teammates since 2018. They
+      are so committed, work incredibly well with our team.`,
+      btn:'Read more',
+      clas: "pink",
+      clasbg: "pink",
+    },
+    {
+      title:"case study",
+      content: `  We have been working with our Andela teammates since 2018. They
+      are so committed, work incredibly well with our team.`,
+      btn:'Read more',
+      clas: "orange",
+      clasbg: "orange",
+    },
+  ];
   return (
     <div className="sliderss">
       <div className="last-slide-conatiner">
@@ -23,143 +99,22 @@ function LastSlider() {
             with Andela.
           </span>
           <Slider {...settings}>
-            <div className="last-slide">
-              <div className="last-slide-one">
-                <div className="last-slide-content">
-                  <div className="last-slide-title">Case Studies</div>
-                  <a className="para-btn">
-                    {" "}
-                    How a Top 10 Global Investment Bank is Rapidly Expanding Its
-                    Services by Leveraging Remote Talent
-                  </a>
-                  <a className="btn-slide-last">Learn More</a>
-                </div>
-              </div>
-            </div>
-
-            <div className="last-slide two-slide">
-              <div className="last-slide-one two">
-                <div className="last-slide-content ">
-                  <div className="last-slide-title">Case Studies</div>
-                  <a className="para-btn">
-                    {" "}
-                    How a Top 10 Global Investment Bank is Rapidly Expanding Its
-                    Services by Leveraging Remote Talent
-                  </a>
-                  <a className="btn-slide-last">Learn More</a>
-                </div>
-              </div>
-            </div>
-
-            <div className="last-slide three-slide">
-              <div className="last-slide-one three">
-                <div className="last-slide-content ">
-                  <div className="last-slide-title">Case Studies</div>
-                  <a className="para-btn">
-                    {" "}
-                    How a Top 10 Global Investment Bank is Rapidly Expanding Its
-                    Services by Leveraging Remote Talent
-                  </a>
-                  <a className="btn-slide-last">Learn More</a>
-                </div>
-              </div>
-            </div>
-
-            <div className="last-slide">
-              <div className="last-slide-one">
-                <div className="last-slide-content">
-                  <div className="last-slide-title">Case Studies</div>
-                  <a className="para-btn">
-                    {" "}
-                    How a Top 10 Global Investment Bank is Rapidly Expanding Its
-                    Services by Leveraging Remote Talent
-                  </a>
-                  <a className="btn-slide-last">Learn More</a>
-                </div>
-              </div>
-            </div>
-
-            <div className="last-slide two-slide">
-              <div className="last-slide-one two">
-                <div className="last-slide-content ">
-                  <div className="last-slide-title">Case Studies</div>
-                  <a className="para-btn">
-                    {" "}
-                    How a Top 10 Global Investment Bank is Rapidly Expanding Its
-                    Services by Leveraging Remote Talent
-                  </a>
-                  <a className="btn-slide-last">Learn More</a>
-                </div>
-              </div>
-            </div>
-
-            <div className="last-slide three-slide">
-              <div className="last-slide-one three">
-                <div className="last-slide-content ">
-                  <div className="last-slide-title">Case Studies</div>
-                  <a className="para-btn">
-                    {" "}
-                    How a Top 10 Global Investment Bank is Rapidly Expanding Its
-                    Services by Leveraging Remote Talent
-                  </a>
-                  <a className="btn-slide-last">Learn More</a>
-                </div>
-              </div>
-            </div>
-
-            <div className="last-slide">
-              <div className="last-slide-one">
-                <div className="last-slide-content">
-                  <div className="last-slide-title">Case Studies</div>
-                  <a className="para-btn">
-                    {" "}
-                    How a Top 10 Global Investment Bank is Rapidly Expanding Its
-                    Services by Leveraging Remote Talent
-                  </a>
-                  <a className="btn-slide-last">Learn More</a>
-                </div>
-              </div>
-            </div>
-
-            <div className="last-slide two-slide">
-              <div className="last-slide-one two">
-                <div className="last-slide-content ">
-                  <div className="last-slide-title">Case Studies</div>
-                  <a className="para-btn">
-                    {" "}
-                    How a Top 10 Global Investment Bank is Rapidly Expanding Its
-                    Services by Leveraging Remote Talent
-                  </a>
-                  <a className="btn-slide-last">Learn More</a>
-                </div>
-              </div>
-            </div>
-
-            <div className="last-slide three-slide">
-              <div className="last-slide-one three">
-                <div className="last-slide-content ">
-                  <div className="last-slide-title">Case Studies</div>
-                  <a className="para-btn">
-                    {" "}
-                    How a Top 10 Global Investment Bank is Rapidly Expanding Its
-                    Services by Leveraging Remote Talent
-                  </a>
-                  <a className="btn-slide-last">Learn More</a>
-                </div>
-              </div>
-            </div>
-
-            {/* <div>
-              <div className="slider-home-bar ">
-                <img src="https://andela.com/wp-content/uploads/2022/03/Logitech-Logo-2015-present-copy-1024x576.png" />
-              </div>
-            </div>
-
-            <div>
-              <div className="slider-home-bar ">
-                <img src="https://andela.com/wp-content/uploads/2022/03/Logitech-Logo-2015-present-copy-1024x576.png" />
-              </div>
-            </div> */}
+            {data.map(({ title, content, btn,clas ,clasbg},i) => {
+              return (
+                <>
+                  <div className={`last-slide ${clas}`} key={i}>
+                    <div className={`last-slide-one ${clasbg}`}  key={i}>
+                      <div className="last-slide-content">
+                      <span className="last-slide-title">{title}</span>
+                      <a className="para-btn">{content}</a>
+                      <a className="btn-slide-last">{btn}</a>
+                      </div>
+                    
+                    </div>
+                  </div>
+                </>
+              );
+            })}
           </Slider>
         </div>
       </div>
