@@ -9,6 +9,7 @@ import Teamoffer from "../../Components/Common/TeamOffer/Teamoffer";
 import ElevateSkill from "../../Components/Common/ElevateSkill/ElevateSkill";
 import LastSlider from "../../Components/Common/LastSlider/LastSlider";
 import "./style.css";
+import State from "../../Components/Common/StateComponent/State";
 
 function Clients() {
   return (
@@ -192,12 +193,11 @@ function Clients() {
       <LastSlider />
       <div class="spacer"></div>
       <div>
-        <div class="spacer"></div>
-        <h2>
-          Andela <em>keeps you ahead</em> of the curve
-        </h2>
-        <div class="space"></div>
-        <div class="state-card-container">
+        {/* <div class="spacer"></div> */}
+       
+        {/* <div class="space"></div> */}
+        <State />
+        {/* <div class="state-card-container">
           <div class="state state-1">
             <div class="state-content">
               <h2>110+</h2>
@@ -236,12 +236,12 @@ function Clients() {
               </span>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="space"></div>
-        <div className="button">
+        {/* <div className="button">
           <a>Find Work</a>
           <a>Discover Talent</a>
-        </div>
+        </div> */}
       </div>
       <div class="spacer"></div>
       <ElevateSkill />

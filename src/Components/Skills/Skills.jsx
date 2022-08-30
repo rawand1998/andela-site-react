@@ -42,6 +42,7 @@ function Skills() {
         <a className="btn-work">Find work</a>
         <div className="spacer-2"></div>
       </div>
+   
     </div>
   );
 }
