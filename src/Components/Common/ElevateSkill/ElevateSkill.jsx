@@ -1,6 +1,20 @@
 import React from "react";
 import "./style.css";
 function ElevateSkill() {
+  const skills = [
+    { name: "Python" },
+    { name: "React Native" },
+    { name: "Javascript" },
+    { name: "Golang" },
+    { name: "Salesforce" },
+    { name: "Node js" },
+    { name: "Vue" },
+    { name: "Data Scientists" },
+    { name: "Java" },
+    { name: "Kotlin" },
+    { name: "PHP" },
+   
+  ];
   return (
     <div>
       <div className="elevlate-skills">
@@ -12,38 +26,15 @@ function ElevateSkill() {
             <a>Schedule a call</a>
           </div>
           <div className="elevlate-skills-col2">
-            <ul>
+          <ul>
+          {skills.map(({ name }, i) => {
+            return (
               <li>
-                <a>Python</a>
+                <a>{name}</a>
               </li>
-              <li>
-                <a>React Native</a>
-              </li>
-              <li>
-                <a>Javascript</a>
-              </li>
-              <li>
-                <a>Golang</a>
-              </li>
-              <li>
-                <a>Salesforce</a>
-              </li>
-              <li>
-                <a>Node js</a>
-              </li>
-              <li>
-                <a>Vue</a>
-              </li>
-              <li>
-                <a>Rubby</a>
-              </li>
-              <li>
-                <a>Data Scientists</a>
-              </li>
-              <li>
-                <a>Java</a>
-              </li>
-            </ul>
+            );
+          })}
+        </ul>
           </div>
         </div>
       </div>

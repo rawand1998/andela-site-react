@@ -14,21 +14,21 @@ function Clients() {
   return (
     <div>
       <div className="clients-img">
-      <Header
-        cover="https://andela.com/wp-content/uploads/2022/03/annie-spratt-AkftcHujUmk-unsplash-2.jpg"
-        className="header-conatiner"
-        title={
-          <>
-            Our mission is to <br/>connect
-            <em>
-            brilliance <br/>with opportunity
-            </em>
-          </>
-        }
-        content=
-        {<>Irrespective of race, gender, and geography.</>}
-       
-      />
+        <Header
+          cover="https://andela.com/wp-content/uploads/2022/03/annie-spratt-AkftcHujUmk-unsplash-2.jpg"
+          className="header-conatiner"
+          title={
+            <>
+              Our mission is to <br />
+              connect
+              <em>
+                brilliance <br />
+                with opportunity
+              </em>
+            </>
+          }
+          content={<>Irrespective of race, gender, and geography.</>}
+        />
       </div>
       <a className="btn">Discover Talent</a>
       <SliderBar />
@@ -59,7 +59,7 @@ function Clients() {
               <br />
               are already here
             </h3>
-            <span  className="paragraph">
+            <span className="paragraph">
               Feel the bustle of the Global Marketplace here at Andela where
               brilliant minds and companies gather from all over the world.
             </span>
