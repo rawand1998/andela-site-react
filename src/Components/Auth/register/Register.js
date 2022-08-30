@@ -1,20 +1,19 @@
-import React,{useState,useRef} from "react";
-import "./style.css";
+import React, { useState, useRef } from "react";
 import { FaUser } from "react-icons/fa";
 import { FaUsers } from "react-icons/fa";
+import "./style.css";
+
 function Register() {
-    const [checkedInput,setCheckedInput]=useState(false)
-    const ref = useRef(null);
-    const handelCheck = (e)=>{
-        e.preventDefault();
-        if (ref.current.checked) {
-         
-            setCheckedInput(false)
-          } else {
-          
-            setCheckedInput(true)
-          }
+  const [checkedInput, setCheckedInput] = useState(false);
+  const ref = useRef(null);
+  const handelCheck = (e) => {
+    e.preventDefault();
+    if (ref.current.checked) {
+      setCheckedInput(false);
+    } else {
+      setCheckedInput(true);
     }
+  };
   return (
     <div className="talent-container">
       <div className="talent-img">
@@ -33,7 +32,7 @@ function Register() {
             <div className="conent">
               <h3>How many roles are you looking to fill?</h3>
               <div className="checkbox-talent">
-                <input type="checkbox"  />
+                <input type="checkbox" />
                 <label> Not sure yet </label>
               </div>
             </div>
@@ -50,7 +49,7 @@ function Register() {
               <div className="talent-choices-1">
                 <label>
                   <div className="talent-choices-label">
-                    <input type="radio" ref={ref}/>
+                    <input type="radio" ref={ref} />
                     <FaUser className="talent-icon" />
                     <span> 2-4 roles </span>
                   </div>
@@ -65,17 +64,18 @@ function Register() {
                   </div>
                 </label>
               </div>
-             
             </div>
-            {checkedInput && <p className="handel-error-talent">Required</p>}
-           
-            <br/>
+            {checkedInput && <span  className="handel-error-talent">Required</span>}
 
+            <br />
 
             <div className="conent">
-              <h3>What time commitment would you need for the roles you're looking to fill?</h3>
+              <h3>
+                What time commitment would you need for the roles you're looking
+                to fill?
+              </h3>
               <div className="checkbox-talent">
-                <input type="checkbox"/>
+                <input type="checkbox" />
                 <label> Not sure yet </label>
               </div>
             </div>
@@ -83,8 +83,8 @@ function Register() {
               <div className="talent-choices-1">
                 <label>
                   <div className="talent-choices-label">
-                    <input type="radio" ref={ref}/>
-                   
+                    <input type="radio" ref={ref} />
+
                     <span> full time (60 hour) </span>
                   </div>
                 </label>
@@ -93,16 +93,14 @@ function Register() {
                 <label>
                   <div className="talent-choices-label">
                     <input type="radio" ref={ref} />
-                   
+
                     <span> part time (20 hour) </span>
                   </div>
                 </label>
               </div>
-             
             </div>
-            {checkedInput && <p className="handel-error-talent">Required</p>}
-<br/>
-
+            {checkedInput && <span  className="handel-error-talent">Required</span>}
+            <br />
 
             <div className="conent">
               <h3>What roles are you hiring for?</h3>
@@ -113,7 +111,7 @@ function Register() {
             </div>
             <div className="talent-choices">
               <div className="talent-choices-1">
-              <label className="last-label">
+                <label className="last-label">
                   <div className="talent-choices-label">
                     <input type="checkbox" ref={ref} />
                     <FaUser />
@@ -124,14 +122,14 @@ function Register() {
               <div className="talent-choices-1">
                 <label className="last-label">
                   <div className="talent-choices-label">
-                    <input type="checkbox"  ref={ref}/>
+                    <input type="checkbox" ref={ref} />
                     <FaUser />
                     <span> Designer </span>
                   </div>
                 </label>
               </div>
               <div className="talent-choices-1">
-              <label className="last-label">
+                <label className="last-label">
                   <div className="talent-choices-label">
                     <input type="checkbox" ref={ref} />
                     <FaUser />
@@ -140,13 +138,13 @@ function Register() {
                 </label>
               </div>
             </div>
-            {checkedInput && <p className="handel-error-talent">Required</p>}
-            <button class="" onClick={handelCheck}>Submit</button>
+            {checkedInput && <span  className="handel-error-talent">Required</span>}
+            <button class="" onClick={handelCheck}>
+              Submit
+            </button>
           </form>
         </div>
       </div>
-
-
     </div>
   );
 }

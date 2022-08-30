@@ -18,10 +18,10 @@ function LastSlider() {
             <em>Anytime, anywhere</em> – with Andela,<br/> the world is at your
             fingertips
           </h2>
-          <p>
+          <span>
             Discover how leading companies have built impactful global teams
             with Andela.
-          </p>
+          </span>
           <Slider {...settings}>
             <div className="last-slide">
                 <div className="last-slide-one">

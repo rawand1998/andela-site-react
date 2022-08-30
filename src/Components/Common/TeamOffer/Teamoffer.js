@@ -10,38 +10,38 @@ function Teamoffer({title,paragraph,header1,header2,header3,header4,paragraph1,p
             {title}
             
           </h2>
-          <p className="offer-paragraph">
+          <span  className="offer-paragraph">
             {paragraph}
           
-          </p>
+          </span>
           <div className="offer-blocks">
             <div className="offer-block-1">
               <h4>{header1}</h4>
-              <p>
+              <span>
                 {paragraph1}
             
-              </p>
+              </span>
             </div>
             <div className="offer-block-1">
               <h4>{header2}</h4>
-              <p>
+              <span>
                 {paragraph2}
             
-              </p>
+              </span>
             </div>
             <div className="offer-block-1">
               <h4>{header3}</h4>
-              <p>
+              <span>
                 {paragraph3}
               
-              </p>
+              </span>
             </div>
             <div className="offer-block-1">
               <h4>{header4}</h4>
-              <p>
+              <span>
                 {paragraph4}
               
-              </p>
+              </span>
             </div>
           </div>
         </div>

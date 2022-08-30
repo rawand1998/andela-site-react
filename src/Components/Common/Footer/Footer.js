@@ -122,67 +122,67 @@ function Footer() {
           <div className="name">
           <section className="block-2 widget ">
             <div className="block-group">
-              <p>
+              <span>
                 <strong>Discover Talent</strong>
-              </p>
-              <p>
+              </span>
+              <span>
                 <a>For Companies</a>
-              </p>
-              <p>
+              </span>
+              <span>
                 <a>Enterprise</a>
-              </p>
-              <p>
+              </span>
+              <span>
                 <a>Case studies</a>
-              </p>
+              </span>
             </div>
           </section>
           <section className="block-3 widget ">
             <div className="block-group">
-              <p>
+              <span>
                 <strong>Find Work</strong>
-              </p>
-              <p>
+              </span>
+              <span>
                 <a>
 For Technologists</a>
-              </p>
-              <p>
+              </span>
+              <span>
                 <a>Learning Community</a>
-              </p>
-              <p>
+              </span>
+              <span>
                 <a>Leadership Program</a>
-              </p>
-              <p><a>Resources</a></p>
+              </span>
+              <span><a>Resources</a></span>
             </div>
           </section>
           <section className="block-4 widget ">
             <div className="block-group">
-              <p>
+              <span>
                 <strong>Andela</strong>
-              </p>
-              <p>
+              </span>
+              <span>
                 <a>About Us</a>
-              </p>
-              <p>
+              </span>
+              <span>
                 <a>Events</a>
-              </p>
-              <p>
+              </span>
+              <span>
                 <a>Blog</a>
-              </p>
-              <p><a>Press Center</a></p>
-              <p><a>Carees</a></p>
+              </span>
+              <span><a>Press Center</a></span>
+              <span><a>Carees</a></span>
             </div>
           </section>
           <section className="block-5 widget ">
             <div className="block-group">
-              <p>
+              <span>
                 <a>Privacy Policy</a>
-              </p>
-              <p>
+              </span>
+              <span>
                 <a>Terms and Conditions</a>
-              </p>
-              <p>
+              </span>
+              <span>
                 <a>Modern Slavery </a>
-              </p>
+              </span>
             </div>
           </section>
           </div>

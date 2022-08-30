@@ -6,7 +6,7 @@ function Skills() {
     <div className="skills-container">
         <div className="inner-skills">
             <h2>Your skills are in  <em>demand</em></h2>
-            <p>The future is yours to create.</p>
+            <span>The future is yours to create.</span>
             <ul>
                 <li><a>Python</a></li>
                 <li><a>React Native</a></li>
