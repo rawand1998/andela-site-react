@@ -15,7 +15,7 @@ function Enterprise() {
     <div className="enter">
       <div className="inter-img">
       <Header
-        cover="https://andela.com/wp-content/uploads/2022/03/about-banner.jpg"
+        cover="https://andela.com/wp-content/uploads/2022/03/toby-osborn-ilHo9qgDEGY-unsplash-scaled.jpg"
         className="header-conatiner"
         title={
           <>

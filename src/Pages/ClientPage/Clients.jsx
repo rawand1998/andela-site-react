@@ -15,7 +15,7 @@ function Clients() {
     <div>
       <div className="clients-img">
       <Header
-        cover="https://andela.com/wp-content/uploads/2022/03/about-banner.jpg"
+        cover="https://andela.com/wp-content/uploads/2022/03/annie-spratt-AkftcHujUmk-unsplash-2.jpg"
         className="header-conatiner"
         title={
           <>
