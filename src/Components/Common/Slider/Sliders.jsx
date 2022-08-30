@@ -17,42 +17,11 @@ function Sliders() {
       content: `Andela provides excellent service and support, speedy recruitment,
       and top-notch talent. They identified the perfect match
       skillset-wise.`,
+      clas: "pink",
     },
     {
       avatar:
-        "https://andela.com/wp-content/uploads/2022/03/Logitech-Logo-2015-present-copy-1024x576.png",
-      name: "jommaaa",
-      username: "luffy",
-      content: `Andela provides excellent service and support, speedy recruitment,
-      and top-notch talent. They identified the perfect match
-      skillset-wise.`,
-    },
-    {
-      logo: "https://andela.com/wp-content/uploads/2022/03/Logitech-Logo-2015-present-copy-1024x576.png",
-      content: `Andela provides excellent service and support, speedy recruitment,
-      and top-notch talent. They identified the perfect match
-      skillset-wise.`,
-    },
-    {
-      avatar:
-        "https://andela.com/wp-content/uploads/2022/03/Logitech-Logo-2015-present-copy-1024x576.png",
-      name: "jommaaa",
-      username: "luffy",
-      content: `Andela provides excellent service and support, speedy recruitment,
-      and top-notch talent. They identified the perfect match
-      skillset-wise.`,
-    },
-    ,
-    {
-      logo: "https://andela.com/wp-content/uploads/2022/03/Logitech-Logo-2015-present-copy-1024x576.png",
-      content: `Andela provides excellent service and support, speedy recruitment,
-      and top-notch talent. They identified the perfect match
-      skillset-wise.`,
-      clas: "blue",
-    },
-    {
-      avatar:
-        "https://andela.com/wp-content/uploads/2022/03/Logitech-Logo-2015-present-copy-1024x576.png",
+        "https://andela.com/wp-content/uploads/2022/03/Adeyinka-Alabi-2-Talent-homepage-150x150.jpg",
       name: "jommaaa",
       username: "luffy",
       content: `Andela provides excellent service and support, speedy recruitment,
@@ -60,23 +29,59 @@ function Sliders() {
       skillset-wise.`,
       clas: "blue",
     },
-    ,
     {
-      logo: "https://andela.com/wp-content/uploads/2022/03/Logitech-Logo-2015-present-copy-1024x576.png",
-      content: `Andela provides excellent service and support, speedy recruitment,
-      and top-notch talent. They identified the perfect match
-      skillset-wise.`,
-      clas: "yalleo",
+      logo: "https://andela.com/wp-content/uploads/2022/03/branch-logo-kale-1.png",
+      content: ` We love working with Andela. Overall we’ve had a great experience
+      with the engineering talent who have joined Branch.`,
+      clas: "pink-light",
     },
     {
       avatar:
-        "https://andela.com/wp-content/uploads/2022/03/Logitech-Logo-2015-present-copy-1024x576.png",
+        "https://andela.com/wp-content/uploads/2022/03/Rafael-Henrique-talent-profile-150x150.jpg",
       name: "jommaaa",
       username: "luffy",
       content: `Andela provides excellent service and support, speedy recruitment,
       and top-notch talent. They identified the perfect match
       skillset-wise.`,
-      clas: "red",
+      clas: "blue-light",
+    },
+    ,
+    {
+      logo: "https://andela.com/wp-content/uploads/2022/03/attune-1024x343.png",
+      content: `AWe are getting a very large bang for our buck. The resources I
+      have on my team are self-starters and are able to take direction
+      and execute..`,
+      clas: "pink",
+    },
+    {
+      avatar:
+        "https://andela.com/wp-content/uploads/2022/03/Adetola-Ahmed-talent-profile-150x150.jpg",
+      name: "jommaaa",
+      username: "luffy",
+      content: `Andela provides excellent service and support, speedy recruitment,
+      and top-notch talent. They identified the perfect match
+      skillset-wise.`,
+      clas: "blue",
+    },
+    ,
+    {
+      logo: "https://andela.com/wp-content/uploads/2022/03/gopuff.png",
+      content: `  The team has been very transparent when sourcing our needs and if
+      we need to change direction they are able to quickly turn around
+      candidates.`,
+      clas: "pink-light",
+    },
+    {
+      logo: "https://andela.com/wp-content/uploads/2022/03/Fluxx-logo-google-apps-copy.png",
+      content: ` We have been working with our Andela teammates since 2018. They
+      are so committed, work incredibly well with our team.`,
+      clas: "blue-light",
+    },
+    {
+      logo: "https://andela.com/wp-content/uploads/2022/03/Fluxx-logo-google-apps-copy.png",
+      content: `  We have been working with our Andela teammates since 2018. They
+      are so committed, work incredibly well with our team.`,
+      clas: "pink",
     },
   ];
 
@@ -105,83 +110,6 @@ function Sliders() {
               </div>
             );
           })}
-          {/* <div className="slider-home">
-            <img src="https://andela.com/wp-content/uploads/2022/03/Logitech-Logo-2015-present-copy-1024x576.png" />
-            <span>
-              Andela provides excellent service and support, speedy recruitment,
-              and top-notch talent. They identified the perfect match
-              skillset-wise.
-            </span>
-          </div>
-
-          <div className="slider-home slide2">
-            <img src="https://andela.com/wp-content/uploads/2022/03/branch-logo-kale-1.png" />
-            <span>
-              We love working with Andela. Overall we’ve had a great experience
-              with the engineering talent who have joined Branch.
-            </span>
-          </div>
-
-          <div className="slider-home slide3">
-            <img src="https://andela.com/wp-content/uploads/2022/03/attune-1024x343.png" />
-            <span>
-              We are getting a very large bang for our buck. The resources I
-              have on my team are self-starters and are able to take direction
-              and execute.
-            </span>
-          </div>
-
-          <div className="slider-home">
-            <img src="https://andela.com/wp-content/uploads/2022/03/gopuff.png" />
-            <span>
-              The team has been very transparent when sourcing our needs and if
-              we need to change direction they are able to quickly turn around
-              candidates.
-            </span>
-          </div>
-
-          <div className="slider-home slide3">
-            <img src="https://andela.com/wp-content/uploads/2022/03/Fluxx-logo-google-apps-copy.png" />
-            <span>
-              We have been working with our Andela teammates since 2018. They
-              are so committed, work incredibly well with our team.
-            </span>
-          </div>
-
-          <div className="slider-home slide2">
-            <img src="https://andela.com/wp-content/uploads/2022/03/Fluxx-logo-google-apps-copy.png" />
-
-            <span>
-              We have been working with our Andela teammates since 2018. They
-              are so committed, work incredibly well with our team.
-            </span>
-          </div>
-
-          <div className="slider-home">
-            <img src="https://andela.com/wp-content/uploads/2022/03/attune-1024x343.png" />
-            <span>
-              We have been working with our Andela teammates since 2018. They
-              are so committed, work incredibly well with our team.
-            </span>
-          </div>
-
-          <div className="slider-home slide3">
-            <img src="https://andela.com/wp-content/uploads/2022/03/Logitech-Logo-2015-present-copy-1024x576.png" />
-            <span>
-              Andela provides excellent service and support, speedy recruitment,
-              and top-notch talent. They identified the perfect match
-              skillset-wise.
-            </span>
-          </div>
-
-          <div className="slider-home slide2">
-            <img src="https://andela.com/wp-content/uploads/2022/03/Logitech-Logo-2015-present-copy-1024x576.png" />
-            <span>
-              Andela provides excellent service and support, speedy recruitment,
-              and top-notch talent. They identified the perfect match
-              skillset-wise.
-            </span>
-          </div> */}
         </Slider>
       </div>
     </div>

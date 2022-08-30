@@ -72,7 +72,7 @@ h1 {
 em{
   font-family: var(--ff-inter);
   font-weight:var(--fw-title);
-  font-size:60px
+
 }
 h2 {
   clear: both;

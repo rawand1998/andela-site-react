@@ -35,10 +35,22 @@
   font-size: 1rem;
   margin-top: 5px;
 }
-.card_slider.blue{
-    background-color: blue !important;
+.card_slider.blue {
+  background-color: #b0d6ce !important;
 }
 
-.card_slider.red{
-    background-color: red !important;
+.card_slider.pink {
+  background-color: #fce1e1 !important;
+}
+.card_slider.pink-light {
+  background-color: #fdf0dc !important;
+}
+.card_slider.blue-light {
+  background-color: #fce1e1 !important;
+}
+
+@media only screen and (max-width: 600px) and (min-width: 992px) {
+  .the-slider {
+    width: 1500px;
+  }
 }

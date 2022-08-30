@@ -1,34 +1,37 @@
 
- .slider-home-bar img{
-  width: 225px;
-  height: 60px;
- }
+ /* .
+ /
+
+ /* / */
+
+ /*  */
+
+
+
+/* 
+
+
+
+ */
+
  .side {
   background-color: #B0D6CE;
   padding-top: 36px;
   padding-bottom: 24px;
  height:250px
-  /* height: 300px; */
- }
-
- .side h2{
-  padding:10px
- }
-
- @media only screen and (max-width: 600px) {
-  .b-side{
-    width: 1000px;
-  }
- }
-
-
-
-
-
-
-@media only screen and (max-width: 768px) {
+ 
+  } 
+  .slider-home-bar img{
+    width: 225px;
+    height: 60px;
+   }
+   @media only screen and (max-width: 600px) {
+    .b-side{
+      width: 1000px;
+    }
+   }
+   @media only screen and (max-width: 768px) {
     .b-side{
         width: 1000px;
       }
 }
-
