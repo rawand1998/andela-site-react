@@ -65,7 +65,9 @@ function Register() {
                 </label>
               </div>
             </div>
-            {checkedInput && <span  className="handel-error-talent">Required</span>}
+            {checkedInput && (
+              <span className="handel-error-talent">Required</span>
+            )}
 
             <br />
 
@@ -99,7 +101,9 @@ function Register() {
                 </label>
               </div>
             </div>
-            {checkedInput && <span  className="handel-error-talent">Required</span>}
+            {checkedInput && (
+              <span className="handel-error-talent">Required</span>
+            )}
             <br />
 
             <div className="conent">
@@ -138,7 +142,9 @@ function Register() {
                 </label>
               </div>
             </div>
-            {checkedInput && <span  className="handel-error-talent">Required</span>}
+            {checkedInput && (
+              <span className="handel-error-talent">Required</span>
+            )}
             <button class="" onClick={handelCheck}>
               Submit
             </button>

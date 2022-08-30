@@ -120,71 +120,76 @@ function Footer() {
             </div>
           </section>
           <div className="name">
-          <section className="block-2 widget ">
-            <div className="block-group">
-              <span>
-                <strong>Discover Talent</strong>
-              </span>
-              <span>
-                <a>For Companies</a>
-              </span>
-              <span>
-                <a>Enterprise</a>
-              </span>
-              <span>
-                <a>Case studies</a>
-              </span>
-            </div>
-          </section>
-          <section className="block-3 widget ">
-            <div className="block-group">
-              <span>
-                <strong>Find Work</strong>
-              </span>
-              <span>
-                <a>
-For Technologists</a>
-              </span>
-              <span>
-                <a>Learning Community</a>
-              </span>
-              <span>
-                <a>Leadership Program</a>
-              </span>
-              <span><a>Resources</a></span>
-            </div>
-          </section>
-          <section className="block-4 widget ">
-            <div className="block-group">
-              <span>
-                <strong>Andela</strong>
-              </span>
-              <span>
-                <a>About Us</a>
-              </span>
-              <span>
-                <a>Events</a>
-              </span>
-              <span>
-                <a>Blog</a>
-              </span>
-              <span><a>Press Center</a></span>
-              <span><a>Carees</a></span>
-            </div>
-          </section>
-          <section className="block-5 widget ">
-            <div className="block-group">
-              <span>
-                <a>Privacy Policy</a>
-              </span>
-              <span>
-                <a>Terms and Conditions</a>
-              </span>
-              <span>
-                <a>Modern Slavery </a>
-              </span>
-            </div>
-          </section>
+            <section className="block-2 widget ">
+              <div className="block-group">
+                <span>
+                  <strong>Discover Talent</strong>
+                </span>
+                <span>
+                  <a>For Companies</a>
+                </span>
+                <span>
+                  <a>Enterprise</a>
+                </span>
+                <span>
+                  <a>Case studies</a>
+                </span>
+              </div>
+            </section>
+            <section className="block-3 widget ">
+              <div className="block-group">
+                <span>
+                  <strong>Find Work</strong>
+                </span>
+                <span>
+                  <a>For Technologists</a>
+                </span>
+                <span>
+                  <a>Learning Community</a>
+                </span>
+                <span>
+                  <a>Leadership Program</a>
+                </span>
+                <span>
+                  <a>Resources</a>
+                </span>
+              </div>
+            </section>
+            <section className="block-4 widget ">
+              <div className="block-group">
+                <span>
+                  <strong>Andela</strong>
+                </span>
+                <span>
+                  <a>About Us</a>
+                </span>
+                <span>
+                  <a>Events</a>
+                </span>
+                <span>
+                  <a>Blog</a>
+                </span>
+                <span>
+                  <a>Press Center</a>
+                </span>
+                <span>
+                  <a>Carees</a>
+                </span>
+              </div>
+            </section>
+            <section className="block-5 widget ">
+              <div className="block-group">
+                <span>
+                  <a>Privacy Policy</a>
+                </span>
+                <span>
+                  <a>Terms and Conditions</a>
+                </span>
+                <span>
+                  <a>Modern Slavery </a>
+                </span>
+              </div>
+            </section>
           </div>
         </div>
       </div>

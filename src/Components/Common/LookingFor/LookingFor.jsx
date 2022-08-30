@@ -1,12 +1,18 @@
 import React from "react";
 import "./style.css";
-function LookingFor({ title,paragraph,img, content, img2, content2, img3, content3 }) {
+function LookingFor({
+  title,
+  paragraph,
+  img,
+  content,
+  img2,
+  content2,
+  img3,
+  content3,
+}) {
   return (
     <div className="looking-column-container">
-      <h2>
-        {title}
-       
-      </h2>
+      <h2>{title}</h2>
       <div style={{ height: "12px" }}></div>
       <div className="lookign-block-column1">
         <figure>{img}</figure>
@@ -38,7 +44,6 @@ function LookingFor({ title,paragraph,img, content, img2, content2, img3, conten
       </div>
     </div>
   );
-  
 }
 
 export default LookingFor;
