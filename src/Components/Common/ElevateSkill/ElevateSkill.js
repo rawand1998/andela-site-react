@@ -8,7 +8,7 @@ function ElevateSkill() {
         <div className="elevlate-skills-content">
             <div className="elevlate-skills-col1">
           <h2>Elevate your business with in demand skills</h2>
-          <p>We will help you find the right fit for your business.</p>
+          <span>We will help you find the right fit for your business.</span>
           <a>Schedule a call</a>
             </div>
             <div className="elevlate-skills-col2">

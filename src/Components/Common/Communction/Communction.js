@@ -12,7 +12,7 @@ function Communction({title,paragraph,button,list,overlay}) {
             <div className="inner-content-communction">
             <div className="conent-col1">
                 <h1>{title}</h1>
-                <p>{paragraph}</p>
+                <span>{paragraph}</span>
                 <div className="spacer"></div>
                 <div className="button">
                      <a>{button}</a>

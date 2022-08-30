@@ -1,35 +1,31 @@
 import React from "react";
-import "./style.css";
 import Header from "../../Components/Common/Header/Header";
 import Footer from "../../Components/Common/Footer/Footer";
-import SubHeader from "../../Components/Common/SubHeader/SubHeader";
-import Navbar from "../../Components/Common/NavBar/Navbar";
 import LookingFor from "../../Components/Common/LookingFor/LookingFor";
 import Communction from "../../Components/Common/Communction/Communction";
-import Contected from "../../Components/Common/Connected/Contected"
+import Contected from "../../Components/Common/Connected/Contected";
 import SliderBar from "../../Components/Common/SliderBar/SliderBar";
 import Teamoffer from "../../Components/Common/TeamOffer/Teamoffer";
 import ElevateSkill from "../../Components/Common/ElevateSkill/ElevateSkill";
 import LastSlider from "../../Components/Common/LastSlider/LastSlider";
+import "./style.css";
 
 function Clients() {
   return (
     <div>
       <div className="clients-img">
-      <Header className="home" id="header-conatiner">
-        <Navbar />
-        <SubHeader
-          title="
+        <Header className="home" id="header-conatiner">
+          {/* <SubHeader
+            title="
           Scale your business
           with technologists
           you can trust"
-          description="Accelerate innovation with vetted technical talent."
-        />
-      </Header>
+            description="Accelerate innovation with vetted technical talent."
+          /> */}
+        </Header>
       </div>
       <a className="btn">Discover Talent</a>
       <SliderBar />
-      
 
       <div className="spacer"></div>
 
@@ -57,10 +53,10 @@ function Clients() {
               <br />
               are already here
             </h3>
-            <p className="paragraph">
+            <span  className="paragraph">
               Feel the bustle of the Global Marketplace here at Andela where
               brilliant minds and companies gather from all over the world.
-            </p>
+            </span>
           </>
         }
         img3={
@@ -99,65 +95,67 @@ function Clients() {
                 <br />
                 technical <em>talent</em>
               </h2>
-              <p>
+              <span>
                 Skilled engineers, product managers, and designers at your
                 fingertips. An extensive list of technical services to suit your
                 business needs. Start building your world-class team faster with
                 talent from Andela.
-              </p>
+              </span>
               <a>Discover Talent</a>
             </div>
           </div>
           <div className="space"></div>
         </div>
       </div>
-         <Teamoffer 
-         title ={<>We offer you <em>peace of mind</em></>}
-         paragraph={<>  We understand that sometimes you want to find talent on your own{" "}
-         <br />
-         and other times you want some help. We offer you the freedom to do
-         both.</>}
-         header1="Source"
-         header2="Acesses"
-         header3="Match"
-         header4="Deliver"
-         paragraph1="    We’ll work with you to fully understand your technical gaps,
-         culture, industry regulations, and strategic route. Instantly
-         view a curated selection of technologist profiles that meet your
-         needs."
-         paragraph2="    Our proprietary assessments are designed to find you the best
-         talent by role, no matter where they are in the world. Based on
-         your team’s goals, meet vetted technologists you can trust."
-         paragraph3="  Connect within hours, with vetted technologists who can easily
-         align with your existing teams, tools, and workflows. Our
-         matching times are consistently twice as fast compared to
-         industry standards."
-         paragraph4="  With a focus on sustainable growth, we’re with you every step of
-         the way. From rapid onboarding and seamless integration to
-         global payroll solutions and compliance support."
-         
-         />
-    
-      <div className="spacer"></div>
-
-      <Communction className="communction-container"
- 
-      
+      <Teamoffer
         title={
           <>
-          Build a brilliant
-          <br/>
-
-            <em>team quickly</em>
-           
-            <br />
+            We offer you <em>peace of mind</em>
           </>
         }
         paragraph={
           <>
-            Brilliant minds and companies come
-together to build the future.
+            {" "}
+            We understand that sometimes you want to find talent on your own{" "}
+            <br />
+            and other times you want some help. We offer you the freedom to do
+            both.
           </>
+        }
+        header1="Source"
+        header2="Acesses"
+        header3="Match"
+        header4="Deliver"
+        paragraph1="    We’ll work with you to fully understand your technical gaps,
+         culture, industry regulations, and strategic route. Instantly
+         view a curated selection of technologist profiles that meet your
+         needs."
+        paragraph2="    Our proprietary assessments are designed to find you the best
+         talent by role, no matter where they are in the world. Based on
+         your team’s goals, meet vetted technologists you can trust."
+        paragraph3="  Connect within hours, with vetted technologists who can easily
+         align with your existing teams, tools, and workflows. Our
+         matching times are consistently twice as fast compared to
+         industry standards."
+        paragraph4="  With a focus on sustainable growth, we’re with you every step of
+         the way. From rapid onboarding and seamless integration to
+         global payroll solutions and compliance support."
+      />
+
+      <div className="spacer"></div>
+
+      <Communction
+        className="communction-container"
+        title={
+          <>
+            Build a brilliant
+            <br />
+            <em>team quickly</em>
+            <br />
+          </>
+        }
+        paragraph={
+          <>Brilliant minds and companies come together to build the future.</>
         }
         button="Build your dream team"
         list={
@@ -182,56 +180,66 @@ together to build the future.
             </li>
           </>
         }
-      /> 
-    
+      />
+
       <div class="spacer"></div>
       <LastSlider />
       <div class="spacer"></div>
       <div>
-      <div class="spacer"></div>
-        <h2>Andela <em>keeps you ahead</em> of the curve</h2>
+        <div class="spacer"></div>
+        <h2>
+          Andela <em>keeps you ahead</em> of the curve
+        </h2>
         <div class="space"></div>
         <div class="state-card-container">
-            <div class="state state-1">
-                <div class="state-content">
-                    <h2>110+</h2>
-                    <p>Countries represented on 6 continents</p>
-                </div>
-            </div>
-            <div class="state state-2">
+          <div class="state state-1">
             <div class="state-content">
-                    <h2>96+</h2>
-                    <p>Successful placements</p>
-                </div>
+              <h2>110+</h2>
+              <span>Countries represented on 6 continents</span>
             </div>
-            <div class="state state-3">
+          </div>
+          <div class="state state-2">
             <div class="state-content">
-                    <h2>70+</h2>
-                    <p>CFaster than<br/>industry standard</p>
-                </div>
+              <h2>96+</h2>
+              <span>Successful placements</span>
             </div>
-            <div class="state state-4">
+          </div>
+          <div class="state state-3">
             <div class="state-content">
-                    <h2>170.000+</h2>
-                    <p>Technologists represented</p>
-                </div>
+              <h2>70+</h2>
+              <span>
+                CFaster than
+                <br />
+                industry standard
+              </span>
             </div>
-            <div class="state state-5">
+          </div>
+          <div class="state state-4">
             <div class="state-content">
-                    <h2>80+</h2>
-                    <p>Months<br/>Average engagement</p>
-                </div>
+              <h2>170.000+</h2>
+              <span>Technologists represented</span>
             </div>
-             </div>
-             <div className="space"></div>
-             <div className="button">
-                <a>Find Work</a>
-                <a>Discover Talent</a>
-             </div>
+          </div>
+          <div class="state state-5">
+            <div class="state-content">
+              <h2>80+</h2>
+              <span>
+                Months
+                <br />
+                Average engagement
+              </span>
+            </div>
+          </div>
+        </div>
+        <div className="space"></div>
+        <div className="button">
+          <a>Find Work</a>
+          <a>Discover Talent</a>
+        </div>
       </div>
       <div class="spacer"></div>
       <ElevateSkill />
-     
+
       <Contected
         content={
           <div className="connected-last-in-home">
@@ -245,7 +253,7 @@ together to build the future.
           </div>
         }
       />
-<Footer />
+      <Footer />
     </div>
   );
 }

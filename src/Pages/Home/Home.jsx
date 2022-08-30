@@ -3,10 +3,8 @@ import CommitSuccess from "../../Components/CommitSuccess/CommitSuccess";
 import Communction from "../../Components/Common/Communction/Communction";
 import Header from "../../Components/Common/Header/Header";
 import LookingFor from "../../Components/Common/LookingFor/LookingFor";
-import Navbar from "../../Components/Common/NavBar/Navbar";
 import Sliders from "../../Components/Common/Slider/Sliders";
 import Footer from "../../Components/Common/Footer/Footer";
-import SubHeader from "../../Components/Common/SubHeader/SubHeader";
 import Skills from "../../Components/Skills/Skills";
 import Contected from "../../Components/Common/Connected/Contected";
 import LastSlider from "../../Components/Common/LastSlider/LastSlider";
@@ -15,18 +13,17 @@ import "./style.css";
 function Home() {
   return (
     <div className="homes-img">
-      <div>
-        <Header className="home" id="header-conatiner">
-          <Navbar />
-          <SubHeader
-            title="Find work that you love with companies you can trust"
-            description="Join Andela to experience the joy of long-term work,
-                        with vetted companies and competitive compensation."
-          />
-        </Header>
-      </div>
-      <a className="btn">Find Work</a>
-      <div className="spacer"></div>
+      <Header
+        cover="https://andela.com/wp-content/uploads/2022/03/green-wash.jpg"
+        className="header-conatiner"
+        title="
+      Find work that you
+      love with companies
+      you can trust"
+        content="Join Andela to experience the joy of long-term work,
+      with vetted companies and competitive compensation."
+        link={["Find Work", "/findwork"]}
+      />
       <Sliders />
       <div className="spacer-2"></div>
       <div className="vedio-conatiner">
@@ -34,7 +31,7 @@ function Home() {
           <h2>
             Our <em>vibrant</em> community
           </h2>
-          <p>Rizwan Jafri shares his Andela story from Lahore, Pakistan.</p>
+          <span>Rizwan Jafri shares his Andela story from Lahore, Pakistan.</span>
           <div className="vedio-box">
             <figure>
               <a href="https://www.youtube.com/embed/NUk9lR2jo_g?fbclid=IwAR1-4JGvdhqxj6S3vt-z5qTjiohuPgoD8Caw1cbeYi8QAAXXWAZNI3pbZwE">
@@ -158,10 +155,10 @@ function Home() {
           content={
             <>
               <h2>Grow your potential beyond borders</h2>
-              <p>
+              <span>
                 Connect with a global network and land international
                 opportunities.
-              </p>
+              </span>
               <a>Discover opportunities</a>
             </>
           }

@@ -8,11 +8,11 @@ function CommitSuccess() {
         </div>
         <div className="wp-block-2">
             <h3>Technologist first culture</h3>
-            <p>Ensuring a seamless experience for technologists is our top priority. You can rest assured there is always someone looking out for your interests and career.</p>
+            <span>Ensuring a seamless experience for technologists is our top priority. You can rest assured there is always someone looking out for your interests and career.</span>
             <h3>Trusted platform</h3>
-            <p>We only work with trusted and vetted companies. No matter what, we’ll ensure you are paid for the work you do, and on time.</p>
+            <span>We only work with trusted and vetted companies. No matter what, we’ll ensure you are paid for the work you do, and on time.</span>
             <h3>Global support</h3>
-            <p>Wherever you are, and whatever issues you may face, we’re here to help solve any disputes, fast!</p>
+            <span>Wherever you are, and whatever issues you may face, we’re here to help solve any disputes, fast!</span>
         </div>
     </div>
   )
