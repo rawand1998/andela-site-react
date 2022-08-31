@@ -12,12 +12,13 @@ import "./style.css";
 import Teamoffer from "../../Components/Common/TeamOffer/Teamoffer";
 import ElevateSkill from "../../Components/Common/ElevateSkill/ElevateSkill";
 import ScaleTeam from "../../Components/Common/ScaleTeam/ScaleTeam";
-import NavBar from "../../Components/Common/NavBar/Navbar"
+import NavBar from "../../Components/Common/NavBar/Navbar";
+import ImageBlock from "../../Components/Common/ImagesAboutBlocks/ImageBlock";
 function About() {
   return (
     <div>
       <NavBar />
-      
+
       <Header
         cover="https://andela.com/wp-content/uploads/2022/03/about-banner.jpg"
         className="header-conatiner"
@@ -49,93 +50,7 @@ function About() {
           </>
         }
       />
-      <div className="spacer"></div>
-      <div className="images-block">
-        <h2>
-          Brilliant minds and companies <em>come </em> <br />
-          <em>together</em> <em>the future</em>
-        </h2>
-        <span>
-          Meet the team dedicated to helping the world’s best <br />
-          companies build the world’s best teams.
-        </span>
-        <div className="space"></div>
-        <figure className="figures">
-          <figure>
-            <img src="https://andela.com/wp-content/uploads/2022/03/Mike-Ndimurukundo-561x600.jpg" />
-            <div className="figure-content">
-              <strong>Jeremy Johnson</strong> <span>Co-Founder & CEO</span>
-            </div>
-          </figure>
-          <figure>
-            <img src="https://andela.com/wp-content/uploads/2022/03/Jeremy-Johnson-561x600.jpg" />{" "}
-            <div className="figure-content">
-              <strong>Jeremy Johnson</strong> <span>Co-Founder & CEO</span>
-            </div>
-          </figure>
-          <figure>
-            <img src="https://andela.com/wp-content/uploads/2022/03/Vitri-Bhandari-187x200.jpg" />{" "}
-            <div className="figure-content">
-              <strong>Jeremy Johnson</strong> <span>Co-Founder & CEO</span>
-            </div>
-          </figure>
-          <figure>
-            <img src="https://andela.com/wp-content/uploads/2022/03/Mary-Decker-187x200.jpg" />{" "}
-            <div className="figure-content">
-              <strong>Jeremy Johnson</strong> <span>Co-Founder & CEO</span>
-            </div>
-          </figure>
-          <figure>
-            <img src="https://andela.com/wp-content/uploads/2022/03/Alvaro-Oliveira-561x600.jpg" />{" "}
-            <div className="figure-content">
-              <strong>Jeremy Johnson</strong> <span>Co-Founder & CEO</span>
-            </div>
-          </figure>
-          <figure>
-            <img src="https://andela.com/wp-content/uploads/2022/03/Sachin-Bhagwat-187x200.jpeg" />{" "}
-            <div className="figure-content">
-              <strong>Jeremy Johnson</strong> <span>Co-Founder & CEO</span>
-            </div>
-          </figure>
-          <figure>
-            <img src="https://andela.com/wp-content/uploads/2022/08/MG_3662-1-2048x1365.jpg" />{" "}
-            <div className="figure-content">
-              <strong>Jeremy Johnson</strong> <span>Co-Founder & CEO</span>
-            </div>
-          </figure>
-          <figure>
-            <img src="https://andela.com/wp-content/uploads/2022/07/MG_3545.jpg" />{" "}
-            <div className="figure-content">
-              <strong>Jeremy Johnson</strong> <span>Co-Founder & CEO</span>
-            </div>
-          </figure>
-          <figure>
-            <img src="https://andela.com/wp-content/uploads/2022/07/Tisbe-Galindo.jpg" />{" "}
-            <div className="figure-content">
-              <strong>Jeremy Johnson</strong> <span>Co-Founder & CEO</span>
-            </div>
-          </figure>
-          <figure>
-            <img src="https://andela.com/wp-content/uploads/2022/03/Eryn-Peters-561x600.jpg" />{" "}
-            <div className="figure-content">
-              <strong>Jeremy Johnson</strong> <span>Co-Founder & CEO</span>
-            </div>
-          </figure>
-          <figure>
-            <img src="https://andela.com/wp-content/uploads/2022/03/Kirsten-Canton-561x600.jpg" />{" "}
-            <div className="figure-content">
-              <strong>Jeremy Johnson</strong> <span>Co-Founder & CEO</span>
-            </div>
-          </figure>
-          <figure>
-            <img src="https://andela.com/wp-content/uploads/2022/03/Patrick-Hennessey-561x600.jpg" />{" "}
-            <div className="figure-content">
-              <strong>Jeremy Johnson</strong> <span>Co-Founder & CEO</span>
-            </div>
-          </figure>
-        </figure>
-      </div>
-      {/* <div className="spacer"></div> */}
+      <ImageBlock />
 
       <div className="block-column1-inverstor">
         <div class="wp-block-column-inverstor">
