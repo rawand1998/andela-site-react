@@ -25,10 +25,12 @@ function Skills() {
   return (
     <div className="skills-container">
       <div className="inner-skills">
+        <div className="skillHeader">
         <h2>
           Your skills are in <em>demand</em>
         </h2>
         <span>The future is yours to create.</span>
+        </div>
         <ul>
           {skills.map(({ name }, i) => {
             return (

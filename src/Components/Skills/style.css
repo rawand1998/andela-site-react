@@ -2,10 +2,6 @@
   background-color: #f8f8f8;
   padding: 25px;
 }
-.skills-container p {
-  text-align: center;
-  margin: 0px auto 24px;
-}
 .inner-skills {
   padding: 0px 20px;
   max-width: 1320px;
@@ -15,6 +11,14 @@
 .inner-skills ul {
   columns: 4;
   list-style: none;
+}
+.skillHeader{
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  height:190px;
+
 }
 .inner-skills ul li {
   margin: 0px 0px 24px 0px;
@@ -33,10 +37,7 @@
   cursor: pointer;
 }
 .btn-work {
-  /* position:absolute; */
   border-radius: 25px;
-  /* bottom: 5%; */
-  /* left: 50%; */
   color: #173b3f;
   border: 1px solid var(--text-color);
   background-color: transparent;
