@@ -15,20 +15,19 @@ import ScaleTeam from "../../Components/Common/ScaleTeam/ScaleTeam";
 function About() {
   return (
     <div>
-    <Header
+      <Header
         cover="https://andela.com/wp-content/uploads/2022/03/about-banner.jpg"
         className="header-conatiner"
         title={
           <>
-           Scale your business<br/>
-with technologists<br/>
-            <em>
-            you can trust
-            </em>
+            Scale your business
+            <br />
+            with technologists
+            <br />
+            <em>you can trust</em>
           </>
         }
-        content=
-        {<>Accelerate innovation with vetted technical talent.</>}
+        content={<>Accelerate innovation with vetted technical talent.</>}
         link={["Discver Talent", "/register"]}
       />
       <div class="spacer"></div>
