@@ -1,10 +1,11 @@
 .wp-block-columns {
   padding: 0px 20px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   max-width: 1320px;
   margin: 50px auto;
   box-sizing: border-box;
+  width: 100%;
 }
 .wp-block-1 {
   width: 346px;
@@ -13,7 +14,7 @@
   width: 600px;
 }
 .wp-block-1 h2 {
-  margin-left: -40%;
+  /* margin-left: -40%; */
   font-size: 40px;
   font-weight: 400;
   color: #132128;
