@@ -207,17 +207,15 @@ select option{
     justify-content: center;
 }
 .singup-button button{
-    background-color: rgb(86, 200, 112);
+    background-color: rgb(86, 200, 112);  
     width: fit-content;
     padding: 0.5rem 1rem;
     color: rgb(255, 255, 255);
-    border-radius: 2.5rem;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
     border: 1px solid rgba(255, 255, 255, 0);
     font-family: sans-serif;
-    font-size: 16px;
-    cursor: pointer;
+    font-size: 16px !important;
+  
     min-width: 5.875rem;
-    background-color: rgb(86, 200, 112);
 }

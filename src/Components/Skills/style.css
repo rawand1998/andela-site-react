@@ -41,18 +41,18 @@
   color: #173b3f;
   border: 1px solid var(--text-color);
   background-color: transparent;
-  border-radius: 48px;
+
   padding: 24px 40px;
-  font-size: 18px !important;
+
   color: #173b3f;
   line-height: 1;
   text-decoration: none;
-  font-weight: 400;
+  /* font-weight: 400; */
   transition: all 0.25s ease-in-out;
   margin-left: 15px;
   z-index: 1111;
-  transition: all 0.5s ease-in-out;
-  cursor: pointer;
+
+  /* cursor: pointer; */
   margin-left: 45%;
 }
 .btn-work:hover {

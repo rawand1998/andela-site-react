@@ -52,18 +52,14 @@ header::before {
 
 }
 .links-header .link {
-  border-radius: 48px;
+  /* border-radius: 48px; */
   padding: 24px 40px;
-  font-size: 18px!important;
-
   line-height: 1;
-  text-decoration: none;
-  font-weight: 400;
+  /* font-weight: 400; */
   transition: all .25s ease-in-out;
   margin-left:15px;
   z-index: 1111;
-  transition: all 0.5s ease-in-out;
-  cursor: pointer;
+
 }
 .links-header .secondlink{
   color: var(--achor-color);

@@ -24,13 +24,13 @@
 .scale-team-container .scale-wp-block-column a {
   border: 1px solid #56c870;
   background-color: #56c870;
-  border-radius: 48px;
+
   padding: 24px 40px;
-  font-size: 18px !important;
+
   color: #173b3f;
   line-height: 1;
-  text-decoration: none;
-  font-weight: 400;
+  /* text-decoration: none; */
+  /* font-weight: 400; */
   transition: all 0.25s ease-in-out;
   display: block;
   margin-top: 15px;

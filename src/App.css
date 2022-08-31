@@ -21,7 +21,10 @@
   /* fonts size */
   --fs-title: 2rem;
   --fs-header : 64px;
-  --fw-title:400
+  --fw-title:400;
+  --fs-achor:18px;
+  --fs-header-two:40px;
+  --fw-para:300
 }
 
 @media screen and (max-width: 900px) {
@@ -59,6 +62,10 @@ img {
 a {
   text-decoration: none;
   color: var(--text-color);
+  cursor: pointer;
+  border-radius:48px;
+  font-size: var(--fs-achor);
+  font-weight: var(--fw-title);
 }
 
 h1 {
@@ -67,8 +74,6 @@ h1 {
   font-size:var(--fs-header );
   line-height:72px;
   font-weight:var(--fw-title);
-  /* margin-bottom:40px */
-  
 }
 em{
   font-family: var(--ff-inter);
@@ -78,9 +83,9 @@ em{
 h2 {
   clear: both;
   margin: 0px 0px 24px 0px;
-  font-weight: 400;
+  font-weight: var(--fw-title);
   color: var(--text-color);
-  font-size: 40px;
+  font-size: var(--fs-header-two);
   line-height: 48px;
 }
 
@@ -92,7 +97,6 @@ h3 {
 
 p {
   display: block;
-
   font-family: var(--ff-inter);
-  font-weight: 300;
+  font-weight:var( --fw-para);
 }
