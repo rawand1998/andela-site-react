@@ -1,14 +1,14 @@
 import React from "react";
 import "./style.css";
-function ScaleTeam({ img, content }) {
+function ScaleTeam({ img, content ,bg }) {
   return (
-    <div>
-      <div className="scale-team-container">
+  
+      <div className={`scale-team-container ${bg}`}>
         <figure>{img}</figure>
 
         <div class="scale-wp-block-column">{content}</div>
       </div>
-    </div>
+  
   );
 }
 

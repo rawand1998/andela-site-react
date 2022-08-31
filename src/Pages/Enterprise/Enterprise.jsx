@@ -192,8 +192,9 @@ function Enterprise() {
 
       <div class="spacer"></div> */}
 
-      <div className="lookingfor-backgroungd">
+      {/* <div className="lookingfor-backgroungd"> */}
         <ScaleTeam
+         bg="bgblue"
           img={
             <img src="https://andela.com/wp-content/uploads/2022/03/1-1-1.png" />
           }
@@ -209,7 +210,7 @@ function Enterprise() {
             </>
           }
         />
-      </div>
+      {/* </div> */}
 {/* <div className="spacer"></div> */}
       <Footer />
     </div>

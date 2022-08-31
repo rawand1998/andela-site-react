@@ -38,6 +38,10 @@
 .scale-team-container a:hover {
   transform: scale(1.09);
 }
+.bgblue{
+  background-color: #B0D6CE
+
+}
 @media only screen and (max-width: 600px)  {
   .scale-team-container {
     flex-direction: column;
@@ -62,6 +66,7 @@
     height: 100%;
     padding-left: 10px;
   }
+
 }
 
  @media only screen and (min-width: 600px) and (max-width: 992px) {

@@ -79,11 +79,7 @@
 .wp-block-column .work-btn {
     margin-left: -1%;
 }
-.lookingfor-backgroungd{
-    background-color: #B0D6CE;
-    width: 100%;
-    height:120vh
-}
+
 .enter .descriptions{
 
     margin-left:-40%
@@ -107,6 +103,7 @@
 
         margin-left:0%
     }
+
 }
 @media (min-width: 678px) and (max-width:1024px){
     .enterprise-btn{
@@ -124,4 +121,5 @@
 
         margin-left:0%
     }
+   
 }
