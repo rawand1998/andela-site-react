@@ -90,14 +90,14 @@ function LastSlider() {
     <div className="sliderss">
       <div className="last-slide-conatiner">
         <div>
+          <div className="sliderHeadertwo">
           <h2>
-            <em>Anytime, anywhere</em> – with Andela,
-            <br /> the world is at your fingertips
+          Insights to inspire
           </h2>
-          <span>
-            Discover how leading companies have built impactful global teams
-            with Andela.
+          <span className="sliderText">
+          The latest articles from Andela.
           </span>
+          </div>
           <Slider {...settings}>
             {data.map(({ title, content, btn,clas ,clasbg},i) => {
               return (

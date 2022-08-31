@@ -1,5 +1,3 @@
-
-
 .btn {
   position: absolute;
   border-radius: 25px;
@@ -22,50 +20,39 @@
 .btn:hover {
   transform: scale(1.05);
 }
-.spacer {
-  height: 80px;
-}
-.spacer-2 {
-  height: 48px;
-}
+
 .vedio-conatiner {
   background-color: var(--background-green);
   margin: 0 auto;
-  padding-top: 36px;
-  padding-bottom: 24px;
+  padding-top: 40px;
+  margin-top: 40px;
+  height: 620px !important;
 }
 .vedio-inner {
   padding: 0px 20px;
-  max-width: 1320px;
-  margin: 0px auto;
   color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 .vedio-inner h2 {
-  font-size: 40px;
-  line-height: 48px;
-  text-align: center;
   color: var(--white);
 }
-.vedio-inner p {
+.vedio-inner span {
   margin: 0px auto 24px;
-  text-align: center;
 }
-.vedio-box {
-  width: 800px;
-  height: 450px;
-  margin-left: 15%;
-}
+
 .vedio-box figure {
-  margin-left: auto;
-  margin-right: auto;
+  width: 700px;
 }
 .vedio-box figure a img {
   width: 100%;
   height: 100%;
 }
-.spacer-1 {
+/* .spacer-1 {
   height: 80px;
-}
+} */
 
 .content-column {
   display: flex;
@@ -79,58 +66,31 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .vedio-box {
-    width: 450px;
-    height: 450px;
-    margin-left: 0%;
+  .vedio-conatiner {
+    height: 500px !important;
   }
   .vedio-box figure {
-    margin-left: 0;
-    margin-right: 0;
-  }
-  .vedio-box figure a img {
-    width: 100%;
-    height: 100%;
-  }
-  .vedio-conatiner {
-    height: 500px;
+    width: 450px;
   }
 }
 @media only screen and (min-width: 600px) {
-  .vedio-conatiner {
-    height: 500px;
-  }
-  .vedio-box {
-    width: 900px;
-    height: 450px;
-    margin-left: 1%;
+  .vedio-box figure {
+    width: 550px;
   }
 }
 
 @media only screen and (min-width: 768px) {
-  .vedio-conatiner {
-    height: 700px;
+  .vedio-box figure {
+    width: 660px;
   }
 }
 
 @media only screen and (min-width: 992px) {
   .vedio-conatiner {
-    height: 750px;
+    height: 650px !important;
   }
-  .vedio-box {
-    width: 900px;
+  .vedio-box figure {
+    width: 800px;
     height: 450px;
-    margin-left: 5%;
-  }
-}
-
-@media only screen and (min-width: 1200px) {
-  .vedio-conatiner {
-    height: 720px;
-  }
-  .vedio-box {
-    width: 900px;
-    height: 450px;
-    margin-left: 15%;
   }
 }

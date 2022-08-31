@@ -39,7 +39,7 @@ function Home() {
         link={["Find Work", "/findwork"]}
       />
       <Sliders />
-      <div className="spacer-2"></div>
+    
       <div className="vedio-conatiner">
         <div className="vedio-inner">
           <h2>
@@ -57,7 +57,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="spacer"></div>
+      {/* <div className="spacer"></div> */}
       <LookingFor
         title={
           <>
@@ -174,12 +174,12 @@ function Home() {
         btn="Discover opportunities"
       />
 
-      <div className="spacer-1"></div>
+      {/* <div className="spacer-1"></div> */}
       <CommitSuccess />
-      <div className="spacer-1"></div>
+      {/* <div className="spacer-1"></div> */}
       <LastSlider />
-      <div className="spacer-1"></div>
-      <div className="spacer-1"></div>
+      {/* <div className="spacer-1"></div>
+      <div className="spacer-1"></div> */}
       <Contected
       classname="connected-center"
         bg="https://andela.com/wp-content/uploads/2022/03/african-american-young-programmer-working-remote-f-2022-03-25-18-49-53-utc.jpg"

@@ -203,17 +203,13 @@ function Clients() {
       <ElevateSkill />
 
       <Contected
-        content={
-          <div className="connected-last-in-home">
-            <h2>
-              Connecting your
-              <em>brilliance</em>
-              <br />
-              with opportunity
-            </h2>
-            <a>Find Work</a>
-          </div>
-        }
+       
+        classname="connected-center"
+          bg="https://andela.com/wp-content/uploads/2022/03/african-american-young-programmer-working-remote-f-2022-03-25-18-49-53-utc.jpg"
+          title={`Grow your business and accelerate
+          innovation with Andela`}
+          btn="sign up"
+       
       />
     
       <Footer />
