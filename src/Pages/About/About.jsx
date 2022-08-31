@@ -14,6 +14,7 @@ import ElevateSkill from "../../Components/Common/ElevateSkill/ElevateSkill";
 import ScaleTeam from "../../Components/Common/ScaleTeam/ScaleTeam";
 import NavBar from "../../Components/Common/NavBar/Navbar";
 import ImageBlock from "../../Components/Common/ImagesAboutBlocks/ImageBlock";
+import Future from "../../Components/Common/FutureAboutPage/Future";
 function About() {
   return (
     <div>
@@ -93,8 +94,9 @@ function About() {
           </figure>
         </div>
       </div>
-      <div className="spacer"></div>
-      <div className="about-columns">
+      <Future />
+      {/* <div className="spacer"></div> */}
+      {/* <div className="about-columns">
         <div className="about-columns1">
           <h2>
             We’ve achieved
@@ -179,7 +181,7 @@ function About() {
             </li>
           </ol>
         </div>
-      </div>
+      </div> */}
 
       <div className="spacer"></div>
       <Contected
