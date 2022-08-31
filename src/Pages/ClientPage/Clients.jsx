@@ -37,53 +37,73 @@ function Clients() {
       <div className="spacer"></div>
 
       <LookingFor
-        img={
-          <img src="https://andela.com/wp-content/uploads/2022/03/Container.png" />
-        }
-        content={
-          <>
-            <h3>Rigorous vetting for talent from multiple regions</h3>
-            <ul>
-              <li>Quick and efficient</li>
-              <li>Only top quality options</li>
-              <li>Stress-free hiring of global talent</li>
-            </ul>
-          </>
-        }
-        img2={
-          <img src="https://andela.com/wp-content/uploads/2022/03/Visual-1.png" />
-        }
-        content2={
-          <>
-            <h3>
-              The world’s leading companies
-              <br />
-              are already here
-            </h3>
-            <span className="paragraph">
-              Feel the bustle of the Global Marketplace here at Andela where
-              brilliant minds and companies gather from all over the world.
-            </span>
-          </>
-        }
-        img3={
-          <img
-            src="https://andela.com/wp-content/uploads/2022/03/3-1.png"
-            alt="not found"
-          />
-        }
-        content3={
-          <>
-            <h3>Scale fast and with ease</h3>
-            <ul>
-              <li>Onboarding is 70% faster</li>
-              <li>We provide additional support</li>
-              <li>Get the team you need, regardless of size</li>
-            </ul>
-          </>
-        }
-      />
-      <div className="spacer"></div>
+     
+     title={
+       <>
+         {" "}
+         <em>Find</em> what you’re looking for and more
+       </>
+     }
+     img={
+    
+       <img src="  https://andela.com/wp-content/uploads/2022/03/Container.png" />
+     }
+     content={
+       <>
+         <h3>Rigorous vetting for talent from
+multiple regions</h3>
+         <ul>
+           <li>
+           Quick and efficient
+           </li>
+           <li>Only top quality options</li>
+           <li>
+           Stress-free hiring of global talent
+           </li>
+         
+         </ul>
+       </>
+     }
+     />
+     <LookingFor
+     clas="classRevrse"
+     
+       img={
+     
+         <img src="   https://andela.com/wp-content/uploads/2022/03/Visual-1.png" />
+       }
+       content={
+         <>
+         <h3>The world’s leading companies<br/>
+are already here</h3>
+          <span>Feel the bustle of the Global Marketplace here at Andela where brilliant<br/> minds and companies gather from all over the world.</span>
+         </>
+       }
+   />
+         <LookingFor
+  
+ 
+  img={
+    <img src="https://andela.com/wp-content/uploads/2022/03/3-1.png" />
+  }
+  content={
+    <>
+      <h3>Scale fast and with ease</h3>
+      <ul>
+        <li>
+        Onboarding is 70% faster
+        </li>
+        <li>We provide additional support</li>
+        <li>
+        Get the team you need, regardless of size
+        </li>
+        
+      </ul>
+    </>
+  }
+  />
+      
+      {/* <div className="spacer"></div> */}
       <div className="team-container">
         <div className="inner-team-container">
           <div className="spacer"></div>

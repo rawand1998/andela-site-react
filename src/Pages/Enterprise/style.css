@@ -32,13 +32,13 @@
 .spacer{
     /* height: 80px */
 }
-.text-muted{
-    font-size:18px;
+/* .text-muted{ */
+    /* font-size:18px;
     font-weight:300;
     color: var( --text-color);
     text-align: center;
-    padding-left: 20%;
-}
+    padding-left: 20%; */
+/* }  */
 .description{
     padding: 15px 70px;
    

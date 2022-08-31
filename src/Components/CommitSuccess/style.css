@@ -1,84 +1,59 @@
-.wp-block-columns
-{
-    /* width: 100%; */
-    padding: 0px 20px;
-     display: flex;
-    justify-content:space-around; 
-    max-width: 1320px;
-    margin: 0px auto;
-    box-sizing: border-box;
+.wp-block-columns {
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-around;
+  max-width: 1320px;
+  margin: 50px auto;
+  box-sizing: border-box;
 }
-.wp-block-1{
-    width: 346px;
-    min-width: 0;
-    word-break: break-word;
-    overflow-wrap: break-word;
+.wp-block-1 {
+  width: 346px;
 }
-.wp-block-2{
-    width: 600px;
-    word-break: break-word;
-    overflow-wrap: break-word;
-    min-width: 0;
- 
+.wp-block-2 {
+  width: 600px;
 }
-.wp-block-1 h2{
-    margin-left: -40%;
-    font-size:40px;
-    font-weight:400;
-    color: #132128;
-
+.wp-block-1 h2 {
+  margin-left: -40%;
+  font-size: 40px;
+  font-weight: 400;
+  color: #132128;
 }
-.wp-block-2 h3{
-    margin: 0px 0px 12px 0px;
-    font-size:32px;
-    font-weight:300;
-    line-height:40px;
+.wp-block-2 h3 {
+  margin: 0px 0px 12px 0px;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 40px;
 }
-.wp-block-2  p{
-    margin: 0px auto 24px;
-    color: #132128;
-    font-family: 'Inter',sans-serif;
-    font-size:18px
+.wp-block-2 span {
+  margin: 0px auto 24px;
+  color: #132128;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
 }
 @media only screen and (max-width: 600px) {
-.wp-block-columns{
-
-    flex-direction: column
-}
-.wp-block-1 h2{
+  .wp-block-columns {
+    flex-direction: column;
+  }
+  .wp-block-1 h2 {
     margin-left: 0%;
-    font-size:40px;
-    font-weight:400;
+    font-size: 40px;
+    font-weight: 400;
     color: #132128;
-
+  }
 }
-}
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    .wp-block-columns{
-
-        flex-direction: column
-    }
-    .wp-block-1 h2{
-        margin-left: 20%;
-        font-size:40px;
-        width: 400px;
-    
-    }
+  .wp-block-columns {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .wp-block-columns{
-
-        flex-direction: row
-    }
-    .wp-block-1 h2{
-        margin-left: -20%;
-        font-size:40px;
-        width: 400px;
-    
-    }
+  .wp-block-columns {
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+  }
 }
-

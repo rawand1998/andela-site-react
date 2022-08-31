@@ -59,6 +59,7 @@ function Home() {
       </div>
       {/* <div className="spacer"></div> */}
       <LookingFor
+     
         title={
           <>
             {" "}
@@ -70,7 +71,7 @@ function Home() {
         }
         content={
           <>
-            <h3>Grow your career with us</h3>
+            <h3>Set your own rate</h3>
             <ul>
               <li>
                 Find meaningful, long-term work with interesting organizations
@@ -85,44 +86,54 @@ function Home() {
             </ul>
           </>
         }
-        img2={
-          <img src="https://andela.com/wp-content/uploads/2022/03/shutterstock_1696088776-768x512.jpg" />
-        }
-        content2={
-          <>
-            <h3>Grow your career with us</h3>
-            <ul>
-              <li>Only work with companies we trust</li>
-              <li>
-                Receive payments on time in your local currency, USD, or in
-                Crypto
-              </li>
-              <li>Discover salaries that match your skills and experience</li>
-            </ul>
-          </>
-        }
-        img3={
-          <img
-            src="https://andela.com/wp-content/uploads/2022/03/shutterstock_1653288229-1024x683.jpg"
-            alt="not found"
-          />
-        }
-        content3={
-          <>
-            <h3>Grow your career with us</h3>
-            <ul>
-              <li>Ditch the commute and work from anywhere</li>
-              <li>
-                With roles across different time zones, you choose when you work
-              </li>
-              <li>
-                Gain additional skills through exclusive learning opportunities
-              </li>
-            </ul>
-          </>
-        }
+        />
+        <LookingFor
+        clas="classRevrse"
+        
+          img={
+            <img src="https://andela.com/wp-content/uploads/2022/03/shutterstock_1696088776-1024x683.jpg" />
+          }
+          content={
+            <>
+              <h3>Grow your career with us</h3>
+              <ul>
+                <li>
+                Only work with companies we trust
+                </li>
+                <li>Receive payments on time in your local currency, USD, or in Crypto</li>
+                <li>
+                Discover salaries that match your skills and experience
+                </li>
+               
+              </ul>
+            </>
+          }
       />
-      <div className="spacer-1"></div>
+            <LookingFor
+     
+    
+     img={
+       <img src="https://andela.com/wp-content/uploads/2022/03/shutterstock_1653288229-1024x683.jpg" />
+     }
+     content={
+       <>
+         <h3>Work anytime, anywhere</h3>
+         <ul>
+           <li>
+           Ditch the commute and work from anywhere
+           </li>
+           <li>Work with an internationally distributed team and company</li>
+           <li>
+           With roles across different time zones, you choose when you work
+           </li>
+           <li>
+           Create a healthy, flexible work-life balance
+           </li>
+         </ul>
+       </>
+     }
+     />
+      {/* <div className="spacer-1"></div> */}
       <Communction
         title={
           <>
