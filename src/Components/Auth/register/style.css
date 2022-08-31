@@ -208,7 +208,9 @@ button:hover{
    text-align: left;
    font-size: 12px;
 }
-
+.talent-content h1{
+  color: #132128;
+}
 @media only screen and (max-width: 600px) {
     .talent-container {
       display: flex;

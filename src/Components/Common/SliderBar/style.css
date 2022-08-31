@@ -25,6 +25,9 @@
     width: 225px;
     height: 60px;
    }
+   .side h2{
+    text-align: center;
+   }
    @media only screen and (max-width: 600px) {
     .b-side{
       width: 1000px;

@@ -12,9 +12,12 @@ import "./style.css";
 import Teamoffer from "../../Components/Common/TeamOffer/Teamoffer";
 import ElevateSkill from "../../Components/Common/ElevateSkill/ElevateSkill";
 import ScaleTeam from "../../Components/Common/ScaleTeam/ScaleTeam";
+import NavBar from "../../Components/Common/NavBar/Navbar"
 function About() {
   return (
     <div>
+      <NavBar />
+      
       <Header
         cover="https://andela.com/wp-content/uploads/2022/03/about-banner.jpg"
         className="header-conatiner"
@@ -30,7 +33,7 @@ function About() {
         content={<>Accelerate innovation with vetted technical talent.</>}
         link={["Discver Talent", "/register"]}
       />
-      <div class="spacer"></div>
+      {/* <div class="spacer"></div> */}
       <ScaleTeam
         img={
           <img src="https://andela.com/wp-content/uploads/2022/03/Visual-2.png" />
@@ -132,7 +135,7 @@ function About() {
           </figure>
         </figure>
       </div>
-      <div className="spacer"></div>
+      {/* <div className="spacer"></div> */}
 
       <div className="block-column1-inverstor">
         <div class="wp-block-column-inverstor">

@@ -16,9 +16,11 @@ function Teamoffer({
     <div>
       <div className="offer-conatiner">
         <div className="offer-block">
-          <div className="spacer"></div>
+        <div className="headerContentOffer">
           <h2>{title}</h2>
           <span className="offer-paragraph">{paragraph}</span>
+          </div>
+
           <div className="offer-blocks">
             <div className="offer-block-1">
               <h4>{header1}</h4>

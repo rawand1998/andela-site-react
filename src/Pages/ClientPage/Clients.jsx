@@ -10,10 +10,11 @@ import ElevateSkill from "../../Components/Common/ElevateSkill/ElevateSkill";
 import LastSlider from "../../Components/Common/LastSlider/LastSlider";
 import "./style.css";
 import State from "../../Components/Common/StateComponent/State";
-
+import NavBar from "../../Components/Common/NavBar/Navbar"
 function Clients() {
   return (
     <div>
+<NavBar />
       <div className="clients-img">
         <Header
           cover="https://andela.com/wp-content/uploads/2022/03/annie-spratt-AkftcHujUmk-unsplash-2.jpg"

@@ -8,11 +8,13 @@ import SliderBar from "../../Components/Common/SliderBar/SliderBar";
 import Teamoffer from "../../Components/Common/TeamOffer/Teamoffer";
 import ElevateSkill from "../../Components/Common/ElevateSkill/ElevateSkill";
 import ScaleTeam from "../../Components/Common/ScaleTeam/ScaleTeam";
+import NavBar from "../../Components/Common/NavBar/Navbar"
 import "./style.css";
 
 function Enterprise() {
   return (
     <div className="enter">
+      <NavBar />
       <div className="inter-img">
         <Header
           cover="https://andela.com/wp-content/uploads/2022/03/toby-osborn-ilHo9qgDEGY-unsplash-scaled.jpg"

@@ -8,11 +8,13 @@ import Footer from "../../Components/Common/Footer/Footer";
 import Skills from "../../Components/Skills/Skills";
 import Contected from "../../Components/Common/Connected/Contected";
 import LastSlider from "../../Components/Common/LastSlider/LastSlider";
+import NavBar from "../../Components/Common/NavBar/Navbar"
 import "./style.css";
 
 function Home() {
   return (
     <div>
+      <NavBar />
       <Header
         cover="https://andela.com/wp-content/uploads/2022/03/green-wash.jpg"
         className="header-conatiner"

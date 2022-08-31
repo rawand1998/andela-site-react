@@ -48,7 +48,9 @@
 .card_slider.blue-light {
   background-color: #fce1e1 !important;
 }
-
+.slidersss h2{
+  text-align: center;
+}
 @media only screen and (max-width: 600px) and (min-width: 992px) {
   .the-slider {
     width: 1500px;
