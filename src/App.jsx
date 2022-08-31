@@ -8,6 +8,7 @@ import Register from "./Components/Auth/register/Register";
 import FindWork from "./Pages/FindWorkPage/FindWork";
 import Navbar from "./Components/Common/NavBar/Navbar";
 import "./App.css";
+import Error from "./Pages/Error";
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
           <Route path="login" element={<Login />} />
           <Route path="register" element={<Register />} />
           <Route path="findWork" element={<FindWork />} />
-          {/* error 404 "*" */}
+          <Route path="*" element={<Error />} />
+       
         </Routes>
       </BrowserRouter>
     </div>
