@@ -38,11 +38,10 @@
 .scale-team-container a:hover {
   transform: scale(1.09);
 }
-.bgblue{
-  background-color: #B0D6CE
-
+.bgblue {
+  background-color: #b0d6ce;
 }
-@media only screen and (max-width: 600px)  {
+@media only screen and (max-width: 600px) {
   .scale-team-container {
     flex-direction: column;
     height: 120vh;
@@ -66,10 +65,9 @@
     height: 100%;
     padding-left: 10px;
   }
-
 }
 
- @media only screen and (min-width: 600px) and (max-width: 992px) {
+@media only screen and (min-width: 600px) and (max-width: 992px) {
   .scale-team-container {
     flex-direction: column;
     height: 120vh;
@@ -93,4 +91,4 @@
     height: 100%;
     padding-left: 10px;
   }
-} 
+}
