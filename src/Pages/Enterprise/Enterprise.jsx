@@ -14,27 +14,30 @@ function Enterprise() {
   return (
     <div className="enter">
       <div className="inter-img">
-      <Header
-        cover="https://andela.com/wp-content/uploads/2022/03/toby-osborn-ilHo9qgDEGY-unsplash-scaled.jpg"
-        className="header-conatiner"
-        title={
-          <>
-          We’re here to help you<br/>
-          build a
-            <em>
-            world class team, today.
-            </em>
-          </>
-        }
-        content=
-        {<>Trusted by enterprise teams and growing startups alike,<br/>
-          Andela’s onboarding timesare 70% faster than the<br/>
-          industry average..</>}
-        link={["Watch an interview", "/register"]}
-        secondLinl={[ "schedule a meet", "/"]}
-      />
+        <Header
+          cover="https://andela.com/wp-content/uploads/2022/03/toby-osborn-ilHo9qgDEGY-unsplash-scaled.jpg"
+          className="header-conatiner"
+          title={
+            <>
+              We’re here to help you
+              <br />
+              build a<em>world class team, today.</em>
+            </>
+          }
+          content={
+            <>
+              Trusted by enterprise teams and growing startups alike,
+              <br />
+              Andela’s onboarding timesare 70% faster than the
+              <br />
+              industry average..
+            </>
+          }
+          link={["Watch an interview", "/register"]}
+          secondLinl={["schedule a meet", "/"]}
+        />
       </div>
-   
+
       <SliderBar />
 
       <Teamoffer
@@ -76,7 +79,7 @@ function Enterprise() {
         title={
           <>
             Let’s help you add value to your business
-            <span  className="text-muted">
+            <span className="text-muted">
               Discover our global neighborhood of technologists.
             </span>
           </>
@@ -87,7 +90,7 @@ function Enterprise() {
         content={
           <>
             <h3>Speed to match</h3>
-            <span  class="description">
+            <span class="description">
               Move faster without sacrificing quality. Our team can radically
               reduce the time it takes to hire talent so you can find the right
               fit, quickly.
@@ -100,7 +103,7 @@ function Enterprise() {
         content2={
           <>
             <h3>Enterprise-ready</h3>
-            <span  class="descriptions">
+            <span class="descriptions">
               Technologists with verified backgrounds, aligned to your time
               zones, and compliant with your company’s security practices so you
               can focus on making an impact.
@@ -116,7 +119,7 @@ function Enterprise() {
         content3={
           <>
             <h3>Flexible teams</h3>
-            <span  class="">
+            <span class="">
               Find niche expertise for various project lengths. Onboard solo
               engineers to fill gaps or hire full teams to accelerate your
               build. Any team, any timezone, any skills.
@@ -124,7 +127,7 @@ function Enterprise() {
           </>
         }
       />
-      <div class="spacer"></div>
+
       <Communction
         title={
           <>
@@ -183,35 +186,29 @@ function Enterprise() {
           </>
         }
       />
-      {/* <div className="spacer"></div> */}
 
       <ElevateSkill />
-      {/* <div class="spacer"></div> */}
+
       <Slider />
-      {/* <div class="spacers"></div>
 
-      <div class="spacer"></div> */}
+      <ScaleTeam
+        bg="bgblue"
+        img={
+          <img src="https://andela.com/wp-content/uploads/2022/03/1-1-1.png" />
+        }
+        content={
+          <>
+            <h3>Scaling your team globally has never been this easy</h3>
+            <span>
+              Skilled engineers, product managers, and designers at your
+              fingertips. An extensive list of technical services to suit your
+              business needs. Cost-effective option for world-class expertise.
+            </span>
+            <a>Work with us</a>
+          </>
+        }
+      />
 
-      {/* <div className="lookingfor-backgroungd"> */}
-        <ScaleTeam
-         bg="bgblue"
-          img={
-            <img src="https://andela.com/wp-content/uploads/2022/03/1-1-1.png" />
-          }
-          content={
-            <>
-              <h3>Scaling your team globally has never been this easy</h3>
-              <span>
-                Skilled engineers, product managers, and designers at your
-                fingertips. An extensive list of technical services to suit your
-                business needs. Cost-effective option for world-class expertise.
-              </span>
-              <a>Work with us</a>
-            </>
-          }
-        />
-      {/* </div> */}
-{/* <div className="spacer"></div> */}
       <Footer />
     </div>
   );

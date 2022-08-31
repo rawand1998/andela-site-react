@@ -266,16 +266,12 @@ with technologists<br/>
 
       <div className="spacer"></div>
       <Contected
-        content={
-          <div className="connected-last-in-home">
-            <h2>
-              Join our globalmarket place
-              <br /> today
-              <br />
-            </h2>
-          </div>
-        }
-        buttonTitle="Sign up"
+        classname="connected-center"
+        bg="https://andela.com/wp-content/uploads/2022/03/smiling-young-african-american-business-woman-work-2021-08-28-04-34-28-utc.jpg"
+        title={`Connecting your
+            brilliance
+            with opportunity`}
+        btn="Find Work"
       />
       <Footer />
     </div>

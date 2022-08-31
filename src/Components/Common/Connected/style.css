@@ -1,7 +1,6 @@
 .block-container-connected {
   width: 100%;
-  min-height: 450px;
-  background-color: var(--achor-color);
+  min-height: 540px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -9,7 +8,11 @@
   flex-direction: column;
   box-sizing: border-box;
   color: #fff;
-  z-index: 1111;
+  z-index: 2;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .block-container-connected::before {
@@ -18,39 +21,10 @@
   content: "";
   position: absolute;
   top: 0;
-  background-position: 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  left: 0;
-  background-color: var(--achor-color);
-  background-image: url("https://andela.com/wp-content/uploads/2022/03/african-american-young-programmer-working-remote-f-2022-03-25-18-49-53-utc.jpg");
-  min-height: 450px;
-}
 
-.overlay {
-  position: absolute;
-  background-color: var(--achor-color);
-  opacity: 0.6;
-  top: 0;
   left: 0;
-  bottom: 0;
-  right: 0;
-  color: var(--white);
-
-  min-height: 450px;
-}
-
-.block2-connnected .overlay {
-  opacity: 0.6;
-  position: absolute;
-  background-color: var(--achor-color);
-  opacity: 0.6;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  color: var(--white);
+  background-color: #173b3f;
+  opacity: 0.8;
 }
 
 .block-container-connected
@@ -58,9 +32,7 @@
   .inner-content
   .block-covered-content
   a {
-  /* position:absolute; */
   border-radius: 25px;
-  /* bottom: -50%; */
   color: var(--achor-color);
   border: 1px solid var(--button-background-color);
   background-color: var(--button-background-color);
@@ -70,33 +42,31 @@
   line-height: 1;
   text-decoration: none;
   font-weight: 400;
-  transition: all 0.25s ease-in-out;
-  /* margin-left:15%; */
   z-index: 1111;
   transition: all 0.5s ease-in-out;
   cursor: pointer;
   margin-top: 40px;
-
   display: inline-block;
 }
 
 .block-container-connected a:hover {
   transform: scale(1.05);
 }
-.connected-last-in-home {
+/* .connected-last-in-home {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   width: 300%;
-}
-.first-connected-in-home .block-container-connected::before {
-  opacity: 0.6;
-  background-image: url("https://andela.com/wp-content/uploads/2022/03/shutterstock_1862846512-1024x717.jpg");
-}
+} */
+
 .content-column-connected {
   padding-left: 15px;
   z-index: 2;
+  /* background-color:#f00; */
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 .block-container-connected
   .content-column-connected
@@ -105,33 +75,16 @@
   h2 {
   color: #fff;
 }
-
-@media only screen and (max-width: 600px) {
-  .connected-last-in-home {
-    width: 450px;
-  }
+.block-covered-content {
+  display: flex;
+  flex-direction: column;
 }
-
-
-@media only screen and (min-width: 600px) {
-  .connected-last-in-home {
-    width: 650px;
-  }
+.connected-start {
+  justify-content: flex-start;
+  align-items: flex-start;
 }
-
-
-@media only screen and (min-width: 768px) {
-}
-
-@media only screen and (min-width: 992px) {
-  .connected-last-in-home {
-    width: 850px;
-  }
-}
-
-
-@media only screen and (min-width: 1200px) {
-  .connected-last-in-home {
-    width: 300%;
-  }
+.connected-center {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }

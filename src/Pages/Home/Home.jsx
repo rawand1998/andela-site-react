@@ -29,9 +29,13 @@ function Home() {
             </em>
           </>
         }
-        content=
-        {<>Join Andela to experience the joy of long-term work,<br/>
-      with vetted companies and competitive compensation.</>}
+        content={
+          <>
+            Join Andela to experience the joy of long-term work,
+            <br />
+            with vetted companies and competitive compensation.
+          </>
+        }
         link={["Find Work", "/findwork"]}
       />
       <Sliders />
@@ -162,20 +166,13 @@ function Home() {
       />
       <Skills />
 
-      <div className="first-connected-in-home">
-        <Contected
-          content={
-            <>
-              <h2>Grow your potential beyond borders</h2>
-              <span>
-                Connect with a global network and land international
-                opportunities.
-              </span>
-              <a>Discover opportunities</a>
-            </>
-          }
-        />
-      </div>
+      <Contected
+        classname="connected-start"
+        bg="https://andela.com/wp-content/uploads/2022/03/shutterstock_1862846512-1024x717.jpg"
+        content="Connect with a global network and land international opportunities."
+        title="Grow your potential beyond borders"
+        btn="Discover opportunities"
+      />
 
       <div className="spacer-1"></div>
       <CommitSuccess />
@@ -184,17 +181,12 @@ function Home() {
       <div className="spacer-1"></div>
       <div className="spacer-1"></div>
       <Contected
-        content={
-          <div className="connected-last-in-home">
-            <h2>
-              Connecting your
-              <em>brilliance</em>
-              <br />
-              with opportunity
-            </h2>
-            <a>Find Work</a>
-          </div>
-        }
+      classname="connected-center"
+        bg="https://andela.com/wp-content/uploads/2022/03/african-american-young-programmer-working-remote-f-2022-03-25-18-49-53-utc.jpg"
+        title={`Connecting your
+            brilliance
+            with opportunity`}
+        btn="Find Work"
       />
       <Footer />
     </div>
