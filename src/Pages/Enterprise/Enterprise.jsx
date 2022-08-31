@@ -183,14 +183,14 @@ function Enterprise() {
           </>
         }
       />
-      <div className="spacer"></div>
+      {/* <div className="spacer"></div> */}
 
       <ElevateSkill />
-      <div class="spacer"></div>
+      {/* <div class="spacer"></div> */}
       <Slider />
-      <div class="spacers"></div>
+      {/* <div class="spacers"></div>
 
-      <div class="spacer"></div>
+      <div class="spacer"></div> */}
 
       <div className="lookingfor-backgroungd">
         <ScaleTeam
@@ -210,7 +210,7 @@ function Enterprise() {
           }
         />
       </div>
-
+{/* <div className="spacer"></div> */}
       <Footer />
     </div>
   );
