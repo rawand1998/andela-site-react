@@ -4,6 +4,21 @@ import { FaUsers } from "react-icons/fa";
 import "./style.css";
 
 function Register() {
+  const register = [
+    { name: "Developer", icon: <FaUser /> },
+    { name: "Designer", icon: <FaUser /> },
+    { name: "product Manager ", icon: <FaUser /> },
+  ];
+  const role = [
+    { name: "1 Role", icon: <FaUser /> },
+    { name: "2-3 Role", icon: <FaUser /> },
+    { name: "Full time(+5 Role) ", icon: <FaUser /> },
+  ];
+  const roleName = [
+    { name: "1 Role" },
+    { name: "2-3 Role" },
+    { name: "Full time(+5 Role) " },
+  ];
   const [checkedInput, setCheckedInput] = useState(false);
   const ref = useRef(null);
   const handelCheck = (e) => {
@@ -37,33 +52,20 @@ function Register() {
               </div>
             </div>
             <div className="talent-choices">
-              <div className="talent-choices-1">
-                <label>
-                  <div className="talent-choices-label">
-                    <input type="radio" ref={ref} />
-                    <FaUser className="talent-icon" />
-                    <span> 1 Role </span>
+              {role.map(({ name, icon }) => {
+                return (
+                  <div className="talent-choices-1">
+                    <label>
+                      <div className="talent-choices-label">
+                        <input type="radio" ref={ref} />
+                        <span className="talent-icon">{icon}</span>
+
+                        <span> {name} </span>
+                      </div>
+                    </label>
                   </div>
-                </label>
-              </div>
-              <div className="talent-choices-1">
-                <label>
-                  <div className="talent-choices-label">
-                    <input type="radio" ref={ref} />
-                    <FaUser className="talent-icon" />
-                    <span> 2-4 roles </span>
-                  </div>
-                </label>
-              </div>
-              <div className="talent-choices-1">
-                <label>
-                  <div className="talent-choices-label">
-                    <input type="radio" ref={ref} />
-                    <FaUsers className="talent-icon" />
-                    <span> Full team (+5 role) </span>
-                  </div>
-                </label>
-              </div>
+                );
+              })}
             </div>
             {checkedInput && (
               <span className="handel-error-talent">Required</span>
@@ -82,24 +84,19 @@ function Register() {
               </div>
             </div>
             <div className="talent-choices">
-              <div className="talent-choices-1">
-                <label>
-                  <div className="talent-choices-label">
-                    <input type="radio" ref={ref} />
+              {roleName.map(({ name }) => {
+                return (
+                  <div className="talent-choices-1">
+                    <label>
+                      <div className="talent-choices-label">
+                        <input type="radio" ref={ref} />
 
-                    <span> full time (60 hour) </span>
+                        <span> {name} </span>
+                      </div>
+                    </label>
                   </div>
-                </label>
-              </div>
-              <div className="talent-choices-1">
-                <label>
-                  <div className="talent-choices-label">
-                    <input type="radio" ref={ref} />
-
-                    <span> part time (20 hour) </span>
-                  </div>
-                </label>
-              </div>
+                );
+              })}
             </div>
             {checkedInput && (
               <span className="handel-error-talent">Required</span>
@@ -113,35 +110,26 @@ function Register() {
                 <label> Not sure yet </label>
               </div>
             </div>
+
             <div className="talent-choices">
-              <div className="talent-choices-1">
-                <label className="last-label">
-                  <div className="talent-choices-label">
-                    <input type="checkbox" ref={ref} />
-                    <FaUser />
-                    <span> Developer</span>
+              {register.map(({ name, icon }) => {
+                return (
+                  <div className="talent-choices-1">
+                    <label className="last-label">
+                      <div className="talent-choices-label">
+                        <input type="checkbox" ref={ref} />
+
+                        <>
+                          {icon}
+                          <span> {name}</span>
+                        </>
+                      </div>
+                    </label>
                   </div>
-                </label>
-              </div>
-              <div className="talent-choices-1">
-                <label className="last-label">
-                  <div className="talent-choices-label">
-                    <input type="checkbox" ref={ref} />
-                    <FaUser />
-                    <span> Designer </span>
-                  </div>
-                </label>
-              </div>
-              <div className="talent-choices-1">
-                <label className="last-label">
-                  <div className="talent-choices-label">
-                    <input type="checkbox" ref={ref} />
-                    <FaUser />
-                    <span> product Manager </span>
-                  </div>
-                </label>
-              </div>
+                );
+              })}
             </div>
+
             {checkedInput && (
               <span className="handel-error-talent">Required</span>
             )}
