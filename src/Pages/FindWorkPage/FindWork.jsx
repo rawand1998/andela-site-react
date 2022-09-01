@@ -59,59 +59,22 @@ function FindWork() {
                 <>
                   <div className="first-name">{name}</div>
                   <div className="signup-input">
-                    <div className="svg">
-                      {iconName}
-                      {/* <FaRegUser /> */}
-                    </div>
+                    <div className="svg">{iconName}</div>
                     <input />
                   </div>
                 </>
               );
             })}
-            {/* <div className="first-name">first name</div>
-            <div className="signup-input">
-              <div className="svg">
-                <FaRegUser />
-              </div>
-              <input />
-            </div> */}
-            {/* <div className="first-name">Last name</div>
-            <div className="signup-input">
-              <div className="svg">
-                {" "}
-                <FaRegUser />
-              </div>
-              <input />
-            </div> */}
-            {/* <div className="first-name">Email</div>
-            <div className="signup-input">
-              <div className="svg">
-                {" "}
-                <FaRegEnvelope />
-              </div>
-              <input />
-            </div> */}
-            {/* <div className="first-name">Country</div>
-            <div className="signup-input">
-              <div className="svg">
-                <FaMapMarkerAlt />
-              </div>
-              {/* <input type="select"/> */}
-           
+
             <select name="country" id="country">
               {countries.map(({ name }) => {
-                 return(
-                <>
-                  <option value={name}>{name}</option>
-                  {/* <option value="Afghanistan">Afghanistan</option>
-                  <option value="Guyana">Guyana</option>
-                  <option value="Haiti">Haiti</option>
-                  <option value="Honduras">Honduras</option> */}
-                </>
-                 )
+                return (
+                  <>
+                    <option value={name}>{name}</option>
+                  </>
+                );
               })}
             </select>
-           
           </div>
         </div>
 

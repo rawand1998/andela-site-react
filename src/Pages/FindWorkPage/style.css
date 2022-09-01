@@ -220,11 +220,7 @@ select option{
     min-width: 5.875rem;
 }
 #country{
-    /* background-color:#f00; */
-    /* position:absolute; */
-   /* left: 50%; */
-   /* bottom: -50%; */
-   /* top: 52%; */
+  
    border:none;
    outline: none;
    width: 50%;
