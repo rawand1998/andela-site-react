@@ -5,6 +5,19 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 import "./style.css";
 
 function FindWork() {
+  const icons = [
+    { name: "first name", iconName: <FaRegUser /> },
+    { name: "Last name", iconName: <FaRegUser /> },
+    { name: "Email", iconName: <FaRegEnvelope /> },
+    { name: "Country", iconName: <FaMapMarkerAlt /> },
+  ];
+  const countries = [
+    { name: "Select Country..." },
+    { name: "Afghanistan" },
+    { name: "Guyana" },
+    { name: "Haiti" },
+    { name: "Honduras" },
+  ];
   return (
     <div className="signup-container">
       <div className="sinup-img">
@@ -41,66 +54,85 @@ function FindWork() {
             easier
           </div>
           <div className="signup-form">
-            <div className="first-name">first name</div>
+            {icons.map(({ name, iconName }, i) => {
+              return (
+                <>
+                  <div className="first-name">{name}</div>
+                  <div className="signup-input">
+                    <div className="svg">
+                      {iconName}
+                      {/* <FaRegUser /> */}
+                    </div>
+                    <input />
+                  </div>
+                </>
+              );
+            })}
+            {/* <div className="first-name">first name</div>
             <div className="signup-input">
               <div className="svg">
                 <FaRegUser />
               </div>
               <input />
-            </div>
-
-            <div className="first-name">Last name</div>
+            </div> */}
+            {/* <div className="first-name">Last name</div>
             <div className="signup-input">
               <div className="svg">
                 {" "}
                 <FaRegUser />
               </div>
               <input />
-            </div>
-
-            <div className="first-name">Email</div>
+            </div> */}
+            {/* <div className="first-name">Email</div>
             <div className="signup-input">
               <div className="svg">
                 {" "}
                 <FaRegEnvelope />
               </div>
               <input />
-            </div>
-
-            <div className="first-name">Country</div>
+            </div> */}
+            {/* <div className="first-name">Country</div>
             <div className="signup-input">
               <div className="svg">
                 <FaMapMarkerAlt />
               </div>
               {/* <input type="select"/> */}
-              <select name="country" id="country">
-                <option value="Select Country ...">Select Country ...</option>
-                <option value="Afghanistan">Afghanistan</option>
-                <option value="Guyana">Guyana</option>
-                <option value="Haiti">Haiti</option>
-                <option value="Honduras">Honduras</option>
-              </select>
-            </div>
+           
+            <select name="country" id="country">
+              {countries.map(({ name }) => {
+                 return(
+                <>
+                  <option value={name}>{name}</option>
+                  {/* <option value="Afghanistan">Afghanistan</option>
+                  <option value="Guyana">Guyana</option>
+                  <option value="Haiti">Haiti</option>
+                  <option value="Honduras">Honduras</option> */}
+                </>
+                 )
+              })}
+            </select>
+           
           </div>
+        </div>
 
-          <div className="singup-checkbox">
-            <div className="checkbox">
-              <input type="checkbox" />I agree to
-              <a>Terms & Conditions</a>
-            </div>
-            <div className="checkbox">
-              <input type="checkbox" />I understand that Andela will process my
-              information in accordance with their
-              <a>Privacy Policy</a>I may withdraw my consent through unsubscribe
-              links at any time.
-            </div>
+        <div className="singup-checkbox">
+          <div className="checkbox">
+            <input type="checkbox" />I agree to
+            <a>Terms & Conditions</a>
           </div>
-          <div className="singup-button">
-            <button>Get started</button>
+          <div className="checkbox">
+            <input type="checkbox" />I understand that Andela will process my
+            information in accordance with their
+            <a>Privacy Policy</a>I may withdraw my consent through unsubscribe
+            links at any time.
           </div>
+        </div>
+        <div className="singup-button">
+          <button>Get started</button>
         </div>
       </div>
     </div>
+    // </div>
   );
 }
 

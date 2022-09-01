@@ -21,7 +21,6 @@ function Communction({ title, paragraph, button, list, overlay }) {
           </div>
         </div>
       </div>
-      {/* <div className="spacer-1"></div> */}
     </div>
   );
 }

@@ -13,7 +13,6 @@
 }
 .login-img img {
   vertical-align: middle;
-  /* width: 100%; */
   max-height: unset !important;
   margin-left: auto;
 }
