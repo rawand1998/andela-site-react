@@ -35,7 +35,7 @@ function About() {
         content={<>Accelerate innovation with vetted technical talent.</>}
         link={["Discver Talent", "/register"]}
       />
-      {/* <div class="spacer"></div> */}
+
       <br />
       <br />
       <ScaleTeam

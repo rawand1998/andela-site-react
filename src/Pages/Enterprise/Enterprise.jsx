@@ -81,7 +81,7 @@ function Enterprise() {
       <LookingFor
         title={
           <div className="text-muted">
-            Let’s help you add value to your business
+            <h2>Let’s help you add value to your business</h2>
             <span>Discover our global neighborhood of technologists.</span>
           </div>
         }
@@ -132,6 +132,7 @@ function Enterprise() {
         content={
           <>
             <h3>Flexible teams</h3>
+            <br/>
             <span class="">
               Find niche expertise for various project lengths. Onboard solo
               <br />
@@ -189,12 +190,14 @@ function Enterprise() {
         content={
           <>
             <h3>Hire Individuals</h3>
+            <br/>
             <span>
               Find the right technologist to complement your existing team and
               hit the ground running on impactful initiatives.
             </span>
-
+            <br/>
             <h3>Build Teams</h3>
+            <br/>
             <span>
               Scale rapidly with a full team of technologists embedded at your
               company to unlock more growth and potential.
