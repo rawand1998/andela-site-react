@@ -35,6 +35,13 @@
     margin-left: 52px;
     color: #132128;
   }
+  .headerContentOffer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:190px;
+    flex-direction: column;
+  }
   @media only screen and (max-width: 600px) {
  
     .offer-blocks {

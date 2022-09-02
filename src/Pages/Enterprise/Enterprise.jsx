@@ -8,24 +8,36 @@ import SliderBar from "../../Components/Common/SliderBar/SliderBar";
 import Teamoffer from "../../Components/Common/TeamOffer/Teamoffer";
 import ElevateSkill from "../../Components/Common/ElevateSkill/ElevateSkill";
 import ScaleTeam from "../../Components/Common/ScaleTeam/ScaleTeam";
+import NavBar from "../../Components/Common/NavBar/Navbar";
 import "./style.css";
 
 function Enterprise() {
   return (
     <div className="enter">
+      <NavBar />
       <div className="inter-img">
-        <Header className="home" id="header-conatiner">
-          {/* <SubHeader
-            title="
-          We’re here to help you build a world class team, today."
-            description="Join Andela to experience the joy of long-term work,
-                        with vetted companies and competitive compensation."
-          /> */}
-        </Header>
-      </div>
-      <div className="enterprise-btn">
-        <a className="">Schedule a call</a>
-        <a className="">Wacth in overview</a>
+        <Header
+          cover="https://andela.com/wp-content/uploads/2022/03/toby-osborn-ilHo9qgDEGY-unsplash-scaled.jpg"
+          className="header-conatiner"
+          title={
+            <>
+              We’re here to help you
+              <br />
+              build a<em>world class team, today.</em>
+            </>
+          }
+          content={
+            <>
+              Trusted by enterprise teams and growing startups alike,
+              <br />
+              Andela’s onboarding timesare 70% faster than the
+              <br />
+              industry average..
+            </>
+          }
+          link={["Watch an interview", "/register"]}
+          secondLinl={["schedule a meet", "/"]}
+        />
       </div>
 
       <SliderBar />
@@ -64,60 +76,75 @@ function Enterprise() {
          the way. From rapid onboarding and seamless integration to
          global payroll solutions and compliance support."
       />
-      <div className="spacer"></div>
+      {/* <div className="spacer"></div> */}
+
       <LookingFor
         title={
-          <>
+          <div className="text-muted">
             Let’s help you add value to your business
-            <span  className="text-muted">
-              Discover our global neighborhood of technologists.
-            </span>
-          </>
+            <span>Discover our global neighborhood of technologists.</span>
+          </div>
         }
+        clas="classRevrse"
         img={
           <img src="https://andela.com/wp-content/uploads/2022/03/section-image-3.jpg" />
         }
         content={
           <>
-            <h3>Speed to match</h3>
-            <span  class="description">
-              Move faster without sacrificing quality. Our team can radically
-              reduce the time it takes to hire talent so you can find the right
-              fit, quickly.
-            </span>
+            <>
+              <h3>Speed to match</h3>
+              <span>
+                Move faster without sacrificing quality. Our team can radically
+                reduce <br />
+                the time it takes to hire talent so you can find the right fit,
+                quickly.
+              </span>
+            </>
           </>
         }
-        img2={
+      />
+
+      <LookingFor
+        img={
           <img src="https://andela.com/wp-content/uploads/2022/03/shutterstock_1696088776-768x512.jpg" />
         }
-        content2={
+        content={
           <>
             <h3>Enterprise-ready</h3>
-            <span  class="descriptions">
+            <span class="">
               Technologists with verified backgrounds, aligned to your time
-              zones, and compliant with your company’s security practices so you
-              can focus on making an impact.
+              zones,
+              <br /> and compliant with your company’s security practices so you
+              can focus <br />
+              on making an impact.
             </span>
           </>
         }
-        img3={
+      />
+      <LookingFor
+        clas="classRevrse"
+        img={
           <img
             src="https://andela.com/wp-content/uploads/2022/03/shutterstock_1241581108-1-1536x1024.jpg"
             alt="not found"
           />
         }
-        content3={
+        content={
           <>
             <h3>Flexible teams</h3>
-            <span  class="">
+            <span class="">
               Find niche expertise for various project lengths. Onboard solo
+              <br />
               engineers to fill gaps or hire full teams to accelerate your
+              <br />
               build. Any team, any timezone, any skills.
             </span>
           </>
         }
       />
-      <div class="spacer"></div>
+      <br />
+      <br />
+      <br />
       <Communction
         title={
           <>
@@ -176,33 +203,31 @@ function Enterprise() {
           </>
         }
       />
-      <div className="spacer"></div>
 
       <ElevateSkill />
-      <div class="spacer"></div>
+      <br />
+      <br />
       <Slider />
-      <div class="spacers"></div>
-
-      <div class="spacer"></div>
-
-      <div className="lookingfor-backgroungd">
-        <ScaleTeam
-          img={
-            <img src="https://andela.com/wp-content/uploads/2022/03/1-1-1.png" />
-          }
-          content={
-            <>
-              <h3>Scaling your team globally has never been this easy</h3>
-              <span>
-                Skilled engineers, product managers, and designers at your
-                fingertips. An extensive list of technical services to suit your
-                business needs. Cost-effective option for world-class expertise.
-              </span>
-              <a>Work with us</a>
-            </>
-          }
-        />
-      </div>
+      <br />
+      <br />
+      <br />
+      <ScaleTeam
+        bg="bgblue"
+        img={
+          <img src="https://andela.com/wp-content/uploads/2022/03/1-1-1.png" />
+        }
+        content={
+          <>
+            <h3>Scaling your team globally has never been this easy</h3>
+            <span>
+              Skilled engineers, product managers, and designers at your
+              fingertips. An extensive list of technical services to suit your
+              business needs. Cost-effective option for world-class expertise.
+            </span>
+            <a>Work with us</a>
+          </>
+        }
+      />
 
       <Footer />
     </div>

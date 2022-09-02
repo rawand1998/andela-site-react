@@ -9,29 +9,41 @@ import Teamoffer from "../../Components/Common/TeamOffer/Teamoffer";
 import ElevateSkill from "../../Components/Common/ElevateSkill/ElevateSkill";
 import LastSlider from "../../Components/Common/LastSlider/LastSlider";
 import "./style.css";
-
+import State from "../../Components/Common/StateComponent/State";
+import NavBar from "../../Components/Common/NavBar/Navbar";
 function Clients() {
   return (
     <div>
+      <NavBar />
       <div className="clients-img">
-        <Header className="home" id="header-conatiner">
-          {/* <SubHeader
-            title="
-          Scale your business
-          with technologists
-          you can trust"
-            description="Accelerate innovation with vetted technical talent."
-          /> */}
-        </Header>
+        <Header
+          cover="https://andela.com/wp-content/uploads/2022/03/annie-spratt-AkftcHujUmk-unsplash-2.jpg"
+          className="header-conatiner"
+          title={
+            <>
+              Our mission is to <br />
+              connect
+              <em>
+                brilliance <br />
+                with opportunity
+              </em>
+            </>
+          }
+          content={<>Irrespective of race, gender, and geography.</>}
+        />
       </div>
       <a className="btn">Discover Talent</a>
       <SliderBar />
-
-      <div className="spacer"></div>
-
+      <br /> <br />
       <LookingFor
+        title={
+          <>
+            {" "}
+            <em>Find</em> what you’re looking for and more
+          </>
+        }
         img={
-          <img src="https://andela.com/wp-content/uploads/2022/03/Container.png" />
+          <img src="  https://andela.com/wp-content/uploads/2022/03/Container.png" />
         }
         content={
           <>
@@ -43,29 +55,32 @@ function Clients() {
             </ul>
           </>
         }
-        img2={
-          <img src="https://andela.com/wp-content/uploads/2022/03/Visual-1.png" />
+      />
+      <LookingFor
+        clas="classRevrse"
+        img={
+          <img src="   https://andela.com/wp-content/uploads/2022/03/Visual-1.png" />
         }
-        content2={
+        content={
           <>
             <h3>
               The world’s leading companies
               <br />
               are already here
             </h3>
-            <span  className="paragraph">
+            <span>
               Feel the bustle of the Global Marketplace here at Andela where
-              brilliant minds and companies gather from all over the world.
+              brilliant
+              <br /> minds and companies gather from all over the world.
             </span>
           </>
         }
-        img3={
-          <img
-            src="https://andela.com/wp-content/uploads/2022/03/3-1.png"
-            alt="not found"
-          />
+      />
+      <LookingFor
+        img={
+          <img src="https://andela.com/wp-content/uploads/2022/03/3-1.png" />
         }
-        content3={
+        content={
           <>
             <h3>Scale fast and with ease</h3>
             <ul>
@@ -76,10 +91,10 @@ function Clients() {
           </>
         }
       />
-      <div className="spacer"></div>
+      <br />
       <div className="team-container">
         <div className="inner-team-container">
-          <div className="spacer"></div>
+          <br />
           <div className="inner-content">
             <div className="col1">
               <figure>
@@ -104,7 +119,6 @@ function Clients() {
               <a>Discover Talent</a>
             </div>
           </div>
-          <div className="space"></div>
         </div>
       </div>
       <Teamoffer
@@ -141,9 +155,6 @@ function Clients() {
          the way. From rapid onboarding and seamless integration to
          global payroll solutions and compliance support."
       />
-
-      <div className="spacer"></div>
-
       <Communction
         className="communction-container"
         title={
@@ -181,77 +192,17 @@ function Clients() {
           </>
         }
       />
-
-      <div class="spacer"></div>
       <LastSlider />
-      <div class="spacer"></div>
       <div>
-        <div class="spacer"></div>
-        <h2>
-          Andela <em>keeps you ahead</em> of the curve
-        </h2>
-        <div class="space"></div>
-        <div class="state-card-container">
-          <div class="state state-1">
-            <div class="state-content">
-              <h2>110+</h2>
-              <span>Countries represented on 6 continents</span>
-            </div>
-          </div>
-          <div class="state state-2">
-            <div class="state-content">
-              <h2>96+</h2>
-              <span>Successful placements</span>
-            </div>
-          </div>
-          <div class="state state-3">
-            <div class="state-content">
-              <h2>70+</h2>
-              <span>
-                CFaster than
-                <br />
-                industry standard
-              </span>
-            </div>
-          </div>
-          <div class="state state-4">
-            <div class="state-content">
-              <h2>170.000+</h2>
-              <span>Technologists represented</span>
-            </div>
-          </div>
-          <div class="state state-5">
-            <div class="state-content">
-              <h2>80+</h2>
-              <span>
-                Months
-                <br />
-                Average engagement
-              </span>
-            </div>
-          </div>
-        </div>
-        <div className="space"></div>
-        <div className="button">
-          <a>Find Work</a>
-          <a>Discover Talent</a>
-        </div>
+        <State />
       </div>
-      <div class="spacer"></div>
       <ElevateSkill />
-
       <Contected
-        content={
-          <div className="connected-last-in-home">
-            <h2>
-              Connecting your
-              <em>brilliance</em>
-              <br />
-              with opportunity
-            </h2>
-            <a>Find Work</a>
-          </div>
-        }
+        classname="connected-center"
+        bg="https://andela.com/wp-content/uploads/2022/03/african-american-young-programmer-working-remote-f-2022-03-25-18-49-53-utc.jpg"
+        title={`Grow your business and accelerate
+          innovation with Andela`}
+        btn="sign up"
       />
       <Footer />
     </div>

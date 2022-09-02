@@ -187,7 +187,7 @@ select option{
 }
 .singup-checkbox{
     text-align: center;
-    margin: 1rem auto;
+    margin: 2rem auto;
     max-width: 32.5rem;
 }
 .singup-checkbox .checkbox{
@@ -197,7 +197,7 @@ select option{
 }
 .singup-checkbox .checkbox a{
     color: rgb(31, 44, 70);
-    cursor: pointer;
+   font-size: 12px;
 }
 .singup-button{
     margin-top: 2rem;
@@ -207,17 +207,24 @@ select option{
     justify-content: center;
 }
 .singup-button button{
-    background-color: rgb(86, 200, 112);
+    background-color: rgb(86, 200, 112);  
     width: fit-content;
     padding: 0.5rem 1rem;
     color: rgb(255, 255, 255);
-    border-radius: 2.5rem;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
     border: 1px solid rgba(255, 255, 255, 0);
     font-family: sans-serif;
-    font-size: 16px;
-    cursor: pointer;
+    font-size: 16px !important;
+  
     min-width: 5.875rem;
-    background-color: rgb(86, 200, 112);
+}
+#country{
+  
+   border:none;
+   outline: none;
+   width: 50%;
+   margin-top:-8%;
+margin-left: 8%;
+
 }

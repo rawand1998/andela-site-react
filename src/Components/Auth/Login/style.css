@@ -13,7 +13,6 @@
 }
 .login-img img {
   vertical-align: middle;
-  width: 100%;
   max-height: unset !important;
   margin-left: auto;
 }
@@ -46,13 +45,11 @@
   align-items: center;
   transition: background-color 0.2s ease-in, border-color 0.2s ease-in-out,
     color 0.2s ease-in-out;
-  border-radius: 50rem;
+  border-radius: 50rem !important;
   padding: 0 1rem;
-  font-size: 1rem;
-  text-decoration: none;
+  font-size: 1rem !important;
   vertical-align: middle;
-  cursor: pointer;
-  font-weight: 600;
+  font-weight: 600 !important;
   line-height: 1.5;
   display: inline-flex !important;
 }
@@ -240,19 +237,6 @@ button span {
   right: 10px;
   color: #da1e28;
 }
-/* @media screen and (min-width: 764px) {
-
-    .login-content{
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items: center;
-    max-width: 435px;
-    margin-left:15%
-   
-   
-}
-} */
 
 @media only screen and (max-width: 600px) {
   .login-container {

@@ -20,6 +20,11 @@
 
   /* fonts size */
   --fs-title: 2rem;
+  --fs-header : 64px;
+  --fw-title:400;
+  --fs-achor:18px;
+  --fs-header-two:40px;
+  --fw-para:300
 }
 
 @media screen and (max-width: 900px) {
@@ -56,17 +61,32 @@ img {
 }
 a {
   text-decoration: none;
+  color: var(--text-color);
+  cursor: pointer;
+  border-radius:48px;
+  font-size: var(--fs-achor);
+  font-weight: var(--fw-title);
 }
 
 h1 {
-  font-family: var(----ff-inria);
+  font-family: var(--ff-inria);
+  color: var(--white);
+  font-size:var(--fs-header );
+  line-height:72px;
+  font-weight:var(--fw-title);
 }
+em{
+  font-family: var(--ff-inter);
+  font-weight:var(--fw-title);
 
+}
 h2 {
   clear: both;
   margin: 0px 0px 24px 0px;
-  font-weight: 400;
+  font-weight: var(--fw-title);
   color: var(--text-color);
+  font-size: var(--fs-header-two);
+  line-height: 48px;
 }
 
 h3 {
@@ -77,10 +97,6 @@ h3 {
 
 p {
   display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
   font-family: var(--ff-inter);
-  font-weight: 300;
+  font-weight:var( --fw-para);
 }

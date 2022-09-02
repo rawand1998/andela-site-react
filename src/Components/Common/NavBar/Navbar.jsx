@@ -64,7 +64,7 @@ function Navbar() {
           />
         )}
       </Link>
-      {widthScreen < 700 ? (
+      {widthScreen < 1103 ? (
         <div className="icon-menu">
           {visible ? (
             <FaMixer onClick={changeVisible} />

@@ -1,6 +1,4 @@
-.clients-img #header-conatiner::before {
-  background-image: url("https://andela.com/wp-content/uploads/2022/03/annie-spratt-AkftcHujUmk-unsplash-2.jpg");
-}
+
 .slider-bar {
   background-color: #b0d6ce;
   padding-top: 36px;
@@ -151,91 +149,7 @@
     opacity: 0.5;
    
 }
-.state-card-container{
-    padding: 0px 20px;
-    max-width: 1320px;
-    margin: 0px auto;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    overflow-x: auto;
-    gap: 32px;
-    display:flex;
-    margin-left:0%
-}    
 
-.state{
-    width: 405px;
-    height: 280px;
-    position: relative;
-    flex-basis: auto;
-    flex-grow: 0;
-    flex-shrink: 0;
-    text-align: center;
-    border-radius: 12px;
-    background-color: #B0D6CE;
-
-}
-.state-content{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-    height: 100%;
-    padding: 24px;
-    
-}
-.button {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    margin-left:0;
-}
-.button a{
-    
-    color: #173B3F;
-
-   
-    font-size: 18px!important;
-    color: #173B3F;
-    line-height: 1;
-    text-decoration: none;
-    font-weight: 400;
-    border: 1px solid #56C870;
-
-
-  
-   background-color: #56C870;
-   cursor: pointer;
-   padding: 24px 40px;
-   border-radius: 48px;
-   width: 40px;
-   font-weight: 400;
-   text-decoration: none;
-   font-size: 18px;
-   display:inline-block;
-   width: auto;
-   transition: all .25s ease-in-out;
-   margin-left: 15px;
-  
-}
-button a:hover{
-    transform: scale(1.09);
-  
-}
-.state-content h2{
-    font-size:60px
-}
-
-.state-content p{
-    margin-bottom: 0px;
-    font-style: italic;
-    font-family: 'Inria Serif','Garamond','Times New Roman',serif;
-       color: #132128;
-       padding-left:50px;
-       margin-top: -5%;
-     
-}
 .elevlate-skills
 {
     background-color: #f8f8f8;
@@ -263,16 +177,12 @@ button a:hover{
 .elevlate-skills-col1 h2{
     font-size:40px;
     width: 600px;
-    /* display: flex; */
-    /* justify-content: flex-start; */
-    /* align-items: flex-start; */
-
     text-align:left;
 }
 .elevlate-skills-col1 p{
   
    margin: 0 0 24px;
-   /* padding-left: 25px; */
+
 }
 .elevlate-skills-col1 a{
     border: 1px solid #132128;
