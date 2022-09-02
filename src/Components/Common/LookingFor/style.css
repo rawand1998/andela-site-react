@@ -1,5 +1,4 @@
 
-
 .looking-column-container{
   display: flex;
   flex-direction: column;
@@ -69,14 +68,3 @@
   width: 100%;
 }
 }
-
-
-/* @media only screen and (min-width: 1200px) {
-  .lookign-block-column1{
-   
-    flex-direction: row;
-
-    margin-left:0%
-  }
-} 
- */
