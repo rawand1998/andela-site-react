@@ -10,11 +10,11 @@ import ElevateSkill from "../../Components/Common/ElevateSkill/ElevateSkill";
 import LastSlider from "../../Components/Common/LastSlider/LastSlider";
 import "./style.css";
 import State from "../../Components/Common/StateComponent/State";
-import NavBar from "../../Components/Common/NavBar/Navbar"
+import NavBar from "../../Components/Common/NavBar/Navbar";
 function Clients() {
   return (
     <div>
-<NavBar />
+      <NavBar />
       <div className="clients-img">
         <Header
           cover="https://andela.com/wp-content/uploads/2022/03/annie-spratt-AkftcHujUmk-unsplash-2.jpg"
@@ -34,80 +34,67 @@ function Clients() {
       </div>
       <a className="btn">Discover Talent</a>
       <SliderBar />
-
-      <div className="spacer"></div>
-
+      <br /> <br />
       <LookingFor
-     
-     title={
-       <>
-         {" "}
-         <em>Find</em> what you’re looking for and more
-       </>
-     }
-     img={
-    
-       <img src="  https://andela.com/wp-content/uploads/2022/03/Container.png" />
-     }
-     content={
-       <>
-         <h3>Rigorous vetting for talent from
-multiple regions</h3>
-         <ul>
-           <li>
-           Quick and efficient
-           </li>
-           <li>Only top quality options</li>
-           <li>
-           Stress-free hiring of global talent
-           </li>
-         
-         </ul>
-       </>
-     }
-     />
-     <LookingFor
-     clas="classRevrse"
-     
-       img={
-     
-         <img src="   https://andela.com/wp-content/uploads/2022/03/Visual-1.png" />
-       }
-       content={
-         <>
-         <h3>The world’s leading companies<br/>
-are already here</h3>
-          <span>Feel the bustle of the Global Marketplace here at Andela where brilliant<br/> minds and companies gather from all over the world.</span>
-         </>
-       }
-   />
-         <LookingFor
-  
- 
-  img={
-    <img src="https://andela.com/wp-content/uploads/2022/03/3-1.png" />
-  }
-  content={
-    <>
-      <h3>Scale fast and with ease</h3>
-      <ul>
-        <li>
-        Onboarding is 70% faster
-        </li>
-        <li>We provide additional support</li>
-        <li>
-        Get the team you need, regardless of size
-        </li>
-        
-      </ul>
-    </>
-  }
-  />
-      
-      {/* <div className="spacer"></div> */}
+        title={
+          <>
+            {" "}
+            <em>Find</em> what you’re looking for and more
+          </>
+        }
+        img={
+          <img src="  https://andela.com/wp-content/uploads/2022/03/Container.png" />
+        }
+        content={
+          <>
+            <h3>Rigorous vetting for talent from multiple regions</h3>
+            <ul>
+              <li>Quick and efficient</li>
+              <li>Only top quality options</li>
+              <li>Stress-free hiring of global talent</li>
+            </ul>
+          </>
+        }
+      />
+      <LookingFor
+        clas="classRevrse"
+        img={
+          <img src="   https://andela.com/wp-content/uploads/2022/03/Visual-1.png" />
+        }
+        content={
+          <>
+            <h3>
+              The world’s leading companies
+              <br />
+              are already here
+            </h3>
+            <span>
+              Feel the bustle of the Global Marketplace here at Andela where
+              brilliant
+              <br /> minds and companies gather from all over the world.
+            </span>
+          </>
+        }
+      />
+      <LookingFor
+        img={
+          <img src="https://andela.com/wp-content/uploads/2022/03/3-1.png" />
+        }
+        content={
+          <>
+            <h3>Scale fast and with ease</h3>
+            <ul>
+              <li>Onboarding is 70% faster</li>
+              <li>We provide additional support</li>
+              <li>Get the team you need, regardless of size</li>
+            </ul>
+          </>
+        }
+      />
+      <br />
       <div className="team-container">
         <div className="inner-team-container">
-          <div className="spacer"></div>
+          <br />
           <div className="inner-content">
             <div className="col1">
               <figure>
@@ -132,7 +119,6 @@ are already here</h3>
               <a>Discover Talent</a>
             </div>
           </div>
-          <div className="space"></div>
         </div>
       </div>
       <Teamoffer
@@ -169,9 +155,6 @@ are already here</h3>
          the way. From rapid onboarding and seamless integration to
          global payroll solutions and compliance support."
       />
-
-      <div className="spacer"></div>
-
       <Communction
         className="communction-container"
         title={
@@ -209,30 +192,18 @@ are already here</h3>
           </>
         }
       />
-
-      <div class="spacer"></div>
       <LastSlider />
-      <div class="spacer"></div>
       <div>
-      
         <State />
-      
-        <div className="space"></div>
-       
       </div>
-      <div class="spacer"></div>
       <ElevateSkill />
-
       <Contected
-       
         classname="connected-center"
-          bg="https://andela.com/wp-content/uploads/2022/03/african-american-young-programmer-working-remote-f-2022-03-25-18-49-53-utc.jpg"
-          title={`Grow your business and accelerate
+        bg="https://andela.com/wp-content/uploads/2022/03/african-american-young-programmer-working-remote-f-2022-03-25-18-49-53-utc.jpg"
+        title={`Grow your business and accelerate
           innovation with Andela`}
-          btn="sign up"
-       
+        btn="sign up"
       />
-    
       <Footer />
     </div>
   );

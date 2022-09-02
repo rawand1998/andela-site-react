@@ -8,7 +8,7 @@ import SliderBar from "../../Components/Common/SliderBar/SliderBar";
 import Teamoffer from "../../Components/Common/TeamOffer/Teamoffer";
 import ElevateSkill from "../../Components/Common/ElevateSkill/ElevateSkill";
 import ScaleTeam from "../../Components/Common/ScaleTeam/ScaleTeam";
-import NavBar from "../../Components/Common/NavBar/Navbar"
+import NavBar from "../../Components/Common/NavBar/Navbar";
 import "./style.css";
 
 function Enterprise() {
@@ -79,35 +79,32 @@ function Enterprise() {
       {/* <div className="spacer"></div> */}
 
       <LookingFor
-      title={
-        <div  className="text-muted">
-          Let’s help you add value to your business
-          <span>
-            Discover our global neighborhood of technologists.
-          </span>
-        </div>
-      }
-     clas="classRevrse"  
-       img={
-     
-         <img src="https://andela.com/wp-content/uploads/2022/03/section-image-3.jpg" />
-       }
-       content={
-         <>
+        title={
+          <div className="text-muted">
+            Let’s help you add value to your business
+            <span>Discover our global neighborhood of technologists.</span>
+          </div>
+        }
+        clas="classRevrse"
+        img={
+          <img src="https://andela.com/wp-content/uploads/2022/03/section-image-3.jpg" />
+        }
+        content={
           <>
-            <h3>Speed to match</h3>
-            <span >
-              Move faster without sacrificing quality. Our team can radically
-              reduce <br/>the time it takes to hire talent so you can find the right
-              fit, quickly.
-            </span>
+            <>
+              <h3>Speed to match</h3>
+              <span>
+                Move faster without sacrificing quality. Our team can radically
+                reduce <br />
+                the time it takes to hire talent so you can find the right fit,
+                quickly.
+              </span>
+            </>
           </>
-         </>
-       }
-   />
-    
+        }
+      />
+
       <LookingFor
-    
         img={
           <img src="https://andela.com/wp-content/uploads/2022/03/shutterstock_1696088776-768x512.jpg" />
         }
@@ -116,14 +113,16 @@ function Enterprise() {
             <h3>Enterprise-ready</h3>
             <span class="">
               Technologists with verified backgrounds, aligned to your time
-              zones,<br/> and compliant with your company’s security practices so you
-              can focus <br/>on making an impact.
+              zones,
+              <br /> and compliant with your company’s security practices so you
+              can focus <br />
+              on making an impact.
             </span>
           </>
         }
-        />
-          <LookingFor
-           clas="classRevrse" 
+      />
+      <LookingFor
+        clas="classRevrse"
         img={
           <img
             src="https://andela.com/wp-content/uploads/2022/03/shutterstock_1241581108-1-1536x1024.jpg"
@@ -134,14 +133,18 @@ function Enterprise() {
           <>
             <h3>Flexible teams</h3>
             <span class="">
-              Find niche expertise for various project lengths. Onboard solo<br/>
-              engineers to fill gaps or hire full teams to accelerate your<br/>
+              Find niche expertise for various project lengths. Onboard solo
+              <br />
+              engineers to fill gaps or hire full teams to accelerate your
+              <br />
               build. Any team, any timezone, any skills.
             </span>
           </>
         }
       />
-
+      <br />
+      <br />
+      <br />
       <Communction
         title={
           <>
@@ -202,9 +205,12 @@ function Enterprise() {
       />
 
       <ElevateSkill />
-
+      <br />
+      <br />
       <Slider />
-
+      <br />
+      <br />
+      <br />
       <ScaleTeam
         bg="bgblue"
         img={

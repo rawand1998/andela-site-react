@@ -1,5 +1,7 @@
 .elevlate-skills {
   background-color: #f8f8f8;
+margin-top:50px
+  
 }
 .elevlate-skills-content {
   display: flex;
@@ -7,6 +9,7 @@
   box-sizing: border-box;
   flex-wrap: wrap;
   justify-content: space-evenly;
+
 }
 .elevlate-skills-col1 {
   display: flex;

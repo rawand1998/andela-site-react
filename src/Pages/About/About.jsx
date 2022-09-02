@@ -36,6 +36,8 @@ function About() {
         link={["Discver Talent", "/register"]}
       />
       {/* <div class="spacer"></div> */}
+      <br />
+      <br />
       <ScaleTeam
         img={
           <img src="https://andela.com/wp-content/uploads/2022/03/Visual-2.png" />
@@ -51,6 +53,7 @@ function About() {
           </>
         }
       />
+      <br />
       <ImageBlock />
 
       <div className="block-column1-inverstor">
@@ -95,7 +98,7 @@ function About() {
         </div>
       </div>
       <Future />
-     
+
       <div className="spacer"></div>
       <Contected
         classname="connected-center"

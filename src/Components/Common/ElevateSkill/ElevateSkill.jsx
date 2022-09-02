@@ -13,7 +13,6 @@ function ElevateSkill() {
     { name: "Java" },
     { name: "Kotlin" },
     { name: "PHP" },
-   
   ];
   return (
     <div>
@@ -26,15 +25,15 @@ function ElevateSkill() {
             <a>Schedule a call</a>
           </div>
           <div className="elevlate-skills-col2">
-          <ul>
-          {skills.map(({ name }, i) => {
-            return (
-              <li>
-                <a>{name}</a>
-              </li>
-            );
-          })}
-        </ul>
+            <ul>
+              {skills.map(({ name }, i) => {
+                return (
+                  <li>
+                    <a>{name}</a>
+                  </li>
+                );
+              })}
+            </ul>
           </div>
         </div>
       </div>
