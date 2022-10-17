@@ -1,33 +1,21 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./Pages/Home/Home";
-import Clients from "./Pages/ClientPage/Clients";
-import Enterprise from "./Pages/Enterprise/Enterprise";
-import About from "./Pages/About/About";
-import Login from "./Components/Auth/Login/Login";
-import Register from "./Components/Auth/register/Register";
-import FindWork from "./Pages/FindWorkPage/FindWork";
-import Navbar from "./Components/Common/NavBar/Navbar";
+import {  Routes, Route } from "react-router-dom";
+import React , {Suspense} from 'react'
 import "./App.css";
-import Error from "./Pages/Error";
-
+import Router from "./routes/Router";
+import Navbar from "./Components/Common/NavBar/Navbar";
 function App() {
   return (
-    <div className="App">
-      <BrowserRouter>
-        {/* <Navbar /> */}
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="clients" element={<Clients />} />
-          <Route path="enterprise" element={<Enterprise />} />
-          <Route path="login" element={<Login />} />
-          <Route path="register" element={<Register />} />
-          <Route path="findWork" element={<FindWork />} />
-          <Route path="*" element={<Error />} />
-       
-        </Routes>
-      </BrowserRouter>
-    </div>
+  
+      <Suspense fallback={<p>loading...</p>}>
+      <Navbar/>
+      <Routes>
+        {Router.routes.map((route, Index) => (
+          <Route path={route.path} element={route.element} key={Index} />
+        ))}
+      </Routes>
+   
+    </Suspense>
+
   );
 }
 
