@@ -85,11 +85,11 @@ function Navbar() {
               <Link to="/enterprise">Enterprise</Link>
             </li>
             <li>
-              <Link to="/about">About us</Link>
+              <Link to="/about">About Us</Link>
             </li>
             <li>
               <Link className="btns_nav_ find" to="/findwork">
-                Find a work
+                Find a Work
               </Link>
             </li>
             <li>
@@ -123,7 +123,7 @@ function Navbar() {
               </li>
               <li>
                 <Link onClick={changeVisible} to="/about">
-                  About us
+                  About Us
                 </Link>
               </li>
               <li>
@@ -132,7 +132,7 @@ function Navbar() {
                   className="btns_nav_ find"
                   to="/findwork"
                 >
-                  Find a work
+                  Find a Work
                 </Link>
               </li>
               <li>

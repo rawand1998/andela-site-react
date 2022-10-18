@@ -38,7 +38,7 @@ function Register() {
         <div className="talent-nvbar">
           <img src="https://client.andela.com/assets/global/logo_andela.svg" />
           <a href="/login" className="talent-btn">
-            Sign in
+            Sign In
           </a>
         </div>
         <div className="talent-content">

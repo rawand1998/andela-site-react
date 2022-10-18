@@ -51,14 +51,14 @@ function Login() {
         <div className="login-nvbar">
           <img src="https://client.andela.com/assets/global/logo_andela.svg" />
           <a href="/register" className="login-btn">
-            Sign up
+            Sign Up
           </a>
         </div>
         <div className="login-content">
           <h3>welcome!</h3>
           <form>
             <div className={errorclass ? "error" : "username"}>
-              <label>Email address*</label>
+              <label>Email Address*</label>
               <input
                 placeholder="example@gmail.com"
                 type="text"
@@ -78,7 +78,7 @@ function Login() {
             <div className={errorclass ? "error" : "password"}>
               <div className="login-password ">
                 <label>Password</label>
-                <label className="forget-pass"> forget Password</label>
+                <label className="forget-pass"> Forget Password</label>
               </div>
               <input
                 placeholder="Enter your password"
@@ -99,11 +99,11 @@ function Login() {
               )}
             </div>
             <button onClick={handelClick}>
-              <span>Sign up</span>
+              <span>Sign Up</span>
             </button>
             <span>
               {" "}
-              Don't have an account? <a>Sign up now</a>
+              Don't have an account? <a>Sign Up Now</a>
             </span>
           </form>
         </div>
