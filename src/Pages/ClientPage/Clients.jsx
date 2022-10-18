@@ -1,16 +1,16 @@
 import React from "react";
-import Header from "../../Components/Common/Header/Header";
-import Footer from "../../Components/Common/Footer/Footer";
+import Header from "../../layouts/Header/Header";
+import Footer from "../../layouts/Footer/Footer";
 import LookingFor from "../../Components/Common/LookingFor/LookingFor";
 import Communction from "../../Components/Common/Communction/Communction";
 import Contected from "../../Components/Common/Connected/Contected";
-import SliderBar from "../../Components/Common/SliderBar/SliderBar";
+import SliderBar from "../../Components/sliders/SliderBar/SliderBar";
 import Teamoffer from "../../Components/Common/TeamOffer/Teamoffer";
 import ElevateSkill from "../../Components/Common/ElevateSkill/ElevateSkill";
-import LastSlider from "../../Components/Common/LastSlider/LastSlider";
+import LastSlider from "../../Components/sliders/LastSlider/LastSlider";
 import "./style.css";
 import State from "../../Components/Common/StateComponent/State";
-import NavBar from "../../Components/Common/NavBar/Navbar";
+import NavBar from "../../layouts/NavBar/Navbar";
 function Clients() {
   return (
     <div>

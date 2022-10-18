@@ -1,18 +1,18 @@
 import React from "react";
 import Contected from "../../Components/Common/Connected/Contected";
 
-import Header from "../../Components/Common/Header/Header";
+import Header from "../../layouts/Header/Header";
 
-import Navbar from "../../Components/Common/NavBar/Navbar";
+import Navbar from "../../layouts/NavBar/Navbar";
 
-import Footer from "../../Components/Common/Footer/Footer";
+import Footer from "../../layouts/Footer/Footer";
 
-import SliderBar from "../../Components/Common/SliderBar/SliderBar";
+import SliderBar from "../../Components/sliders/SliderBar/SliderBar";
 import "./style.css";
 import Teamoffer from "../../Components/Common/TeamOffer/Teamoffer";
 import ElevateSkill from "../../Components/Common/ElevateSkill/ElevateSkill";
 import ScaleTeam from "../../Components/Common/ScaleTeam/ScaleTeam";
-import NavBar from "../../Components/Common/NavBar/Navbar";
+import NavBar from "../../layouts/NavBar/Navbar";
 import ImageBlock from "../../Components/Common/ImagesAboutBlocks/ImageBlock";
 import Future from "../../Components/Common/FutureAboutPage/Future";
 function About() {
