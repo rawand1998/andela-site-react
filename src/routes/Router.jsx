@@ -1,8 +1,8 @@
 
 
 import React, { lazy } from "react";
-const Register = lazy(() => import("../Components/Auth/register/Register"));
-const Login = lazy(() => import("../Components/Auth/Login/Login"));
+const Register = lazy(() => import("../Pages/Auth/register/Register"));
+const Login = lazy(() => import("../Pages/Auth/Login/Login"));
 const About = lazy(() => import("../Pages/About/About"));
 const Clients = lazy(() => import("../Pages//ClientPage/Clients"));
 const Enterprise = lazy(() =>

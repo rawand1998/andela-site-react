@@ -1,14 +1,14 @@
 import React from "react";
 import Communction from "../../Components/Common/Communction/Communction";
-import Header from "../../Components/Common/Header/Header";
+import Header from "../../layouts/Header/Header";
 import LookingFor from "../../Components/Common/LookingFor/LookingFor";
-import Slider from "../../Components/Common/Slider/Sliders";
-import Footer from "../../Components/Common/Footer/Footer";
-import SliderBar from "../../Components/Common/SliderBar/SliderBar";
+import Slider from "../../Components/sliders/Slider/Sliders";
+import Footer from "../../layouts/Footer/Footer";
+import SliderBar from "../../Components/sliders/SliderBar/SliderBar";
 import Teamoffer from "../../Components/Common/TeamOffer/Teamoffer";
 import ElevateSkill from "../../Components/Common/ElevateSkill/ElevateSkill";
 import ScaleTeam from "../../Components/Common/ScaleTeam/ScaleTeam";
-import NavBar from "../../Components/Common/NavBar/Navbar";
+import NavBar from "../../layouts/NavBar/Navbar";
 import "./style.css";
 
 function Enterprise() {

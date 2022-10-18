@@ -1,14 +1,14 @@
 import React from "react";
 import CommitSuccess from "../../Components/CommitSuccess/CommitSuccess";
 import Communction from "../../Components/Common/Communction/Communction";
-import Header from "../../Components/Common/Header/Header";
+import Header from "../../layouts/Header/Header";
 import LookingFor from "../../Components/Common/LookingFor/LookingFor";
-import Sliders from "../../Components/Common/Slider/Sliders";
-import Footer from "../../Components/Common/Footer/Footer";
+import Sliders from "../../Components/sliders/Slider/Sliders";
+import Footer from "../../layouts/Footer/Footer";
 import Skills from "../../Components/Skills/Skills";
 import Contected from "../../Components/Common/Connected/Contected";
-import LastSlider from "../../Components/Common/LastSlider/LastSlider";
-import NavBar from "../../Components/Common/NavBar/Navbar"
+import LastSlider from "../../Components/sliders/LastSlider/LastSlider";
+import NavBar from "../../layouts/NavBar/Navbar"
 import "./style.css";
 
 function Home() {
